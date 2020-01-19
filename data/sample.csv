@@ -1,0 +1,1001 @@
+AdID,city,new,price,brandName,modelName,fuelType,color,mileage,power,year,average_earning
+15559951,Mladenovac,False,4890,Mercedes Benz,B 200,Dizel,Srebrna metalik,218752,103,2007,62813
+15684681,Kula,False,450,Volkswagen,Golf 2,Benzin,Bela,240000,50,1988,60748
+15752984,Palilula,False,380,Opel,Kadett,Benzin,Crvena,350000,45,1991,83005
+15354945,Valjevo,False,6100,Audi,A3,Dizel,Crna,240000,103,2007,66504
+15238253,Bela Crkva,False,1350,Citroen,Xsara Picasso,Benzin,Siva metalik,2800,81,2002,58133
+15433941,Beograd,False,3890,Hyundai,Santa Fe,Dizel,Siva metalik,178520,85,2005,92331
+15447989,Bečej,False,2680,Renault,Clio,Benzin,Siva metalik,128500,65,2006,64170
+15519770,Požarevac,False,10000,Volkswagen,Passat CC,Dizel,Bela,182000,125,2009,75849
+15581330,Subotica,False,1150,Daewoo,Lanos,Benzin,Crvena metalik,187000,63,2003,69444
+15072564,Sremski Karlovci,False,2700,BMW,525,Dizel,Crna metalik,295878,120,2002,69395
+13384721,Šabac,False,7750,Opel,Astra J,Dizel,Plava metalik,138000,100,2014,67046
+15187479,Brus,False,6300,BMW,X3,Dizel,Siva metalik,308500,110,2006,56928
+15352933,Šabac,False,11900,Volkswagen,Passat B7,Metan CNG,Crvena,167000,110,2013,67046
+14300261,Kikinda,False,1630,Volkswagen,Lupo,Benzin,Crna metalik,193000,37,2002,68767
+15436117,Kragujevac,False,3350,Peugeot,308,Dizel,Bela,242240,66,2009,72552
+15023578,Šabac,False,950,Fiat,Punto,Dizel,Siva metalik,280000,59,2002,67046
+15741668,Šabac,False,5100,Fiat,Grande Punto,Dizel,Bela,84000,55,2015,67046
+15609856,Kragujevac,False,999999999,Zastava,Yugo 55,Benzin + Gas (TNG),Crvena,1400000,59,1997,72552
+15562594,Čukarica,False,1850,Fiat,Stilo,Benzin,Crvena metalik,225000,70,2006,88959
+15720266,Kruševac,False,3150,Audi,A4,Dizel,Siva metalik,285000,120,2003,63868
+15003710,Ćuprija,False,3000,Renault,Clio,Benzin,Siva metalik,157711,74,2008,60420
+15528419,Novi Sad,False,1350,Renault,Megane,Dizel,Crna metalik,315000,59,2002,82036
+15748013,Beograd,False,22990,BMW,118,Benzin,Plava metalik,5901,100,2019,92331
+15576055,Beograd,False,4100,BMW,525,Dizel,Teget,180400,130,2004,92331
+15441235,Smederevska Palanka,False,5400,Audi,A3,Dizel,Siva metalik,196000,77,2007,63034
+14700319,Niš,False,2550,Renault,Clio,Benzin,Siva metalik,169750,55,2005,69779
+14502420,Žabalj,False,1950,Peugeot,206,Dizel,Crna metalik,151560,50,2003,59440
+15699920,Sremska Mitrovica,False,1700,Opel,Corsa C,Benzin + Gas (TNG),Plava metalik,192638,55,2001,68674
+15714345,Paraćin,False,2700,Citroen,C5,Dizel,Siva metalik,205000,80,2007,61075
+15396139,Kragujevac,False,2700,Volkswagen,Fox,Benzin,Crna metalik,195000,55,2006,72552
+15419370,Beograd,False,1000,Peugeot,206,Benzin,Plava,214500,55,2002,92331
+15712723,Novi Bečej,False,3400,Opel,Vectra C,Benzin,Siva metalik,233000,92,2006,60980
+14752161,Subotica,False,2850,Fiat,Croma,Dizel,Srebrna metalik,195436,110,2006,69444
+15737789,Niš,False,3299,Volkswagen,Polo,Benzin,Siva metalik,167000,43,2007,69779
+15517625,Mladenovac,False,2900,Fiat,Grande Punto,Dizel,Siva metalik,224354,66,2006,62813
+15358800,Mladenovac,False,850,Opel,Vectra A,Benzin + Gas (TNG),Crvena,290000,85,1992,62813
+15725462,Prijepolje,False,3500,Opel,Astra H,Benzin,Crna metalik,199900,66,2008,57305
+15713549,Zemun,False,3350,Volkswagen,Polo,Benzin,Teget metalik,95000,47,2007,84398
+15541617,Lazarevac,False,3850,Volkswagen,Golf 5,Dizel,Siva metalik,183000,77,2005,98955
+15408065,Šabac,False,2000,Ford,Fiesta,Dizel,Siva,320000,55,2005,67046
+15721848,Beograd,False,6650,Peugeot,208,Dizel,Bela,114234,74,2016,92331
+15256485,Subotica,False,4650,Seat,Altea XL,Dizel,Bordo metalik,199111,77,2008,69444
+15733006,Paraćin,False,3200,BMW,320,Dizel,Srebrna metalik,193459,110,2002,61075
+15500387,Beograd,False,4350,Fiat,Sedici,Dizel,Crna metalik,191500,89,2007,92331
+15717886,Čačak,False,880,Citroen,Saxo,Benzin,Zlatna metalik,150412,44,2001,63970
+14294672,Niš,False,17000,Lincoln,Town car,Benzin,Crna,150000,177,2003,69779
+15331784,Ivanjica,False,7000,Škoda,Octavia,Dizel,Siva metalik,261000,103,2010,54714
+15386879,Kruševac,False,4000,Opel,Corsa D,Dizel,Zlatna,192000,66,2009,63868
+15448896,Ljig,False,550,Seat,Cordoba,Benzin + Gas (TNG),Zelena metalik,197000,44,1999,69230
+15551295,Kula,False,8499,Renault,Captur,Benzin,Plava metalik,104000,66,2013,60748
+15693838,Ruma,False,1890,Volkswagen,Golf 4,Benzin,Siva metalik,182000,55,2001,65259
+12258047,Bačka Palanka,False,199,Škoda,Favorit,Benzin + Gas (TNG),Plava,84000,55,1991,66445
+14668168,Sremska Mitrovica,False,2500,Volkswagen,Golf 4,Dizel,Siva metalik,235000,74,2003,68674
+15519746,Niš,False,1950,Škoda,Fabia,Dizel,Crna metalik,192371,74,2002,69779
+14789746,Novi Sad,False,1300,Daewoo,Tacuma,Benzin,Siva metalik,200000,72,2001,82036
+15404627,Kraljevo,False,3200,Volkswagen,Golf 4,Dizel,Crna metalik,197000,75,2002,63495
+15640573,Beograd,False,350,Hyundai,Accent,Benzin,Zelena metalik,178900,77,2001,92331
+15674264,Boljevac,False,2890,Fiat,Panda,Benzin,Plava metalik,174912,44,2005,63210
+15624694,Knjaževac,False,2150,Opel,Corsa C,Benzin,Siva metalik,142000,59,2006,55610
+15262335,Zemun,False,1400,Renault,Laguna,Dizel,Siva metalik,226000,79,2000,84398
+15750449,Kraljevo,False,550,Fiat,Marea,Dizel,Plava metalik,365000,81,2001,63495
+15233609,Šabac,False,999999999,Renault,Laguna,Dizel,Siva metalik,280000,88,2005,67046
+15667204,Niš,False,2399,Volkswagen,Fox,Benzin,Crna metalik,173300,55,2006,69779
+14958890,Beograd,False,1100,Volkswagen,Golf 2,Benzin + Gas (TNG),Crvena,240000,74,1991,92331
+14876939,Paraćin,False,3600,Volkswagen,Passat B6,Dizel,Siva metalik,221012,102,2005,61075
+15074667,Beograd,False,1650,Mercedes Benz,A 140,Benzin + Gas (TNG),Crna metalik,280654,60,2001,92331
+14448289,Beograd,False,26590,Audi,Q3,Dizel,Bela,42010,110,2017,92331
+14808158,Subotica,False,3000,Peugeot,407,Dizel,Siva metalik,251430,100,2006,69444
+15238744,Valjevo,False,999999999,Toyota,RAV 4,Dizel,Siva metalik,168000,91,2014,66504
+15671769,Kraljevo,False,4550,Audi,A4,Dizel,Siva metalik,268000,96,2004,63495
+15751369,Kragujevac,False,5199,Peugeot,Partner,Dizel,Siva metalik,183069,80,2008,72552
+14929377,Leskovac,False,2600,Lancia,Ypsilon,Dizel,Plava metalik,87350,55,2007,59247
+15678063,Leskovac,False,1850,Fiat,Idea,Dizel,Siva metalik,275000,74,2004,59247
+14264925,Beograd,False,17150,Mercedes Benz,C 180,Dizel,Plava metalik,133678,85,2015,92331
+14295005,Zemun,False,7300,Volkswagen,Touran,Metan CNG,Bela,263000,110,2012,84398
+15645970,Bor,False,1800,Lada,Niva,Dizel,Zelena,128652,52,2001,84395
+15760860,Valjevo,False,7100,Mazda,CX-7,Benzin + Gas (TNG),Crna,241000,188,2008,66504
+14856550,Beograd,True,18990,Ford,Focus,Dizel,Siva metalik,10,88,2019,92331
+15507798,Požarevac,False,2700,Opel,Zafira,Dizel,Crna,195000,110,2006,75849
+15726181,Brus,False,2799,Volkswagen,Passat B5.5,Benzin,Teget metalik,229500,110,2002,56928
+15234055,Šabac,False,24500,Audi,A6,Dizel,Kameleon metalik,108128,110,2015,67046
+14187002,Zemun,False,8199,Audi,A3,Dizel,Siva metalik,202000,103,2012,84398
+15588197,Subotica,False,1350,Renault,Scenic,Dizel,Siva metalik,225000,75,2001,69444
+15748065,Šabac,False,3599,Volkswagen,Touran,Dizel,Siva metalik,241000,74,2004,67046
+15141094,Aleksandrovac,False,1450,Opel,Corsa C,Dizel,Teget,200000,55,2003,57807
+15722433,Voždovac,False,18400,BMW,320,Dizel,Srebrna metalik,165500,120,2017,94743
+15672979,Lebane,False,549,BMW,316,Benzin + Gas (TNG),Siva,240000,55,1988,54653
+15646124,Novi Beograd,False,5900,Suzuki,SX4,Benzin,Crna metalik,86800,82,2011,116359
+15649356,Beograd,False,15790,BMW,520,Dizel,Plava metalik,151000,135,2012,92331
+15155748,Beograd,False,1400,Volkswagen,Golf 3,Benzin,Siva,250000,85,1994,92331
+15648250,Beograd,False,2200,Peugeot,206,Benzin,Bordo metalik,185000,81,2002,92331
+15700228,Kragujevac,False,699,Opel,Astra G,Dizel,Crna,188000,74,2000,72552
+15727030,Beograd,False,4250,Opel,Corsa D,Benzin,Crna metalik,93000,63,2011,92331
+15270760,Novi Sad,True,999999999,Mercedes Benz,E 220,Dizel,Crna,0,143,2019,82036
+15528789,Niš,False,1150,Volkswagen,Golf 3,Benzin,Crna metalik,168000,44,1996,69779
+15373830,Ub,False,3550,Volkswagen,Golf 5,Dizel,Siva metalik,219100,77,2004,70426
+15691968,Kragujevac,False,1450,Ford,Focus,Dizel,Siva metalik,270000,66,2002,72552
+14383861,Alibunar,False,1999,Mercedes Benz,C 220,Dizel,Plava metalik,184000,105,2004,60238
+15711236,Novi Beograd,False,3250,Mitsubishi,Pajero,Dizel,Bela,220000,73,1992,116359
+15680147,Novi Sad,False,15650,Audi,A6,Dizel,Braon metalik,198000,130,2011,82036
+15568379,Niš,False,3100,BMW,320,Dizel,Crna metalik,245000,110,2004,69779
+15042630,Zrenjanin,False,5600,Hyundai,Tucson,Dizel,Siva metalik,186190,103,2009,72281
+15111022,Zemun,False,3999,Mercedes Benz,E 200,Dizel,Siva metalik,297000,90,2004,84398
+15642491,Brus,False,2450,Volkswagen,Passat B5.5,Benzin + Gas (TNG),Zlatna,206000,84,2002,56928
+15506417,Kruševac,False,2590,Fiat,Grande Punto,Dizel,Siva metalik,161000,55,2008,63868
+15285870,Inđija,False,1800,Fiat,Ulysse,Dizel,Plava,340000,81,2003,68356
+15695022,Lazarevac,False,2500,Opel,Meriva,Benzin + Gas (TNG),Crvena,290000,64,2004,98955
+15350452,Užice,False,999999999,Volkswagen,Golf 2,Dizel,Zelena,40492,40,1991,70942
+15520333,Sombor,False,5600,BMW,525,Dizel,Siva metalik,240000,130,2005,66189
+15436730,Loznica,False,2880,Alfa Romeo,156 Crosswagon,Dizel,Siva metalik,249000,110,2005,59654
+15715546,Jagodina,False,1650,Citroen,Xsara Picasso,Dizel,Crna metalik,220000,66,2002,60384
+15259276,Beograd,False,20900,Lexus,GS 450,Hibridni pogon,Siva metalik,218000,217,2012,92331
+15238011,Aranđelovac,False,1700,Fiat,Punto,Benzin + Gas (TNG),Crna metalik,1460353,96,2003,67096
+15632960,Beograd,False,3750,Toyota,Yaris,Dizel,Plava metalik,164000,66,2006,92331
+15760116,Čačak,False,5500,Audi,A6,Dizel,Siva metalik,225887,164,2005,63970
+15434644,Koceljeva,False,2700,Mazda,6,Dizel,Siva metalik,233000,105,2005,58751
+15436291,Niš,False,2200,Renault,Megane,Dizel,Siva metalik,253650,60,2004,69779
+15152735,Čačak,False,8600,Volkswagen,Passat B7,Metan CNG,Braon metalik,217886,110,2010,63970
+15416465,Zrenjanin,False,999999999,Alfa Romeo,147,Dizel,Kameleon,205000,85,2001,72281
+13249872,Šabac,False,10590,Audi,A6,Dizel,Crna metalik,162000,100,2009,67046
+15513257,Valjevo,False,840,Renault,Megane,Benzin,Siva metalik,285000,44,1998,66504
+15694907,Kragujevac,False,2990,Mercedes Benz,A 200,Dizel,Crna metalik,205000,103,2005,72552
+14899763,Beograd,False,6999,Nissan,Pathfinder,Dizel,Plava metalik,200744,128,2006,92331
+15680328,Arilje,False,3300,Mercedes Benz,C 200,Dizel,Siva metalik,212622,90,2003,56359
+15731331,Veliko Gradište,False,4499,BMW,318,Dizel,Siva metalik,174000,88,2007,58087
+15436269,Subotica,False,1850,Peugeot,307,Dizel,Crna metalik,267893,66,2004,69444
+15411671,Novi Beograd,False,39900,BMW,X5,Dizel,Crna metalik,148177,190,2015,116359
+14929703,Šabac,False,2790,Renault,Megane,Dizel,Siva metalik,158000,78,2007,67046
+10514669,Sombor,False,1150,Honda,Civic,Benzin,Crna metalik,180000,81,1993,66189
+15687837,Šabac,False,1350,Ford,Focus,Dizel,Siva metalik,260000,85,2002,67046
+15427644,Zemun,False,8500,Audi,A4,Dizel,Siva metalik,234000,105,2010,84398
+15719276,Kragujevac,False,2600,Renault,Modus,Dizel,Crna metalik,122700,50,2006,72552
+15503611,Vrbas,False,1300,Fiat,Stilo,Benzin,Siva metalik,184000,76,2003,64198
+15269967,Beograd,False,4999,Volkswagen,Passat B6,Dizel,Siva metalik,163000,103,2006,92331
+15523936,Vlasotince,False,4000,Audi,A3,Dizel,Crna metalik,245000,103,2004,52068
+15544511,Kragujevac,False,9300,Volkswagen,Touran,Dizel,Crna metalik,146337,77,2013,72552
+15523747,Novi Sad,False,10500,Audi,A4,Dizel,Teget,290000,105,2012,82036
+15535821,Loznica,False,459,Honda,Accord,Benzin + Gas (TNG),Braon,22000,59,1982,59654
+15702846,Beograd,False,2650,Volkswagen,Polo,Benzin + Gas (TNG),Bela,201116,59,2008,92331
+14488900,Pirot,False,1500,Renault,Twingo,Benzin,Teget metalik,225000,55,2002,78394
+15406885,Novi Sad,False,4100,Volkswagen,Polo,Benzin + Gas (TNG),Crvena,178000,51,2010,82036
+15577334,Beograd,False,18900,Audi,A5,Dizel,Siva metalik,144215,130,2014,92331
+15366612,Vrbas,False,5999,Škoda,Octavia,Dizel,Kameleon,198600,77,2010,64198
+15592545,Novi Sad,False,8900,Audi,A1,Dizel,Ljubičasta metalik,158000,77,2012,82036
+11554625,Sombor,False,2650,Citroen,C5,Dizel,Siva,231600,80,2004,66189
+15362123,Svilajnac,False,3200,Volkswagen,Golf 5,Benzin,Siva metalik,150405,85,2004,59343
+15526284,Sremska Mitrovica,False,550,Citroen,Xantia,Dizel,Siva metalik,250000,66,1999,68674
+15365376,Požarevac,False,1750,Volkswagen,Passat B5,Dizel,Plava,323444,81,1998,75849
+15438879,Zvezdara,False,450,Fiat,Punto,Dizel,Bela,300012,59,2001,94658
+15703948,Ruma,False,3199,BMW,530,Dizel,Crna metalik,280000,135,2002,65259
+14795664,Niš,True,21250,Mazda,3,Benzin,Crvena metalik,0,90,2019,69779
+15407666,Kragujevac,False,5550,BMW,520,Dizel,Crna metalik,300000,120,2007,72552
+15672316,Niš,False,4300,Ford,Maverick,Benzin,Zelena metalik,98727,91,2003,69779
+15425782,Šabac,False,1500,Fiat,Stilo,Dizel,Siva,195000,88,2007,67046
+15223740,Niš,False,20990,Hyundai,Tucson,Dizel,Siva metalik,138000,136,2017,69779
+15746005,Kragujevac,False,4100,Renault,Clio,Benzin,Crna,140000,74,2010,72552
+15760256,Čukarica,False,4550,Citroen,C4 Picasso,Dizel,Srebrna metalik,1050001,100,2010,88959
+15128047,Zrenjanin,False,2100,Audi,A3,Dizel,Teget,260000,96,2002,72281
+15410323,Novi Beograd,False,5000,Renault,Megane,Benzin,Bela,91000,81,2009,116359
+14738772,Beograd,False,22500,BMW,320,Dizel,Crna metalik,179000,140,2015,92331
+15582655,Požarevac,False,7450,Volkswagen,Touran,Dizel,Bež,226300,77,2012,75849
+15087078,Palilula,False,2200,BMW,320,Dizel,Bež,270000,101,2001,83005
+15714243,Novi Sad,False,6750,Audi,A4,Dizel,Siva metalik,145426,105,2008,82036
+15137436,Niš,False,2200,Škoda,Octavia,Dizel,Teget metalik,235635,81,2001,69779
+15441342,Ub,False,999999999,Volkswagen,Passat B6,Dizel,Crna,217108,103,2008,70426
+15699150,Pančevo,False,4000,Land Rover,Freelander,Dizel,Siva metalik,254049,82,2004,74123
+15443673,Beograd,False,3550,Peugeot,207,Dizel,Siva metalik,145071,50,2007,92331
+15639561,Vlasotince,False,1050,Zastava,Yugo In L,Benzin,Siva,71000,44,2005,52068
+15385077,Beograd,False,4400,Volkswagen,Golf 5,Dizel,Siva metalik,150000,103,2005,92331
+15622515,Niš,False,1350,Fiat,Stilo,Benzin + Gas (TNG),Siva metalik,172000,98,2003,69779
+14268492,Pančevo,False,14300,Audi,A3,Dizel,Plava metalik,150000,110,2016,74123
+15581191,Požarevac,False,3200,Opel,Corsa D,Benzin + Gas (TNG),Siva metalik,176495,66,2007,75849
+15645616,Leskovac,False,3900,Volkswagen,Golf 5,Benzin,Srebrna metalik,162680,75,2007,59247
+15664342,Jagodina,False,8900,Peugeot,3008,Dizel,Siva metalik,148122,85,2014,60384
+14391812,Velika Plana,False,6500,Volkswagen,Touareg,Dizel,Crna metalik,159000,128,2006,70082
+14847110,Rakovica,False,600,Volkswagen,Golf 2,Benzin,Crvena,246467,42,1991,83909
+15028468,Beograd,False,2200,Fiat,Punto,Dizel,Bela,229590,51,2006,92331
+15521213,Bela Crkva,False,450,Opel,Astra F,Dizel,Crna,462670,50,1997,58133
+15538760,Obrenovac,False,500,Opel,Astra F,Benzin,Siva metalik,240000,55,1995,77248
+15525781,Novi Pazar,False,12500,Mercedes Benz,E 250,Dizel,Siva metalik,295000,150,2009,56254
+14787885,Novi Sad,False,1690,Volkswagen,Buba,Dizel,Plava metalik,255146,77,2003,82036
+15527779,Zemun,False,1250,Zastava,750,Benzin,Plava,26000,22,1981,84398
+15628830,Zrenjanin,False,850,Volkswagen,Golf 3,Benzin,Plava,220000,44,1997,72281
+15744805,Leskovac,False,2799,Ford,Fusion,Dizel,Srebrna metalik,188375,50,2005,59247
+15669558,Loznica,False,2500,Škoda,Octavia,Dizel,Siva metalik,237153,74,2003,59654
+15535700,Bajina Bašta,False,3700,Volkswagen,Golf 5,Dizel,Bela,207362,77,2007,58563
+15525401,Jagodina,False,1400,Renault,Laguna,Dizel,Zelena,240000,88,2003,60384
+15637122,Paraćin,False,799,Opel,Corsa B,Benzin,Siva,262322,48,1998,61075
+15325399,Arilje,False,3700,Volkswagen,Touran,Dizel,Siva metalik,204000,77,2004,56359
+15692646,Beograd,False,5250,Citroen,C3,Dizel,Bela metalik,125945,50,2014,92331
+15672929,Novi Sad,False,3900,Mercedes Benz,E 200,Dizel,Zlatna metalik,2007000,90,2004,82036
+15700633,Valjevo,False,17600,Mercedes Benz,E 220,Dizel,Plava metalik,181000,125,2014,66504
+15516096,Vranje,False,3600,BMW,320,Dizel,Crna,224000,110,2005,62876
+15643177,Arilje,False,5950,Peugeot,3008,Dizel,Crna,220000,82,2010,56359
+15629825,Žabalj,False,2600,Peugeot,307,Dizel,Siva metalik,280000,66,2003,59440
+15440613,Niš,False,1360,Lada,Niva,Benzin + Gas (TNG),Ljubičasta,96000,53,2002,69779
+15218816,Priboj,False,999999999,Nissan,Juke,Dizel,Crna,117500,81,2011,61081
+15732884,Subotica,False,6300,Škoda,Octavia,Dizel,Siva metalik,211000,77,2010,69444
+15542747,Novi Sad,False,3590,Opel,Zafira,Benzin,Crna metalik,198850,77,2007,82036
+15515672,Novi Pazar,False,2400,Audi,A4,Dizel,Siva metalik,230000,84,2002,56254
+15656793,Sremska Mitrovica,False,850,Audi,80,Benzin + Gas (TNG),Teget,350000,55,1988,68674
+15661943,Jagodina,False,3950,Audi,A4,Dizel,Siva metalik,214900,103,2005,60384
+15587065,Temerin,False,3200,Fiat,Bravo,Dizel,Crna,210000,88,2007,64663
+15609326,Stara Pazova,False,12500,Audi,Q7,Dizel,Siva metalik,196000,164,2007,66990
+15222819,Užice,False,9000,Dodge,Nitro,Dizel,Crna metalik,151000,14,2007,70942
+15266749,Pančevo,False,3200,Volvo,V50,Dizel,Plava metalik,380000,100,2006,74123
+15271781,Palilula,False,3499,Toyota,Corolla,Benzin,Crvena,140000,141,2003,83005
+15648200,Trstenik,False,2100,Fiat,Punto,Dizel,Bela metalik,210000,55,2005,57666
+14532596,Mladenovac,False,7000,Audi,A6,Dizel,Siva metalik,280000,102,2005,62813
+15619167,Beograd,False,4450,Renault,Grand Scenic,Dizel,Zlatna metalik,188000,81,2009,92331
+15703189,Leskovac,False,4200,Volkswagen,Golf 5,Benzin,Srebrna metalik,162638,75,2007,59247
+14834350,Šabac,False,2799,Opel,Astra H,Dizel,Siva metalik,202000,74,2006,67046
+15672508,Požarevac,False,350,Audi,80,Dizel,Teget,250000,58,1991,75849
+15196175,Beograd,False,4850,Citroen,C5,Dizel,Siva metalik,176050,80,2009,92331
+15534482,Svilajnac,False,6200,Mitsubishi,Outlander,Dizel,Siva metalik,172852,103,2007,59343
+15661653,Sombor,False,6499,Volkswagen,Golf 6,Dizel,Crna metalik,212000,77,2011,66189
+15385351,Batočina,False,2200,Opel,Meriva,Dizel,Siva metalik,210000,74,2004,59444
+14640969,Zrenjanin,False,8300,Fiat,500L,Benzin,Crna,54000,70,2015,72281
+15755872,Beograd,False,2700,Audi,A4,Dizel,Crna metalik,220000,96,2003,92331
+15689982,Stara Pazova,False,9400,Audi,A4,Dizel,Crna metalik,226000,105,2010,66990
+15748859,Kragujevac,False,1700,Škoda,Fabia,Benzin,Zelena metalik,111320,50,2002,72552
+15063495,Beograd,False,12900,Mazda,CX-3,Benzin,Bela metalik,51023,88,2017,92331
+14561532,Zrenjanin,False,13500,Opel,Ostalo,Dizel,Plava,10000,57,1952,72281
+14990240,Novi Sad,False,1900,Mercedes Benz,A 160,Benzin,Crna metalik,211500,75,2002,82036
+15542466,Beočin,False,1799,Ford,Galaxy,Dizel,Siva metalik,246000,85,2001,63524
+15435340,Zvezdara,False,2499,Fiat,Punto,Dizel,Bela,159000,51,2009,94658
+15573627,Beograd,False,1799,Škoda,Fabia,Dizel,Siva metalik,196513,47,2005,92331
+15434549,Subotica,False,3990,Opel,Astra H,Benzin,Crna metalik,128000,66,2007,69444
+15192966,Kragujevac,False,1500,Seat,Leon,Benzin,Siva metalik,217003,132,2000,72552
+15504604,Zemun,False,5600,Citroen,C3,Dizel,Crna metalik,155000,55,2013,84398
+12792495,Zrenjanin,True,10400,Lada,Niva,Benzin,Zelena,1,61,2019,72281
+15505848,Beograd,False,6300,Opel,Astra J,Dizel,Srebrna metalik,223316,92,2011,92331
+15305846,Novi Pazar,False,1800,Opel,Agila,Benzin,Teget metalik,170000,55,2002,56254
+15014494,Prokuplje,False,2300,Seat,Toledo,Dizel,Siva metalik,156600,77,2005,63637
+15540404,Valjevo,False,3250,Volkswagen,Golf 5,Dizel,Plava,207000,77,2004,66504
+15762397,Inđija,False,4110,Citroen,C4 Picasso,Dizel,Crna metalik,230000,38409,2009,68356
+15580838,Niš,False,300,Peugeot,306,Benzin,Plava,170000,51,1993,69779
+15744853,Prokuplje,False,4800,Volkswagen,Passat B6,Dizel,Plava metalik,192000,77,2007,63637
+15506605,Novi Sad,False,900,Citroen,C5,Benzin,Siva,1234,2000,2004,82036
+15624122,Beograd,False,4890,Škoda,Citigo,Benzin,Bela,110000,55,2015,92331
+15502432,Smederevo,False,2800,BMW,320,Dizel,Crna metalik,200000,110,2002,73025
+15697819,Voždovac,False,1800,Fiat,Stilo,Dizel,Teget,240000,88,2006,94743
+15667205,Novi Beograd,False,10999,Audi,Q5,Dizel,Srebrna metalik,224200,125,2008,116359
+15256672,Beograd,False,10999,Škoda,Octavia,Dizel,Siva metalik,186965,110,2014,92331
+15541745,Valjevo,False,2950,Audi,A4,Dizel,Teget metalik,197600,74,2001,66504
+15404584,Obrenovac,False,1950,Audi,A4,Benzin,Teget metalik,276000,100,2001,77248
+15621260,Smederevska Palanka,False,1700,Audi,A6,Dizel,Plava metalik,360000,110,2001,63034
+15552736,Bor,False,4300,Volkswagen,Golf 5,Dizel,Siva metalik,265423,103,2004,84395
+15666088,Užice,False,2400,Alfa Romeo,147,Dizel,Tirkiz metalik,165350,88,2008,70942
+15528325,Beograd,False,2499,Citroen,C3,Dizel,Siva metalik,207800,50,2006,92331
+15711248,Ivanjica,False,1300,Alfa Romeo,147,Dizel,Crna,229000,85,2001,54714
+15392771,Surčin,False,6249,Opel,Astra J,Dizel,Srebrna metalik,238000,81,2013,65627
+15063918,Vršac,False,2699,Opel,Astra H,Dizel,Zlatna metalik,182047,74,2005,75128
+15266348,Vršac,False,22900,Land Rover,Range Rover Sport,Dizel,Crna metalik,246000,180,2011,75128
+15388261,Šabac,False,500,Daihatsu,Cuore,Benzin,Plava metalik,10002,40,1999,67046
+15500847,Zemun,False,20000,Volkswagen,Tiguan,Dizel,Crvena metalik,35000,85,2016,84398
+15700766,Zaječar,False,4800,Kia,Sorento,Dizel,Crna,223000,103,2006,65463
+15523652,Beograd,False,7500,BMW,735,Benzin + Gas (TNG),Siva metalik,260000,200,2002,92331
+15505121,Novi Pazar,False,3399,Mercedes Benz,E 270,Dizel,Siva metalik,286126,140,2003,56254
+15609306,Novi Pazar,False,1000,Volkswagen,Golf 3,Benzin,Crna,220000,147,1997,56254
+14820534,Čačak,True,999999999,Audi,Q2,Dizel,Crvena metalik,10,85,2019,63970
+15679461,Niš,False,3850,Volkswagen,Touran,Dizel,Kameleon metalik,203500,103,2006,69779
+15422474,Novi Bečej,False,2850,Opel,Astra H,Dizel,Crvena,235000,74,2008,60980
+15607343,Beograd,False,999999999,Opel,Corsa D,Dizel,Siva,146651,55,2006,92331
+15673011,Beograd,False,5550,Smart,ForTwo,Benzin,Siva metalik,175000,63,2009,92331
+15073909,Apatin,False,10000,Mercedes Benz,C 200,Dizel,Crna metalik,207840,100,2008,63904
+15746066,Voždovac,False,4850,Land Rover,Freelander,Dizel,Teget metalik,185000,102,2005,94743
+15415605,Smederevo,False,650,Volkswagen,Golf 2,Dizel,Bela,366633,37,1989,73025
+15521710,Knić,False,200,Opel,Kadett,Benzin,Plava,120000,30,1972,62927
+14392405,Užice,False,2250,Peugeot,206,Benzin,Siva,174927,55,2006,70942
+14603069,Niš,False,3000,BMW,320,Dizel,Siva metalik,195000,110,2002,69779
+15154580,Aranđelovac,False,4199,Volkswagen,Golf 5,Dizel,Crna metalik,225000,77,2005,67096
+15594737,Kruševac,False,800,Opel,Astra F,Benzin + Gas (TNG),Plava metalik,250000,44,1993,63868
+15403099,Beograd,False,2800,BMW,320,Dizel,Crna,195665,100,2001,92331
+15586475,Novi Beograd,False,4490,Fiat,EVO,Metan CNG,Bela metalik,149000,57,2013,116359
+15649226,Leskovac,False,890,Ford,Fiesta,Dizel,Zelena metalik,220000,44,1999,59247
+15401470,Kragujevac,False,2250,Mercedes Benz,A 170,Dizel,Bordo metalik,179000,70,2002,72552
+13651560,Subotica,False,999999999,Volkswagen,Golf 4,Benzin,Siva metalik,196000,77,2001,69444
+15677663,Čukarica,False,750,Volkswagen,Polo,Dizel,Plava,290000,70,1999,88959
+15317891,Kruševac,False,2900,Peugeot,807,Dizel,Crna metalik,206000,100,2006,63868
+15357870,Barajevo,False,1500,Fiat,Stilo,Benzin + Gas (TNG),Tirkiz metalik,180000,76,2003,65290
+15713433,Beograd,False,8700,Volkswagen,Golf 7,Dizel,Bordo metalik,185000,81,2013,92331
+15575994,Arilje,False,3350,Volkswagen,Golf 5,Benzin,Crna metalik,186053,85,2004,56359
+14874386,Šabac,False,3000,Opel,Vectra C,Dizel,Crna metalik,210555,88,2005,67046
+15741349,Novi Beograd,False,32990,Mercedes Benz,GLC 220,Dizel,Crna,143200,125,2015,116359
+15644789,Zemun,False,4990,Alfa Romeo,MiTo,Benzin,Siva metalik,201000,77,2014,84398
+15564447,Kruševac,False,4500,Fiat,500,Benzin,Bela metalik,125101,51,2011,63868
+15509436,Niš,False,1200,Fiat,Stilo,Dizel,Srebrna metalik,247561,84,2003,69779
+14958854,Kraljevo,False,3499,Volkswagen,Polo,Benzin,Crna metalik,166507,59,2006,63495
+13900899,Beograd,False,10800,Suzuki,Vitara,Benzin,Bela,84400,88,2015,92331
+15162598,Beograd,False,2990,Opel,Astra H,Benzin,Plava,152360,66,2006,92331
+15654662,Niš,False,5999,Volkswagen,Golf 6,Benzin,Siva metalik,161400,75,2009,69779
+15233980,Rača,False,4400,Škoda,Octavia,Dizel,Siva metalik,205162,77,2006,60536
+15739544,Novi Beograd,False,6000,Alfa Romeo,159,Dizel,Crna,247000,88,2009,116359
+15239849,Aleksinac,False,1800,Volkswagen,Passat B5,Dizel,Plava metalik,279000,81,1997,59671
+15146405,Gornji Milanovac,False,7800,Audi,A4,Dizel,Siva metalik,205000,105,2009,69106
+14624952,Beograd,False,4900,Mercedes Benz,C 200,Dizel,Siva metalik,169500,90,2004,92331
+15415946,Beograd,False,13990,Volkswagen,Golf 7,Dizel,Siva metalik,48191,110,2015,92331
+15550041,Batočina,False,3150,BMW,318,Dizel,Siva metalik,231000,85,2004,59444
+15544163,Požarevac,False,2900,Mercedes Benz,C 200,Dizel,Teget metalik,218918,85,2003,75849
+14582139,Leskovac,False,4450,BMW,116,Benzin,Crna metalik,180000,85,2007,59247
+15034338,Mladenovac,False,890,Citroen,C5,Dizel,Siva metalik,295000,80,2001,62813
+15366027,Beograd,False,2990,Citroen,C1,Benzin,Crvena,107000,50,2007,92331
+15621638,Bor,False,3400,Suzuki,Swift,Benzin,Crvena,96000,67,2008,84395
+14932022,Ćuprija,False,5500,Volkswagen,Golf 6,Benzin,Srebrna metalik,181731,59,2009,60420
+15553684,Lazarevac,False,1000,Zastava,Koral In,Benzin + Gas (TNG),Crvena,88402,40,2005,98955
+15092242,Čačak,False,999999999,BMW,520,Dizel,Crna metalik,175000,139,2016,63970
+15527826,Novi Sad,False,12999,Nissan,Qashqai,Dizel,Bela metalik,163794,96,2015,82036
+15609513,Beograd,False,2800,Mercedes Benz,A 150,Benzin,Crna metalik,170000,70,2005,92331
+15712642,Vladimirci,False,2300,Citroen,C3,Benzin,Plava metalik,275400,54,2002,57520
+15672939,Beograd,False,19000,Audi,A6,Dizel,Siva metalik,227000,102,2013,92331
+15398523,Novi Sad,False,1200,Citroen,Xsara,Dizel,Siva metalik,260000,66,2003,82036
+15713267,Vrbas,False,1400,Opel,Astra G,Benzin,Siva,210000,66,2003,64198
+15593147,Šabac,False,3799,Volkswagen,Golf 5,Dizel,Siva metalik,172000,66,2006,67046
+15035437,Beograd,False,24750,Mercedes Benz,E 250,Dizel,Crna metalik,131724,150,2014,92331
+15582329,Topola,False,3000,Peugeot,407,Dizel,Bela,243000,100,2005,59275
+13395993,Lazarevac,False,999999999,Peugeot,307,Dizel,Siva metalik,190000,66,2006,98955
+15725806,Novi Pazar,False,1850,Fiat,Stilo,Dizel,Teget,1122,85,2002,56254
+13487135,Beograd,False,7199,Opel,Insignia,Dizel,Teget metalik,130000,88,2014,92331
+15311413,Beograd,False,2050,Seat,Ibiza,Benzin,Crna,151000,110,2004,92331
+15512909,Šabac,False,2630,Volkswagen,Passat B5.5,Dizel,Bordo metalik,297000,96,2001,67046
+15519844,Lazarevac,False,3500,Mitsubishi,Outlander,Benzin + Gas (TNG),Siva metalik,170000,100,2003,98955
+15730817,Novi Sad,False,5000,Mercedes Benz,ML 270,Dizel,Plava metalik,375000,120,2001,82036
+15385636,Požarevac,False,3400,Mini,Cooper,Dizel,Siva metalik,240000,64,2003,75849
+15742629,Sjenica,False,2500,Volkswagen,Nova Buba,Benzin,Srebrna,170700,110,2001,60190
+15561781,Novi Sad,False,5900,BMW,118,Dizel,Bela metalik,220000,105,2010,82036
+14498693,Temerin,False,2990,Fiat,Grande Punto,Dizel,Bela,169600,55,2010,64663
+14988106,Zvezdara,False,7600,Volvo,XC90,Dizel,Siva metalik,215000,136,2006,94658
+15703812,Bajina Bašta,False,2000,Renault,Scenic,Dizel,Teget metalik,270000,88,2004,58563
+15345474,Beograd,False,1800,Volkswagen,Golf 3,Benzin,Crvena metalik,179000,85,1997,92331
+15519044,Lazarevac,False,820,Citroen,Saxo,Benzin,Zelena metalik,200350,44,1999,98955
+15393451,Obrenovac,False,1299,Renault,Clio,Dizel,Siva metalik,211298,48,2002,77248
+14264489,Vršac,False,25550,Audi,A6,Dizel,Crna metalik,155000,230,2014,75128
+15635662,Lazarevac,False,7000,BMW,320,Dizel,Siva metalik,178000,110,2004,98955
+15610761,Beograd,False,7599,Audi,A4,Dizel,Siva metalik,192000,88,2009,92331
+15357393,Novi Beograd,False,1850,Honda,Civic,Benzin,Zelena metalik,183600,66,2001,116359
+15687804,Pančevo,False,2999,Peugeot,207,Dizel,Crna metalik,173125,50,2007,74123
+15693979,Kikinda,False,1600,Škoda,Fabia,Benzin,Crna,207000,50,2001,68767
+15661989,Tutin,False,4550,Audi,A4,Dizel,Siva metalik,233333,85,2005,58350
+15719704,Kraljevo,False,1299,Citroen,C2,Benzin,Crvena,145000,44,2003,63495
+15700722,Niš,False,999999999,Hyundai,Accent,Dizel,Siva metalik,205986,81,2008,69779
+15126201,Kragujevac,False,4600,Renault,Scenic,Benzin,Siva metalik,161000,82,2009,72552
+15175043,Sremska Mitrovica,False,7990,Volkswagen,Golf 6,Benzin,Crna metalik,58115,90,2010,68674
+15502645,Zrenjanin,False,2650,Renault,Espace,Dizel,Plava,224000,87,2004,72281
+15697474,Šabac,False,1350,Fiat,Stilo,Dizel,Zelena metalik,183000,85,2005,67046
+15704072,Beograd,False,39000,Mercedes Benz,G 500,Benzin,Crna metalik,168000,260,2001,92331
+14468553,Kikinda,False,800,Daewoo,Lanos,Benzin + Gas (TNG),Zelena metalik,255000,77,1998,68767
+15700094,Obrenovac,False,1850,Volkswagen,Golf 4,Dizel,Plava metalik,265500,77,2003,77248
+15677516,Užice,False,17800,Audi,A6,Dizel,Crna metalik,239000,140,2016,70942
+15712932,Mladenovac,False,1450,Opel,Astra G,Dizel,Bela metalik,213000,55,2002,62813
+15261770,Beograd,False,6200,Hyundai,Santa Fe,Dizel,Zlatna metalik,139000,114,2007,92331
+15750074,Novi Sad,False,6550,Volkswagen,Golf 6,Dizel,Siva metalik,244000,81,2009,82036
+15743518,Beograd,False,9190,Peugeot,508,Dizel,Crna metalik,163365,88,2015,92331
+15434530,Zvezdara,False,2650,Volkswagen,Golf 4,Dizel,Crna metalik,220000,74,2006,94658
+14399160,Zrenjanin,False,4950,Renault,Megane,Benzin,Crna,142567,96,2009,72281
+15503260,Beograd,False,2400,Škoda,Fabia,Dizel,Siva metalik,258300,47,2006,92331
+15656922,Zemun,False,2490,Ford,Focus,Dizel,Plava metalik,211000,66,2006,84398
+15137855,Kragujevac,False,5999,Opel,Insignia,Dizel,Siva metalik,202391,118,2011,72552
+15701479,Mladenovac,False,1250,Fiat,Stilo,Dizel,Siva metalik,270000,85,2003,62813
+14386316,Novi Beograd,False,2300,Citroen,C8,Benzin,Teget metalik,210750,100,2005,116359
+15182416,Jagodina,False,16400,Renault,Clio,Benzin,Plava metalik,2350,74,2019,60384
+15656043,Zaječar,False,7900,Audi,A4,Dizel,Siva metalik,167000,105,2008,65463
+15758649,Niš,False,330,Zastava,128,Benzin,Plava,122000,40,1986,69779
+9655074,Požega,False,6599,Renault,Megane,Dizel,Bela metalik,179000,70,2014,63525
+15747393,Ruma,False,2500,Alfa Romeo,GT,Dizel,Smeđa metalik,180000,110,2004,65259
+15715604,Smederevo,False,2200,Volkswagen,Passat B5.5,Benzin + Gas (TNG),Siva,301000,110,2001,73025
+14241062,Beograd,False,1350,Alfa Romeo,147,Benzin,Teget,157000,88,2003,92331
+14826461,Novi Sad,False,3690,Peugeot,207,Dizel,Crvena metalik,158000,66,2008,82036
+15330177,Svrljig,False,4000,Fiat,Bravo,Dizel,Siva metalik,222170,120,2009,48195
+15612015,Novi Beograd,False,4550,Volkswagen,Golf 5,Dizel,Crna,220000,125,2007,116359
+15397751,Beograd,False,1350,Renault,Clio,Benzin,Siva metalik,252000,55,2002,92331
+15293933,Beograd,False,34200,Mercedes Benz,E 220,Dizel,Crna metalik,119000,143,2017,92331
+15658518,Obrenovac,False,450,Mercedes Benz,A 170,Dizel,Bordo,250000,66,1998,77248
+15253540,Novi Sad,False,2250,Fiat,Croma,Dizel,Braon metalik,189577,88,2005,82036
+15286810,Kruševac,False,1700,Lancia,Lybra,Dizel,Crna metalik,209000,81,2002,63868
+14553359,Novi Sad,False,6850,Audi,A3,Dizel,Crna,212692,103,2009,82036
+15557891,Beograd,False,2800,Renault,Scenic,Dizel,Žuta metalik,189200,78,2008,92331
+14758115,Čukarica,False,6950,Renault,Scenic,Dizel,Crna metalik,130000,81,2015,88959
+15508867,Sombor,False,980,Lada,112,Benzin,Bordo,78000,66,2004,66189
+15500519,Novi Sad,False,3000,Volkswagen,Passat B5.5,Dizel,Siva metalik,216152,95,2005,82036
+15721782,Beograd,False,2500,Opel,Astra H,Dizel,Siva metalik,190300,59,2004,92331
+13265695,Kraljevo,False,4350,Peugeot,207,Dizel,Siva metalik,161736,66,2009,63495
+15284214,Čačak,False,2099,Volkswagen,Polo,Dizel,Crna metalik,174600,55,2002,63970
+15344218,Bor,False,4450,Audi,A4,Dizel,Crna,176273,103,2006,84395
+15593674,Arilje,False,1100,Volkswagen,Passat B3,Benzin + Gas (TNG),Bela,290000,85,1993,56359
+15706015,Bačka Palanka,False,6000,Volkswagen,Ostalo,Dizel,Crna,270000,96,2006,66445
+15543694,Beograd,False,3000,Mercedes Benz,E 270,Dizel,Siva metalik,299779,130,2002,92331
+15742766,Bačka Palanka,False,7150,Renault,Clio,Dizel,Bordo metalik,180817,66,2015,66445
+14650939,Novi Sad,False,2600,Volkswagen,Golf 4,Benzin + Gas (TNG),Siva metalik,211800,77,2001,82036
+15150042,Novi Sad,False,7500,Renault,Latitude,Dizel,Crna metalik,172000,128,2011,82036
+15536934,Temerin,False,2399,Citroen,C4,Dizel,Siva metalik,189639,80,2005,64663
+15122450,Novi Sad,False,8800,Mercedes Benz,C 200,Dizel,Siva metalik,174490,100,2012,82036
+15294529,Sjenica,False,5100,Volkswagen,Passat B6,Dizel,Siva metalik,165000,77,2008,60190
+14277224,Kruševac,False,7200,BMW,525,Dizel,Bordo metalik,231000,145,2008,63868
+13686538,Čačak,False,4200,Opel,Astra H,Dizel,Zlatna metalik,194000,110,2006,63970
+15005648,Pančevo,False,999999999,Opel,Insignia,Dizel,Bela,126010,120,2014,74123
+15076099,Novi Sad,False,9500,Volkswagen,Golf 7,Dizel,Srebrna metalik,210000,81,2016,82036
+15578730,Lazarevac,False,999,Nissan,Micra,Benzin,Zelena metalik,156000,44,2002,98955
+15191747,Zaječar,False,800,Citroen,ZX,Dizel,Bordo metalik,261220,50,1995,65463
+13334407,Novi Sad,False,16990,Volkswagen,Golf 7,Dizel,Bela metalik,18450,66,2017,82036
+15633271,Novi Pazar,False,2300,Mercedes Benz,A 170,Dizel,Siva metalik,168000,70,2003,56254
+15513944,Kruševac,False,950,Zastava,Yugo 45,Benzin,Crvena metalik,56000,33,1993,63868
+15732103,Kikinda,False,2449,Opel,Vectra C,Benzin,Siva metalik,170193,90,2004,68767
+15525155,Šabac,False,1750,Lancia,Lybra,Dizel,Srebrna metalik,194500,103,2001,67046
+15314309,Leskovac,False,2200,Volkswagen,Passat B5.5,Dizel,Siva metalik,270000,96,2003,59247
+14663613,Novi Beograd,False,1600,Ford,Focus,Dizel,Srebrna,208400,74,2003,116359
+15426125,Kraljevo,False,3200,Peugeot,206,Dizel,Bela metalik,164523,50,2011,63495
+15438666,Zaječar,False,1800,Opel,Astra G,Benzin,Zelena metalik,207000,62,2000,65463
+15422037,Pančevo,False,5000,BMW,530,Dizel,Crna metalik,240000,160,2004,74123
+15598176,Beograd,False,2200,Hyundai,Sonata,Benzin,Siva metalik,210000,99,2006,92331
+15562673,Novi Sad,False,2690,Opel,Astra H,Dizel,Siva metalik,188000,66,2006,82036
+15415812,Svrljig,False,850,Volkswagen,Golf 3,Benzin + Gas (TNG),Crna,220000,44,1995,48195
+15410809,Beograd,False,3400,Audi,A4,Dizel,Crna metalik,196000,103,2005,92331
+15714278,Niš,False,4999,Audi,A6,Dizel,Crna metalik,235000,102,2004,69779
+15749893,Beograd,False,85900,Porsche,Panamera,Dizel,Siva metalik,78000,310,2017,92331
+15565608,Beograd,False,9500,Hyundai,ix35,Dizel,Crna metalik,110000,85,2011,92331
+14281478,Šabac,False,2499,Opel,Combo,Dizel,Plava metalik,167000,55,2004,67046
+14939347,Beograd,False,9999,Mercedes Benz,CLS 500,Benzin + Gas (TNG),Crna metalik,190000,225,2005,92331
+15437602,Beograd,False,4550,Renault,Megane,Dizel,Crna metalik,174700,63,2008,92331
+15557510,Beograd,False,4350,Fiat,EVO,Dizel,Bela,119000,62,2012,92331
+15750628,Lazarevac,False,3900,Volkswagen,Passat B6,Benzin,Siva,221000,85,2006,98955
+15531325,Zrenjanin,False,2150,Peugeot,206,Dizel,Siva metalik,248000,66,2003,72281
+15638379,Niš,False,7200,BMW,X3,Dizel,Crna metalik,197000,110,2006,69779
+15541469,Čačak,False,4450,Audi,A4,Dizel,Siva metalik,196500,103,2005,63970
+15517676,Pančevo,False,6100,Audi,A3,Dizel,Crna,190000,103,2009,74123
+15536052,Obrenovac,False,5900,Renault,Fluence,Dizel,Crvena metalik,108400,63,2010,77248
+15558031,Beograd,False,17298,Volvo,XC60,Dizel,Crna metalik,147426,140,2015,92331
+15619593,Užice,False,3000,Audi,A4,Benzin + Gas (TNG),Siva metalik,254378,94,2002,70942
+15714274,Bačka Palanka,False,7500,Nissan,Qashqai,Dizel,Braon metalik,122000,77,2008,66445
+15369988,Požarevac,False,1299,Renault,Laguna,Dizel,Siva metalik,259000,88,2002,75849
+15358822,Novi Beograd,False,3500,Volkswagen,Golf 5,Dizel,Crna metalik,201500,66,2008,116359
+15745819,Novi Sad,False,8200,Audi,A6,Dizel,Bela metalik,256600,165,2007,82036
+14872299,Velika Plana,False,2050,Volkswagen,Passat B5,Dizel,Siva metalik,368000,81,1999,70082
+15257541,Bačka Palanka,False,3000,BMW,316,Benzin,Siva metalik,277560,85,2005,66445
+10960462,Novi Sad,False,1800,Ford,Fiesta,Benzin + Gas (TNG),Crvena,178000,51,2007,82036
+15647103,Raška,False,3800,Volkswagen,Golf 5,Dizel,Crna,177449,74,2006,60028
+15756028,Beograd,False,1800,Smart,ForFour,Benzin,Srebrna metalik,187584,70,2004,92331
+15336666,Rača,False,2700,Škoda,Octavia,Dizel,Srebrna metalik,276000,81,2001,60536
+15310598,Beograd,False,8299,Fiat,Tipo,Benzin,Bela metalik,71000,70,2017,92331
+15543591,Boljevac,False,5200,Jeep,Grand Cherokee,Benzin + Gas (TNG),Siva metalik,190000,170,2005,63210
+15527289,Kragujevac,False,1250,Citroen,Xsara Picasso,Benzin + Gas (TNG),Srebrna,180000,70,2005,72552
+15691415,Valjevo,False,4250,Audi,A3,Dizel,Crna metalik,229000,103,2005,66504
+15722197,Grocka,False,2750,Renault,Scenic,Dizel,Bež metalik,240000,96,2007,65164
+15705923,Pančevo,False,12200,Mercedes Benz,E 200,Dizel,Srebrna,243000,100,2011,74123
+14537285,Loznica,False,1490,Toyota,Yaris,Benzin,Siva metalik,157000,50,1999,59654
+15393911,Aleksinac,False,1300,Renault,Laguna,Dizel,Siva metalik,220000,88,2002,59671
+15714017,Kraljevo,False,1500,Renault,Clio,Benzin,Siva metalik,195000,55,2003,63495
+15700555,Beograd,False,520,Volkswagen,Golf 2,Benzin,Plava metalik,245000,51,1991,92331
+15688098,Beograd,False,14199,Renault,Talisman,Dizel,Siva metalik,117115,96,2007,92331
+15596523,Kragujevac,False,14300,Audi,Q5,Dizel,Braon metalik,196500,125,2011,72552
+15589342,Novi Sad,False,2450,Fiat,Idea,Dizel,Plava metalik,173000,51,2007,82036
+15354233,Vrnjačka Banja,False,5100,Audi,A4,Dizel,Crna metalik,264000,86,2006,57345
+15389952,Leskovac,False,1200,Ford,Mondeo,Dizel,Siva metalik,280600,85,2001,59247
+15441741,Niš,False,2290,Citroen,C1,Benzin,Crna metalik,198000,50,2007,69779
+15741173,Kragujevac,False,8490,Peugeot,308,Dizel,Srebrna metalik,134000,88,2015,72552
+14899438,Novi Beograd,False,36990,Mercedes Benz,E 220,Dizel,Crna metalik,26817,143,2017,116359
+15207148,Grocka,False,8800,Smart,ForTwo,Benzin,Crvena,1010,45,2011,65164
+15255312,Loznica,False,1590,Opel,Corsa C,Dizel,Crvena,200311,55,2002,59654
+15006131,Svilajnac,False,5250,Volkswagen,Polo,Dizel,Siva metalik,156412,55,2009,59343
+14440426,Beograd,False,3600,Peugeot,607,Dizel,Zlatna metalik,212632,100,2006,92331
+15700787,Temerin,False,3000,Mercedes Benz,ML 320,Benzin + Gas (TNG),Plava,21000,120,1999,64663
+15589575,Beograd,False,3300,Mercedes Benz,A 150,Benzin + Gas (TNG),Siva metalik,220088,70,2005,92331
+15359174,Novi Sad,False,11600,Kia,cee`d,Dizel,Crna metalik,110250,100,2016,82036
+15269091,Bačka Topola,True,29300,Isuzu,D-Max,Dizel,Plava metalik,0,120,2019,65133
+15333108,Beograd,False,1200,Mitsubishi,Colt,Benzin,Siva metalik,250000,72,2003,92331
+14708991,Beograd,False,6250,BMW,320,Dizel,Crna metalik,159879,130,2008,92331
+14689121,Niš,False,1700,Fiat,Ulysse,Dizel,Bordo metalik,310000,80,2002,69779
+15711020,Loznica,False,2100,Citroen,Xsara Picasso,Benzin,Plava metalik,211000,80,2007,59654
+15599358,Beograd,False,1500,Volkswagen,Passat B5,Benzin,Bela,225800,110,1998,92331
+14853386,Beograd,False,6350,BMW,520,Dizel,Crna metalik,200000,120,2006,92331
+15625594,Novi Beograd,False,6500,Audi,A4,Dizel,Crna metalik,270000,85,2007,116359
+15570857,Pirot,False,3150,Audi,A4,Benzin,Siva metalik,230000,110,2004,78394
+15254050,Kraljevo,False,83900,Mercedes Benz,S 350,Dizel,Crna metalik,33000,210,2017,63495
+15372984,Beograd,False,1600,Renault,Clio,Benzin,Kameleon,153000,72,2001,92331
+15233057,Novi Beograd,False,3300,Honda,Accord,Dizel,Crna metalik,230261,103,2005,116359
+15540958,Vranje,False,2650,Volkswagen,Passat B5.5,Dizel,Teget metalik,240000,96,2001,62876
+15688773,Kruševac,False,5500,BMW,520,Dizel,Crna metalik,167000,120,2007,63868
+15747735,Novi Sad,False,5555,Hyundai,Tucson,Benzin + Gas (TNG),Plava metalik,107000,103,2007,82036
+15501892,Jagodina,False,850,Ford,Mondeo,Dizel,Plava metalik,257000,66,1996,60384
+15758239,Vranje,False,2600,Volkswagen,Bora,Dizel,Plava metalik,200596,74,2002,62876
+15308428,Novi Sad,False,15990,Audi,A4,Dizel,Braon metalik,191000,110,2015,82036
+15738129,Prokuplje,False,1299,Fiat,Stilo,Dizel,Bela,260000,103,2004,63637
+15697841,Pirot,False,3499,Škoda,Fabia,Benzin,Siva,141000,51,2008,78394
+15532070,Vračar,False,1499,Alfa Romeo,156,Dizel,Crna metalik,265000,85,2002,123426
+15665537,Vranje,False,1500,Alfa Romeo,147,Dizel,Siva metalik,235000,85,2002,62876
+15036828,Rakovica,False,1850,Ford,Mondeo,Dizel,Siva metalik,174000,90,2004,83909
+15566390,Šabac,False,5299,Audi,A3,Dizel,Crna metalik,250000,127,2007,67046
+14093315,Kikinda,False,1050,Renault,Laguna,Dizel,Siva metalik,340000,79,2001,68767
+14655534,Šabac,False,4590,Audi,A4,Dizel,Siva metalik,187612,103,2007,67046
+15338980,Inđija,False,1200,Opel,Vectra B,Dizel,Siva,260000,74,2001,68356
+15333365,Loznica,False,1900,Peugeot,807,Dizel,Crna metalik,280000,85,2004,59654
+15606757,Voždovac,False,4350,BMW,118,Dizel,Crna metalik,268000,89,2005,94743
+15688959,Čačak,False,1750,Mercedes Benz,A 170,Dizel,Siva metalik,194000,70,2001,63970
+15296526,Beograd,False,9900,Audi,A3,Dizel,Crna metalik,181000,81,2013,92331
+15094111,Beograd,False,1000,Peugeot,206,Dizel,Siva metalik,140072,51,2000,92331
+15694864,Niš,False,1500,Fiat,Stilo,Dizel,Teget metalik,207250,65,2004,69779
+15337723,Novi Sad,True,11900,Renault,Twingo,Benzin,Žuta metalik,27,66,2019,82036
+15762885,Sombor,False,5650,Nissan,Qashqai,Dizel,Siva metalik,198000,78,2008,66189
+15373674,Užice,False,5500,Toyota,iQ,Dizel,Bela,90000,50,2012,70942
+15614968,Leskovac,False,999999999,Maserati,Ghibli,Dizel,Plava metalik,93968,202,2015,59247
+14856754,Subotica,False,1200,Seat,Ibiza,Benzin,Crna metalik,200000,55,2000,69444
+15348667,Beograd,False,3000,Chevrolet,Aveo,Benzin + Gas (TNG),Bela,150000,63,2009,92331
+15319238,Zrenjanin,False,3000,Volkswagen,Golf 4,Dizel,Siva metalik,227332,96,2002,72281
+15439016,Niš,False,2000,Toyota,Yaris Verso,Benzin,Crna metalik,171000,53,2000,69779
+15421678,Novi Pazar,False,25000,BMW,X6,Dizel,Bela metalik,141000,210,2009,56254
+15517637,Novi Sad,False,2200,Volvo,V40,Dizel,Siva metalik,23456,75,2003,82036
+15638833,Beograd,False,3750,Opel,Corsa D,Dizel,Crna metalik,170000,70,2010,92331
+15573919,Šid,False,2490,Volkswagen,Golf 6,Dizel,Crna metalik,155000,65,2010,60710
+15513275,Negotin,False,1600,Peugeot,307,Benzin,Siva metalik,174000,80,2002,63241
+15326492,Prokuplje,False,1700,Volkswagen,Golf 4,Dizel,Siva,230601,74,2000,63637
+15597716,Obrenovac,False,2150,Lancia,Musa,Dizel,Crna metalik,268000,51,2006,77248
+15411501,Topola,False,1950,Renault,Modus,Dizel,Plava metalik,230000,47,2005,59275
+15542202,Novi Sad,False,6790,Opel,Astra J,Dizel,Crna metalik,169130,81,2011,82036
+15502142,Beograd,False,2200,Seat,Ibiza,Dizel,Srebrna metalik,200000,77,2003,92331
+13782017,Mladenovac,False,12450,Citroen,C3,Dizel,Crvena metalik,8900,74,2017,62813
+15591475,Beograd,False,1850,Škoda,Octavia,Dizel,Plava metalik,270000,66,2001,92331
+14472681,Beograd,False,40990,Audi,Q5,Dizel,Crna metalik,35705,140,2018,92331
+15686904,Kragujevac,False,3200,Opel,Combo,Dizel,Srebrna metalik,173000,48,2005,72552
+7150229,Subotica,False,2650,Renault,Megane,Dizel,Crna metalik,170000,63,2004,69444
+14554364,Novi Sad,False,12000,Audi,A4,Dizel,Bordo metalik,227000,125,2011,82036
+14788819,Vršac,False,9999,Audi,TT,Benzin,Srebrna metalik,153335,147,2008,75128
+15584212,Sremska Mitrovica,False,1990,Peugeot,307,Dizel,Zelena metalik,191000,55,2003,68674
+15560715,Voždovac,False,4500,Seat,Leon,Dizel,Crvena,105000,102,2008,94743
+15625334,Požarevac,False,1000,Mercedes Benz,E 250,Dizel,Crna,367000,66,1992,75849
+15763376,Niš,False,3000,Volkswagen,Passat B5.5,Dizel,Siva metalik,178031,96,2003,69779
+15207523,Beočin,False,600,Opel,Corsa B,Benzin,Zelena metalik,200000,44,1996,63524
+15588325,Beograd,False,14800,Mercedes Benz,E 220,Dizel,Zlatna metalik,287000,120,2010,92331
+15045346,Beograd,False,26490,Volkswagen,Golf 7,Dizel,Bela metalik,29402,110,2018,92331
+15596093,Pančevo,False,2700,Opel,Zafira,Dizel,Plava metalik,240390,74,2006,74123
+12383800,Zemun,False,12500,Volkswagen,Passat CC,Dizel,Crna metalik,163500,105,2012,84398
+13403077,Senta,False,2300,Citroen,C3,Benzin + Gas (TNG),Plava metalik,237000,44,2004,67859
+15610020,Beograd,False,5900,Volkswagen,Golf 6,Dizel,Crna metalik,204125,66,2010,92331
+15551801,Čačak,False,4200,Toyota,Auris,Dizel,Crna metalik,174000,66,2008,63970
+15576369,Obrenovac,False,2900,BMW,316,Benzin + Gas (TNG),Siva metalik,250000,75,1998,77248
+15425868,Novi Sad,False,9999,Renault,Megane,Dizel,Bela,146000,81,2016,82036
+15617064,Beograd,False,1490,Volkswagen,Polo,Benzin,Srebrna,147900,44,2001,92331
+15365184,Niš,False,300,Mercedes Benz,190,Benzin + Gas (TNG),Bela,250000,87,1987,69779
+15705735,Novi Beograd,False,9990,Audi,A4,Dizel,Plava metalik,181856,100,2014,116359
+13529994,Beograd,False,5200,Seat,Ibiza,Benzin,Bela,93835,51,2013,92331
+15364884,Beograd,False,950,Alfa Romeo,147,Benzin,Siva metalik,250000,77,2002,92331
+15221161,Pirot,False,1300,Lada,Niva,Benzin + Gas (TNG),Bela,156235,54,1996,78394
+15733448,Novi Pazar,False,4799,BMW,320,Benzin,Crna,246000,105,2003,56254
+15236728,Beograd,False,32990,Mercedes Benz,E 220,Dizel,Bela metalik,159000,153,2016,92331
+15559758,Ruma,False,2100,Fiat,Multipla,Dizel,Plava metalik,209563,85,2005,65259
+14715498,Aranđelovac,False,2000,Mercedes Benz,A 160,Benzin,Crna metalik,199253,75,2002,67096
+15687342,Kragujevac,False,1290,Peugeot,206,Benzin,Siva metalik,120000,55,2003,72552
+14752615,Novi Beograd,False,1000,Fiat,Multipla,Dizel,Zelena,320000,85,2002,116359
+15419132,Bačka Palanka,False,5150,Volkswagen,Passat B6,Dizel,Crna metalik,216000,77,2008,66445
+15681571,Arilje,False,2000,Volkswagen,Passat B5.5,Dizel,Bela metalik,320000,74,2002,56359
+14629612,Novi Beograd,False,10300,BMW,120,Dizel,Bela,75000,130,2013,116359
+15704663,Sombor,False,3590,BMW,116,Benzin,Crna metalik,169425,85,2006,66189
+15579168,Čukarica,False,4700,Citroen,C4 Grand Picasso,Metan CNG,Srebrna metalik,180000,92,2010,88959
+15140433,Lazarevac,False,19999,Audi,A5,Dizel,Srebrna metalik,115000,125,2014,98955
+15207046,Beograd,False,2550,Peugeot,407,Dizel,Siva metalik,230000,100,2004,92331
+15632115,Beograd,False,2899,Alfa Romeo,156,Dizel,Crna metalik,200000,110,2005,92331
+13936569,Kragujevac,False,12600,Volkswagen,Passat B8,Dizel,Crna metalik,154000,88,2015,72552
+15450730,Smederevo,False,1400,Mercedes Benz,A 140,Benzin + Gas (TNG),Kameleon,212000,60,2002,73025
+15302454,Rakovica,False,6500,Peugeot,3008,Dizel,Siva metalik,191000,82,2010,83909
+15519851,Kragujevac,False,1150,Alfa Romeo,156,Dizel,Crna metalik,220000,85,2002,72552
+14935968,Gornji Milanovac,False,1550,Renault,Scenic,Benzin + Gas (TNG),Siva,225413,101,2002,69106
+15389079,Novi Bečej,False,1100,Opel,Vectra C,Dizel,Crna,280000,91,2003,60980
+15757020,Arilje,False,3499,Peugeot,207,Dizel,Bela,198000,50,2011,56359
+14740947,Loznica,False,999999999,Volkswagen,Golf 1,Benzin,Siva,269000,43,1982,59654
+15447702,Bačka Topola,False,999999999,Lada,Niva,Benzin + Gas (TNG),Bordo,89500,59,2008,65133
+15749512,Valjevo,False,11800,Mercedes Benz,S 320,Dizel,Crna metalik,295000,173,2006,66504
+15633840,Beograd,False,3200,Audi,A6,Benzin,Siva,225000,183,2005,92331
+15739629,Smederevska Palanka,False,750,Volkswagen,Passat B3,Benzin + Gas (TNG),Siva metalik,195000,66,1993,63034
+15542270,Smederevo,False,8290,BMW,520,Dizel,Siva metalik,275450,120,2009,73025
+15606761,Smederevo,False,2250,Opel,Meriva,Dizel,Siva metalik,205000,88,2004,73025
+15192960,Valjevo,False,4500,Citroen,C4 Grand Picasso,Dizel,Plava metalik,159800,100,2008,66504
+15348163,Apatin,False,2900,Volvo,V50,Dizel,Crna metalik,246000,100,2006,63904
+15069087,Kraljevo,False,3100,Peugeot,207,Benzin,Siva metalik,171235,88,2008,63495
+15429873,Kragujevac,False,4650,Renault,Scenic,Dizel,Siva metalik,178000,78,2009,72552
+15613490,Varvarin,False,18999,Mercedes Benz,S 350,Dizel,Crna metalik,258000,172,2010,53190
+15648955,Leskovac,False,1400,Ford,Mondeo,Benzin,Siva metalik,2158085,81,2002,59247
+15539671,Beograd,False,3100,Alfa Romeo,159,Dizel,Siva metalik,210000,110,2007,92331
+15600868,Palilula,False,8999,Nissan,Juke,Benzin,Bela metalik,74800,86,2012,83005
+15666825,Beograd,False,4490,Peugeot,308,Dizel,Siva metalik,179000,100,2008,92331
+15078966,Žabalj,False,2650,Renault,Clio,Benzin,Crvena,152500,77,2006,59440
+15339129,Jagodina,False,1300,Alfa Romeo,147,Benzin + Gas (TNG),Siva metalik,214000,77,2004,60384
+15710820,Vrbas,False,1250,Citroen,Xsara Picasso,Benzin,Plava metalik,22222,85,2001,64198
+15662333,Beograd,False,4900,Hyundai,Santa Fe,Dizel,Siva metalik,86000,92,2006,92331
+14360937,Sombor,False,5390,BMW,118,Dizel,Crna metalik,221000,105,2008,66189
+15215233,Kraljevo,False,3450,BMW,520,Dizel,Siva metalik,255993,100,2002,63495
+15165800,Niš,False,4800,Audi,A4,Dizel,Siva,224000,103,2006,69779
+15362802,Zrenjanin,False,2900,Fiat,Grande Punto,Dizel,Crna,187739,55,2008,72281
+15124832,Gornji Milanovac,False,999999999,Volkswagen,Polo,Dizel,Siva metalik,183000,55,2004,69106
+15659028,Sremska Mitrovica,False,11500,BMW,316,Dizel,Bela metalik,187426,86,2014,68674
+15312367,Loznica,False,4500,Volkswagen,Passat B6,Dizel,Zelena metalik,182000,102,2007,59654
+15507099,Vršac,False,42700,Audi,A6,Dizel,Crna metalik,9900,150,2019,75128
+15425183,Sremska Mitrovica,False,8650,Audi,A4,Dizel,Plava metalik,249000,105,2009,68674
+15251735,Novi Beograd,True,31000,Nissan,X-Trail,Dizel,Narandžasta metalik,1,110,2019,116359
+15616730,Beograd,False,990,Citroen,C5,Dizel,Siva metalik,206000,80,2003,92331
+15163000,Beograd,False,5500,Volkswagen,Passat B6,Dizel,Crna metalik,265000,103,2006,92331
+15539543,Pančevo,False,3600,Peugeot,308,Dizel,Siva metalik,215000,80,2008,74123
+14421598,Svilajnac,False,12499,Audi,A5,Benzin,Siva metalik,160000,125,2012,59343
+15375545,Šabac,False,1000,Peugeot,307,Dizel,Zelena metalik,124000,50,2005,67046
+15374924,Beograd,False,10700,Mercedes Benz,E 200,Dizel,Srebrna metalik,335244,100,2011,92331
+15631475,Niš,False,2450,Volkswagen,Polo,Benzin,Siva metalik,166446,63,2004,69779
+15722322,Mladenovac,False,4700,Volkswagen,Passat B6,Dizel,Siva metalik,265000,77,2008,62813
+15163544,Voždovac,False,3999,Audi,A4,Dizel,Teget metalik,253600,74,2003,94743
+14431827,Beograd,False,3599,Fiat,Grande Punto,Dizel,Plava,168000,55,2007,92331
+14980579,Pirot,False,2500,Lada,Niva,Benzin,Zelena,37500,61,2011,78394
+14629611,Bačka Topola,False,2200,Renault,R 18,Benzin,Bež,43067,44,1984,65133
+15077803,Preševo,False,2999,Audi,A3,Dizel,Crna metalik,205000,96,2002,55470
+15292665,Subotica,False,2500,Volkswagen,Polo,Benzin,Srebrna metalik,178466,47,2003,69444
+15736991,Novi Beograd,False,22990,BMW,420,Dizel,Plava metalik,86086,120,2015,116359
+15680209,Trstenik,False,1250,Opel,Combo,Benzin + Gas (TNG),Siva metalik,300000,66,2005,57666
+15167453,Beograd,False,8900,Jaguar,XF,Dizel,Siva metalik,207000,202,2009,92331
+15087098,Pančevo,False,999999999,Audi,A5,Dizel,Bela,213600,130,2013,74123
+15755953,Smederevo,False,2700,Renault,Megane,Dizel,Bela metalik,217000,63,2007,73025
+14345914,Novi Sad,False,3600,Renault,Megane,Benzin,Siva metalik,92400,83,2007,82036
+15656197,Novi Sad,False,2100,Volkswagen,Golf 4,Dizel,Crna metalik,270000,66,2001,82036
+8566751,Odžaci,False,2300,Ford,Focus,Dizel,Siva metalik,217000,66,2000,59596
+15653646,Beograd,False,4500,BMW,118,Benzin,Bela metalik,164234,90,2008,92331
+15545483,Novi Sad,False,1700,Renault,Megane,Dizel,Crna metalik,296000,70,2004,82036
+15682619,Zrenjanin,False,2200,Peugeot,307,Dizel,Siva metalik,237000,80,2005,72281
+15753471,Velika Plana,False,2500,Audi,A6,Dizel,Siva metalik,528000,96,2002,70082
+15689201,Sremska Mitrovica,False,6999,Volkswagen,Golf 6,Dizel,Crna metalik,205000,77,2012,68674
+14361868,Sombor,False,999999999,Zastava,Yugo Ciao,Benzin,Siva metalik,100000,48,2001,66189
+15006045,Čukarica,False,1300,Lancia,Lybra,Dizel,Siva metalik,260000,85,2001,88959
+15139417,Novi Sad,False,54999,Mercedes Benz,GL 350,Dizel,Crna metalik,175807,190,2014,82036
+14650331,Beograd,False,19499,Audi,A6,Dizel,Crna metalik,173553,130,2012,92331
+13104656,Šabac,False,4250,Renault,Espace,Dizel,Siva metalik,203000,127,2007,67046
+15532879,Pančevo,False,1600,Peugeot,307,Dizel,Siva metalik,214000,66,2003,74123
+15714270,Pančevo,False,1350,Fiat,Seicento,Benzin + Gas (TNG),Bela metalik,245000,44,2006,74123
+15408122,Novi Beograd,False,1900,Citroen,C4,Dizel,Teget metalik,216000,67,2005,116359
+15165133,Vrnjačka Banja,False,1400,Volkswagen,Golf 4,Dizel,Bela metalik,306000,66,2000,57345
+15283101,Palilula,False,15900,Volkswagen,Passat B8,Dizel,Bela,227000,140,2015,83005
+15702611,Niš,False,2450,Opel,Vectra C,Dizel,Siva metalik,253179,74,2003,69779
+15738228,Niš,False,2950,Audi,A6,Benzin + Gas (TNG),Teget metalik,278000,163,2004,69779
+15534573,Kikinda,False,2490,Citroen,C3,Dizel,Bela metalik,163999,80,2006,68767
+15348484,Zvezdara,False,3500,Fiat,Multipla,Metan CNG,Plava metalik,184939,76,2008,94658
+15510894,Čačak,False,6650,Audi,A3,Dizel,Bela,145500,103,2009,63970
+15437735,Zemun,False,2300,Opel,Vectra C,Dizel,Siva metalik,198400,74,2003,84398
+15691330,Obrenovac,False,3499,Peugeot,207,Dizel,Bordo metalik,185000,80,2007,77248
+15525490,Niš,False,2650,Citroen,C4,Dizel,Crvena metalik,179757,100,2007,69779
+15077156,Beograd,False,13300,Mazda,6,Dizel,Crvena metalik,44500,129,2013,92331
+15716260,Čačak,False,2800,Seat,Altea,Dizel,Crvena metalik,189000,103,2004,63970
+15726731,Knjaževac,False,1699,Opel,Meriva,Benzin,Plava metalik,156000,74,2004,55610
+15719476,Pirot,False,1950,Renault,Megane,Dizel,Siva metalik,204000,88,2005,78394
+15665922,Beograd,False,4400,Mercedes Benz,B 180,Dizel,Crna metalik,209000,80,2007,92331
+15382938,Beočin,False,2200,Peugeot,807,Dizel,Plava metalik,303000,100,2005,63524
+15727869,Beograd,False,4700,Citroen,C8,Dizel,Siva metalik,274000,100,2009,92331
+15679175,Požarevac,False,3450,Renault,Laguna,Dizel,Zelena metalik,202657,110,2008,75849
+15717094,Obrenovac,False,1250,Smart,ForTwo,Benzin,Crna,152129,47,2001,77248
+14791525,Čačak,False,2200,Ford,Focus,Benzin,Siva metalik,220000,75,2002,63970
+15238513,Beograd,False,2550,Fiat,Grande Punto,Dizel,Bela metalik,159000,55,2006,92331
+14371608,Novi Beograd,False,11790,Volkswagen,Passat B8,Dizel,Siva metalik,189000,88,2015,116359
+15610023,Kraljevo,False,4550,Mini,Cooper,Dizel,Crvena,157000,80,2007,63495
+14680172,Bor,False,15500,Volkswagen,Tiguan,Dizel,Teget metalik,116000,130,2014,84395
+15396594,Valjevo,False,7190,Audi,A3,Dizel,Crna metalik,176000,66,2011,66504
+15653497,Beograd,False,699,Opel,Vectra B,Benzin,Crna metalik,11111,74,1997,92331
+15279721,Beograd,False,16100,Audi,A6,Dizel,Bela metalik,188000,130,2012,92331
+14618278,Čačak,False,3800,Mini,One,Benzin,Siva metalik,222183,66,2005,63970
+11853586,Šabac,False,3299,Opel,Astra H,Dizel,Siva metalik,196000,74,2007,67046
+15530675,Inđija,False,1199,Ford,Fiesta,Dizel,Crvena,160000,50,2004,68356
+14400663,Sombor,False,2500,Opel,Astra H,Dizel,Crna metalik,216000,75,2006,66189
+15761084,Kraljevo,False,680,Zastava,Koral,Benzin,Crvena,80000,48,2003,63495
+14421232,Beograd,False,7000,Porsche,944,Benzin + Gas (TNG),Siva metalik,106000,119,1985,92331
+15585356,Beograd,False,4490,Volkswagen,Golf 5,Dizel,Bela,210000,102,2008,92331
+15389891,Valjevo,False,13000,Audi,A5,Dizel,Crvena metalik,170000,125,2011,66504
+15713716,Bačka Palanka,False,2900,Opel,Astra H,Dizel,Srebrna,230000,74,2008,66445
+15059005,Beograd,False,2500,Opel,Senator,Benzin + Gas (TNG),Siva metalik,177000,110,1985,92331
+15757529,Šabac,False,600,Peugeot,607,Dizel,Zelena metalik,300000,100,2001,67046
+15627093,Pančevo,False,2750,Citroen,C5,Dizel,Siva metalik,166000,81,2007,74123
+15665148,Beograd,False,4299,Mini,Cooper,Benzin,Zelena metalik,168000,88,2007,92331
+15743852,Čačak,False,3450,Volkswagen,Golf 5,Dizel,Siva metalik,189000,77,2004,63970
+15633904,Inđija,False,4999,Audi,A4,Dizel,Crna,200000,85,2006,68356
+15550087,Beograd,True,13400,Fiat,Tipo,Benzin,Bež metalik,0,70,2019,92331
+14525479,Subotica,False,2450,BMW,320,Dizel,Siva metalik,240000,110,2002,69444
+15755516,Zemun,False,3290,Peugeot,207,Benzin + Gas (TNG),Srebrna metalik,159000,54,2009,84398
+15531916,Kragujevac,False,999,Peugeot,206,Benzin,Siva metalik,200000,80,2001,72552
+15683736,Novi Sad,False,8750,Citroen,C4 Grand Picasso,Dizel,Crna metalik,161000,62,2014,82036
+15034778,Vračar,False,1950,Seat,Leon,Benzin,Crna metalik,295000,92,2001,123426
+14620973,Beograd,False,1600,Fiat,Multipla,Metan CNG,Siva metalik,370000,76,2001,92331
+15585622,Vrbas,False,2250,Opel,Vectra C,Benzin,Zlatna,175600,85,2003,64198
+14958878,Užice,False,4200,Škoda,Octavia,Dizel,Crna metalik,240500,103,2005,70942
+15432192,Vranje,False,2550,Ford,C-Max,Dizel,Siva,140000,1600,2006,62876
+15225292,Inđija,False,1999,Škoda,Octavia,Dizel,Siva metalik,230000,66,2001,68356
+15668840,Priboj,False,4950,Volkswagen,Golf 5,Dizel,Plava metalik,208135,77,2005,61081
+15714574,Novi Sad,False,8699,BMW,X1,Dizel,Crna metalik,168000,105,2012,82036
+15729369,Smederevo,False,1480,Volvo,V40,Dizel,Teget metalik,191000,74,2001,73025
+15651391,Beograd,False,5200,Opel,Antara,Dizel,Crna metalik,165000,102,2008,92331
+15422216,Kragujevac,False,5000,Mercedes Benz,C 200,Dizel,Siva metalik,257000,90,2004,72552
+15334575,Novi Sad,False,10400,Mazda,3,Benzin,Siva metalik,114000,74,2015,82036
+15271365,Inđija,False,1100,Citroen,Xsara,Dizel,Siva metalik,198000,66,2002,68356
+15662121,Majdanpek,False,2000,Audi,A4,Benzin + Gas (TNG),Crvena,230410,110,2000,78784
+15106438,Voždovac,False,8990,Toyota,Auris,Dizel,Bela,160591,91,2015,94743
+15648642,Beograd,False,8300,Volkswagen,Golf 6,Dizel,Kameleon metalik,223200,77,2010,92331
+15557135,Rekovac,False,1850,Mercedes Benz,A 170,Dizel,Teget metalik,215000,70,2003,58432
+15500055,Kragujevac,False,7200,Volkswagen,Golf 5,Benzin,Bela,187000,147,2008,72552
+15174908,Beograd,False,3650,Opel,Corsa D,Dizel,Crvena,149500,66,2007,92331
+15719461,Beograd,False,3450,Mercedes Benz,E 280,Dizel,Siva metalik,335000,140,2006,92331
+15517998,Kragujevac,False,17500,Audi,Q3,Dizel,Crna metalik,170000,130,2012,72552
+15178295,Novi Sad,False,4650,Citroen,C3 Picasso,Dizel,Crna,286600,81,2010,82036
+15672288,Beograd,False,2500,Opel,Astra G,Dizel,Siva metalik,2500000,75,2004,92331
+15664270,Aranđelovac,False,850,Fiat,Tempra,Benzin + Gas (TNG),Plava,2000009,62,1998,67096
+15733957,Niš,False,8500,BMW,X3,Dizel,Crna,176000,130,2009,69779
+14433145,Kikinda,False,999999999,Opel,Astra G,Dizel,Plava metalik,300000,55,2001,68767
+15530731,Niš,False,1499,Peugeot,206,Benzin,Crna metalik,164200,53,2003,69779
+15213658,Valjevo,False,6950,Audi,A3,Dizel,Srebrna metalik,218000,66,2010,66504
+15729347,Ruma,False,3400,Škoda,Octavia,Dizel,Zlatna metalik,186000,77,2006,65259
+15708638,Novi Sad,False,6000,Volkswagen,Buggy,Benzin,Kameleon metalik,90000,25,1969,82036
+15527293,Subotica,False,3200,Audi,A4,Dizel,Siva metalik,171000,96,2001,69444
+15668665,Kruševac,False,2200,Volkswagen,Golf 4,Dizel,Crna metalik,195000,66,2001,63868
+15663940,Novi Sad,False,4550,Renault,Scenic,Dizel,Crna metalik,150235,80,2009,82036
+15736743,Novi Sad,False,10500,Audi,A3,Dizel,Crna,140000,80,2015,82036
+15734323,Sombor,False,1499,Renault,Scenic,Dizel,Siva metalik,290000,75,2002,66189
+15355766,Zrenjanin,False,3300,Peugeot,407,Dizel,Siva metalik,222000,80,2005,72281
+15443144,Smederevo,False,1800,Renault,Scenic,Benzin,Teget metalik,209945,79,2001,73025
+12498597,Novi Sad,False,25000,Mercedes Benz,CLS 350,Dizel,Zlatna,240000,195,2012,82036
+12623193,Beograd,False,7700,Audi,A3,Benzin,Teget metalik,182045,118,2010,92331
+15220269,Obrenovac,False,1000,Audi,80,Benzin + Gas (TNG),Krem,288834,66,1993,77248
+15754977,Smederevo,False,10500,Volkswagen,Golf 6,Benzin,Crna metalik,133000,173,2012,73025
+14809954,Novi Sad,False,39990,Mercedes Benz,GLE 250,Dizel,Bela,90000,150,2015,82036
+15242997,Gornji Milanovac,False,2990,Renault,Clio,Dizel,Siva metalik,189579,50,2009,69106
+15642068,Valjevo,False,1550,Opel,Zafira,Dizel,Siva metalik,259000,74,2001,66504
+15150193,Sombor,False,1550,Opel,Zafira,Dizel,Zelena metalik,240000,74,2001,66189
+15216304,Niš,False,999999999,Fiat,Punto,Benzin,Siva,180000,63,1998,69779
+15344130,Arilje,False,6400,Volkswagen,Golf 6,Dizel,Crna,315000,81,2009,56359
+15373434,Prijepolje,False,5400,Audi,A4,Dizel,Siva metalik,265000,103,2006,57305
+15615773,Beograd,False,500,Ford,Escort,Dizel,Teget,426580,66,1996,92331
+15368575,Temerin,False,19900,BMW,525,Dizel,Braon,164000,160,2015,64663
+15705937,Grocka,False,2200,Mercedes Benz,C 220,Dizel,Plava metalik,300000,85,2000,65164
+15359869,Beograd,False,4000,Volkswagen,Jetta,Benzin + Gas (TNG),Bela metalik,184000,110,2005,92331
+15652308,Gornji Milanovac,False,1650,BMW,316,Benzin,Crna metalik,247000,85,2001,69106
+15747098,Zaječar,False,1650,Lada,Niva,Benzin + Gas (TNG),Bela,145000,59,2002,65463
+15287548,Pančevo,False,2999,Mitsubishi,Grandis,Dizel,Siva,250000,103,2007,74123
+14932086,Pančevo,False,2200,Volkswagen,Passat B5.5,Dizel,Zelena metalik,188000,96,2001,74123
+15344882,Žabalj,False,1050,Volkswagen,Golf 3,Dizel,Crna,195000,66,1995,59440
+15213454,Lazarevac,False,2750,Opel,Meriva,Dizel,Crna metalik,210000,74,2006,98955
+15100394,Beograd,False,6300,Renault,Laguna,Dizel,Siva metalik,173000,81,2012,92331
+15286119,Paraćin,False,4550,Volkswagen,Golf 5,Dizel,Bela metalik,182000,77,2007,61075
+15651706,Kragujevac,False,6200,Škoda,Octavia,Dizel,Bordo metalik,195000,77,2009,72552
+15434860,Novi Beograd,False,6400,Nissan,Qashqai,Dizel,Siva metalik,145000,110,2008,116359
+15569259,Ruma,False,3000,Audi,A4,Dizel,Siva,234500,96,2002,65259
+15401694,Paraćin,False,5999,Mercedes Benz,E 270,Dizel,Siva metalik,230000,130,2004,61075
+15515868,Ruma,False,2499,Seat,Ibiza,Benzin,Siva metalik,139000,51,2007,65259
+15354727,Valjevo,False,850,Volkswagen,Golf 2,Dizel,Bela,280000,54,1990,66504
+15224122,Bačka Palanka,False,999999999,Fiat,Marea,Dizel,Siva,250000,81,2003,66445
+15709382,Niš,False,1100,Ford,Ka,Benzin + Gas (TNG),Siva,100000,51,2003,69779
+15715807,Brus,False,650,Renault,Express,Benzin,Plava,279500,43,1990,56928
+14978406,Bačka Topola,False,999999999,Mercedes Benz,E 220,Dizel,Siva metalik,310000,105,2002,65133
+15697194,Beograd,False,999999999,Ostalo,,Benzin,Teget metalik,58000,85,2005,92331
+15579797,Prijepolje,False,1250,Volkswagen,Golf 3,Dizel,Siva,250000,55,1996,57305
+15652023,Beograd,False,2200,Smart,ForTwo,Benzin,Crna metalik,125300,45,2003,92331
+15664523,Obrenovac,False,2350,Opel,Tigra,Benzin,Plava metalik,127000,92,2005,77248
+15621195,Irig,False,7500,Volkswagen,Passat CC,Benzin,Crna metalik,204000,120,2008,58912
+15607796,Novi Bečej,False,3690,Opel,Astra H,Benzin,Siva metalik,131420,85,2007,60980
+15446442,Beograd,False,4800,BMW,120,Benzin,Siva metalik,154496,125,2009,92331
+15666557,Beograd,False,1300,Audi,80,Benzin + Gas (TNG),Bela,254115,66,1987,92331
+15567395,Nova Varoš,False,1299,Renault,Scenic,Dizel,Plava metalik,313000,75,2001,60056
+14231235,Mladenovac,False,46500,Maserati,Ghibli,Dizel,Plava metalik,82000,202,2016,62813
+14771423,Lazarevac,False,999999999,Lancia,Lybra,Dizel,Crna,221000,84,2004,98955
+15559202,Ivanjica,False,1500,Renault,Laguna,Dizel,Siva metalik,230000,110,2004,54714
+14873040,Šabac,False,2600,Mercedes Benz,A 160,Dizel,Zelena metalik,300000,66,2005,67046
+15512959,Čačak,False,1550,Lancia,Lybra,Dizel,Siva metalik,223000,85,2002,63970
+15502004,Novi Sad,False,1490,Renault,Clio,Benzin,Zelena metalik,165535,55,2002,82036
+15358118,Novi Sad,False,1400,Ford,Fiesta,Benzin,Bela,218000,55,2001,82036
+15714583,Prokuplje,False,6350,Volkswagen,Golf 6,Benzin,Siva metalik,170173,90,2009,63637
+15367812,Šid,False,3600,Citroen,C4 Picasso,Dizel,Bela metalik,144000,80,2010,60710
+15591978,Novi Sad,False,5490,Nissan,Qashqai,Dizel,Crna metalik,176000,80,2008,82036
+15179938,Novi Sad,True,16230,Renault,Megane,Benzin,Siva metalik,5,85,2019,82036
+15534743,Beograd,False,4250,Ford,Fiesta,Benzin + Gas (TNG),Plava metalik,162311,52,2009,92331
+14587967,Jagodina,False,9900,Renault,Laguna,Dizel,Crna metalik,56400,110,2011,60384
+15333715,Odžaci,False,650,Ford,Escort,Benzin + Gas (TNG),Crvena metalik,194248,66,1997,59596
+15394733,Inđija,False,1750,Peugeot,407,Dizel,Siva metalik,320000,100,2005,68356
+15540225,Pirot,False,1500,Suzuki,Swift,Benzin + Gas (TNG),Crvena,168435,50,2002,78394
+15243279,Niš,False,2800,Renault,Clio,Dizel,Plava metalik,160000,63,2007,69779
+15715428,Valjevo,False,1950,Volkswagen,Golf 4,Benzin,Siva metalik,200000,75,2000,66504
+15286910,Beograd,False,6399,Fiat,Doblo,Dizel,Siva,186700,77,2010,92331
+15689263,Novi Sad,False,3999,Mercedes Benz,A 170,Benzin,Crna metalik,130000,84,2007,82036
+15247310,Svilajnac,False,950,Peugeot,206,Benzin,Siva metalik,229644,80,2001,59343
+15517935,Beograd,False,5990,Citroen,C1,Benzin,Bela,19000,51,2015,92331
+15278718,Niš,False,5200,Kia,Sportage,Dizel,Siva metalik,176690,103,2007,69779
+15763162,Kragujevac,False,1499,Alfa Romeo,147,Benzin + Gas (TNG),Siva metalik,237000,77,2003,72552
+15592730,Kragujevac,False,999999999,Opel,Combo,Dizel,Crvena,380000,55,2003,72552
+15428552,Beograd,False,25000,Mercedes Benz,CLS 350,Dizel,Braon metalik,190000,195,2011,92331
+15372937,Kruševac,False,999999999,Audi,A4,Dizel,Crna,350000,66,1995,63868
+15428562,Novi Beograd,False,24990,Audi,Q2,Dizel,Bela,22482,110,2018,116359
+15298977,Beograd,False,1750,Volkswagen,Golf 4,Dizel,Zelena,251000,74,2001,92331
+15255663,Vršac,False,4850,Mercedes Benz,C 200,Dizel,Siva metalik,220300,90,2005,75128
+15102181,Sombor,False,1950,Fiat,Ulysse,Dizel,Bordo metalik,220000,79,2004,66189
+15721975,Beograd,False,1200,Renault,Clio,Dizel,Siva metalik,240300,48,2002,92331
+15698050,Niš,False,8250,Audi,A4,Dizel,Crna metalik,218000,105,2008,69779
+15587049,Čačak,False,2450,Opel,Corsa C,Benzin,Crvena metalik,148000,59,2006,63970
+15284945,Kragujevac,False,2700,Audi,A4,Benzin + Gas (TNG),Siva,260000,96,2002,72552
+15533400,Vrnjačka Banja,False,1550,Opel,Meriva,Dizel,Siva metalik,230000,75,2004,57345
+15556762,Kuršumlija,False,350,Zastava,Yugo 45,Benzin,Bela,1000003,33,1996,59519
+15673200,Lazarevac,False,6000,BMW,X5,Dizel,Srebrna metalik,271000,135,2003,98955
+15725156,Pančevo,False,999999999,Opel,Astra K,Dizel,Crvena metalik,77700,81,2016,74123
+15215665,Bela Palanka,False,2250,Ford,Fiesta,Dizel,Crvena metalik,220000,50,2007,56896
+15325775,Bojnik,False,1150,Audi,A4,Benzin,Zelena,160000,74,1995,52036
+15276266,Novi Beograd,False,54900,BMW,X6,Dizel,Srebrna metalik,46000,230,2015,116359
+15166087,Subotica,False,6100,Mercedes Benz,B 180,Dizel,Crna,186394,80,2009,69444
+15191176,Beograd,False,2499,Mazda,6,Benzin,Siva metalik,220000,65,2004,92331
+15747657,Beograd,False,2199,Opel,Corsa C,Dizel,Srebrna metalik,259000,51,2004,92331
+15131504,Zemun,False,1700,Renault,Modus,Dizel,Crna metalik,179000,60,2005,84398
+14881323,Beograd,False,5400,Renault,Fluence,Benzin + Gas (TNG),Siva metalik,123000,82,2012,92331
+15562701,Aranđelovac,False,590,Opel,Astra F,Benzin + Gas (TNG),Crvena,340000,55,1992,67096
+15259803,Beograd,False,8600,Audi,A4,Dizel,Siva metalik,260000,105,2008,92331
+15125738,Zemun,False,1950,Peugeot,206,Benzin,Srebrna metalik,101180,55,2003,84398
+15446629,Prijepolje,False,3450,Volkswagen,Touran,Dizel,Siva metalik,241550,103,2006,57305
+15512095,Novi Sad,False,11300,Audi,A4,Dizel,Siva metalik,150000,100,2015,82036
+15680515,Novi Sad,False,17500,BMW,535,Dizel,Siva,193700,230,2011,82036
+13787622,Loznica,False,10300,Volkswagen,Passat B7,Dizel,Crna metalik,223220,130,2013,59654
+15608596,Aleksinac,False,1100,Opel,Astra G,Dizel,Crvena metalik,250000,55,2000,59671
+15689661,Obrenovac,False,4350,Volkswagen,Passat B6,Dizel,Siva metalik,190000,77,2005,77248
+15311584,Kragujevac,False,1300,Fiat,Punto,Benzin,Crvena,145000,44,2002,72552
+15324478,Inđija,False,999999999,Volkswagen,Caddy,Dizel,Bela,100000,40,1991,68356
+15519245,Obrenovac,False,4900,Volkswagen,Polo,Dizel,Bela,201000,55,2012,77248
+15541622,Beograd,False,42000,BMW,X4,Dizel,Crna metalik,22000,140,2017,92331
+15510252,Kruševac,False,2550,Volkswagen,Golf 5,Benzin,Plava,233500,55,2004,63868
+15627024,Vršac,False,2690,Ford,Fiesta,Dizel,Siva metalik,169000,55,2008,75128
+15431313,Niš,False,1799,Renault,Megane,Benzin,Siva,189652,83,2003,69779
+15192096,Beograd,False,3200,Renault,Megane,Dizel,Siva metalik,26000,96,2007,92331
+15515744,Zvezdara,False,2300,Fiat,Stilo,Dizel,Siva metalik,234000,88,2004,94658
+14945189,Kula,False,4250,Peugeot,308,Dizel,Siva metalik,161500,83,2008,60748
+15739520,Beograd,False,4150,Renault,Megane,Dizel,Siva metalik,265000,66,2010,92331
+15384862,Vlasotince,False,1100,Citroen,Saxo,Benzin,Plava metalik,200000,40,2001,52068
+15028772,Šabac,False,3100,Audi,A4,Dizel,Plava metalik,185000,96,2003,67046
+15648965,Sremska Mitrovica,False,1350,Citroen,C4,Dizel,Bordo metalik,191000,80,2005,68674
+15578572,Beograd,False,7900,Kia,Rio,Benzin,Teget metalik,22300,62,2016,92331
+15516913,Zrenjanin,False,1350,Opel,Astra G,Dizel,Plava metalik,230774,55,2003,72281
+14601971,Šabac,False,9290,Hyundai,ix35,Dizel,Crna metalik,123810,85,2011,67046
+15743914,Loznica,False,2300,Volkswagen,Passat B5.5,Dizel,Plava,210000,96,2002,59654
+15010218,Vrnjačka Banja,False,2700,BMW,320,Dizel,Siva metalik,210451,110,2003,57345
+15339023,Beograd,False,3200,Peugeot,308,Dizel,Crna metalik,268500,66,2008,92331
+15427634,Valjevo,False,1900,Opel,Astra G,Benzin + Gas (TNG),Siva metalik,169124,74,2004,66504
+15397280,Titel,False,4700,Volkswagen,Passat B6,Dizel,Siva metalik,183000,125,2006,75783
+15307477,Kikinda,False,1800,Škoda,Fabia,Benzin,Siva metalik,190000,47,2004,68767
+15688770,Šabac,False,1700,Ford,Focus,Dizel,Teget metalik,200000,66,2001,67046
+15520791,Pančevo,False,4999,Volkswagen,Passat B6,Dizel,Braon metalik,170001,77,2006,74123
+14470833,Beograd,False,1750,Volkswagen,Lupo,Benzin,Srebrna metalik,229000,50,2002,92331
+15528267,Aleksandrovac,False,3100,Mazda,6,Benzin,Siva,190000,104,2004,57807
+15360958,Beograd,False,5400,Renault,Megane,Dizel,Siva metalik,215000,80,2011,92331
+13740771,Šabac,False,2190,Renault,Scenic,Dizel,Bordo metalik,223000,88,2005,67046
+14960145,Subotica,False,7200,Volkswagen,Touareg,Dizel,Crna metalik,355000,165,2006,69444
+15337783,Šabac,False,1300,Renault,Megane,Dizel,Zelena,227000,75,2002,67046
+15686667,Preševo,False,3700,Volkswagen,Passat B5.5,Dizel,Siva metalik,184213,96,2002,55470
+15521924,Zvezdara,False,1799,Opel,Meriva,Benzin,Crna metalik,181000,74,2004,94658
+14795898,Beograd,True,32990,Ford,Galaxy,Dizel,Crna metalik,0,140,2019,92331
+15636080,Žitorađa,False,6300,Mercedes Benz,E 220,Dizel,Siva metalik,221752,110,2005,59116
+15593127,Nova Varoš,False,4500,Volkswagen,Passat B6,Dizel,Braon metalik,204000,103,2007,60056
+15618757,Beograd,False,3790,Ford,C-Max,Dizel,Srebrna metalik,175290,66,2009,92331
+15355814,Knjaževac,False,999999999,Renault,Grand Espace,Dizel,Siva metalik,310000,110,2003,55610
+13571711,Beograd,False,5690,Nissan,Qashqai,Dizel,Crna metalik,180000,79,2007,92331
+15170472,Subotica,False,950,Renault,Laguna,Benzin,Kameleon metalik,280000,69,1997,69444
+15424499,Zemun,False,10500,Mercedes Benz,E 220,Dizel,Siva,175000,128,2010,84398
+15144134,Boljevac,False,2550,Citroen,Xsara Picasso,Dizel,Siva metalik,170224,80,2006,63210
+14237211,Subotica,False,2800,Renault,Grand Scenic,Dizel,Siva metalik,246106,96,2005,69444
+15501101,Ub,False,12200,Renault,Megane,Benzin,Bela,168000,228,2010,70426
+15753107,Bela Palanka,False,2700,Renault,Laguna,Dizel,Siva metalik,248000,96,2006,56896
+13001608,Beograd,False,15500,Toyota,Corolla,Benzin,Siva metalik,9550,97,2018,92331
+15650713,Gornji Milanovac,False,2200,Renault,Megane,Dizel,Siva metalik,200000,90,2005,69106
+15648322,Rakovica,False,8700,BMW,320,Dizel,Srebrna metalik,140000,135,2010,83909
+15754375,Novi Sad,False,1550,Citroen,Xsara,Benzin,Crna metalik,230000,55,2002,82036
+15362152,Beograd,False,3290,Peugeot,407,Dizel,Siva metalik,230000,100,2005,92331
+15636781,Kragujevac,False,6399,BMW,318,Dizel,Bela,183956,105,2009,72552
+15538823,Beograd,False,3999,Mini,Cooper S,Benzin,Bež metalik,139000,132,2007,92331
+15212752,Beograd,False,999999999,Fiat,Punto,Benzin + Gas (TNG),Bela,208000,44,2006,92331
+15697442,Kragujevac,False,999,Rover,618,Benzin + Gas (TNG),Crna metalik,244000,85,1998,72552
+12453437,Beograd,False,32600,Mercedes Benz,E 220,Dizel,Bela metalik,85000,143,2017,92331
+15661317,Kraljevo,False,3650,Audi,A4,Dizel,Zlatna metalik,221523,96,2004,63495
+15694464,Vranje,False,1000,Volkswagen,Touareg,Dizel,Plava,180000,128,2005,62876
+15532732,Pančevo,False,2250,Peugeot,307,Dizel,Siva metalik,19500,79,2003,74123
+15192515,Aranđelovac,False,4599,Volkswagen,Passat B6,Dizel,Crna metalik,151000,103,2006,67096
+13911443,Beograd,False,2650,Opel,Astra H,Dizel,Siva metalik,305000,110,2006,92331
+15109546,Niš,False,3000,Opel,Astra H,Dizel,Siva metalik,250000,74,2005,69779
+15258120,Priboj,False,1800,Citroen,C5,Dizel,Siva metalik,165915,80,2003,61081
+15036211,Temerin,False,10000,Renault,Clio,Benzin,Narandžasta metalik,146000,147,2013,64663
+15691157,Niš,False,3199,Citroen,C4 Picasso,Benzin,Siva metalik,154000,92,2008,69779
+15754703,Zemun,False,3550,Volkswagen,Passat B6,Dizel,Siva metalik,28000,103,2006,84398
+15733008,Aleksinac,False,600,Volkswagen,Golf 2,Benzin,Bela,120000,37,1985,59671
+15695315,Ruma,False,3499,Ford,Fiesta,Dizel,Ljubičasta metalik,207230,50,2009,65259
+14774621,Beograd,False,1799,Alfa Romeo,147,Dizel,Crna metalik,254000,85,2001,92331
+14832781,Valjevo,False,9950,Volkswagen,Passat B7,Dizel,Plava metalik,224000,100,2011,66504
+15294775,Lazarevac,False,5599,BMW,318,Dizel,Crna metalik,122800,90,2006,98955
+15658660,Beograd,False,4600,Ford,Fiesta,Dizel,Crvena,167667,70,2012,92331
+15256915,Zemun,False,3900,Škoda,Superb,Dizel,Bela,240000,77,2007,84398
+15407432,Čačak,False,6999,BMW,525,Dizel,Siva metalik,258652,130,2004,63970
+15552216,Surdulica,False,250,Zastava,Skala 55,Benzin,Teget,140000,40,1994,60097
+15368460,Beograd,False,1200,Opel,Corsa C,Benzin,Siva metalik,224650,55,2001,92331
+15558134,Šabac,False,900,Citroen,Saxo,Dizel,Bela,250000,52,2002,67046
+15306446,Novi Sad,False,7490,BMW,318,Dizel,Smeđa metalik,176000,105,2009,82036
+14913935,Beograd,False,2750,Peugeot,407,Dizel,Zlatna metalik,217000,80,2006,92331
+15013916,Voždovac,False,13800,BMW,318,Dizel,Bela metalik,122000,100,2015,94743
+15395991,Subotica,False,37000,BMW,X1,Dizel,Bela metalik,5000,140,2018,69444
+15267092,Sombor,False,3850,Volkswagen,Passat B6,Dizel,Zelena metalik,190000,103,2006,66189
+15614188,Jagodina,False,5100,Volkswagen,Passat B6,Dizel,Siva metalik,290000,103,2006,60384
+15664449,Barajevo,False,3400,Mercedes Benz,B 180,Dizel,Siva metalik,193000,80,2006,65290
+15429436,Beograd,False,2200,Mercedes Benz,A 140,Benzin,Teget metalik,185000,60,2002,92331
+15426672,Pećinci,False,2200,Volkswagen,Golf 4,Dizel,Crna,230000,74,2002,65199
+15685423,Valjevo,False,2290,Citroen,Xsara Picasso,Dizel,Siva metalik,172000,80,2007,66504
+15428982,Novi Pazar,False,999999999,Citroen,DS3,Benzin,Bela,177000,114,2011,56254
+15430539,Beograd,False,8200,Ford,Kuga,Dizel,Crna metalik,201000,100,2008,92331
+15726408,Beograd,False,8692,Citroen,C4 Picasso,Dizel,Siva metalik,160000,83,2014,92331
+15443951,Niš,False,2750,Volkswagen,Nova Buba,Dizel,Siva metalik,215000,74,2003,69779
+15376742,Čačak,False,1650,Opel,Zafira,Benzin + Gas (TNG),Teget metalik,28000,74,2002,63970
+15720006,Beograd,False,350,Volkswagen,Golf 3,Benzin + Gas (TNG),Crna,303568,55,1997,92331
+15711652,Bor,False,250,Opel,Corsa B,Benzin + Gas (TNG),Teget,230000,44,1997,84395
+15393819,Beograd,False,3050,Opel,Astra H,Dizel,Siva metalik,164467,74,2006,92331
+15196557,Trstenik,False,1500,Opel,Astra G,Dizel,Crna metalik,302000,74,2000,57666
+15606700,Aleksinac,False,1900,Citroen,C5,Dizel,Siva metalik,257000,80,2004,59671
+15719579,Aleksinac,False,1700,Volkswagen,Golf 4,Dizel,Teget metalik,220000,85,2001,59671
+15387520,Čačak,False,999999999,Citroen,C4,Dizel,Teget metalik,144353,88,2016,63970
+15432498,Novi Sad,False,1500,Peugeot,307,Benzin + Gas (TNG),Plava metalik,270000,80,2001,82036
+15425415,Beograd,False,2350,Fiat,Punto,Benzin,Siva,97000,54,2006,92331
+15717132,Šabac,False,2700,Opel,Corsa C,Benzin + Gas (TNG),Siva metalik,163000,59,2006,67046
+14912305,Novi Sad,False,1490,Citroen,Xsara Picasso,Dizel,Plava metalik,200000,66,2003,82036
+15178706,Novi Sad,False,9000,BMW,320,Dizel,Siva,192000,130,2009,82036
+15301668,Niš,False,950,Peugeot,206,Benzin,Plava,234999,44,1998,69779
+14723986,Novi Sad,False,2400,Renault,Scenic,Dizel,Crna,230000,91,2005,82036
+15653946,Novi Sad,False,900,Seat,Ibiza,Benzin,Crvena metalik,179822,44,1999,82036
+15426604,Šabac,False,5990,Renault,Clio,Dizel,Bela,190530,55,2015,67046
+15674968,Kraljevo,False,999999999,Volkswagen,Golf 5,Dizel,Crna metalik,130000,103,2005,63495
+15529871,Niš,False,6399,Audi,A6,Dizel,Crna metalik,245000,103,2006,69779
+15601343,Beograd,False,6500,Honda,Accord,Benzin,Plava metalik,298000,114,2007,92331
+15708985,Beograd,False,4800,Hyundai,Santa Fe,Dizel,Siva metalik,24000,114,2007,92331
+15243115,Bajina Bašta,False,2100,Renault,Megane,Dizel,Plava,198000,88,2004,58563
+15734664,Požarevac,False,1490,Peugeot,206,Benzin,Siva metalik,147000,55,2000,75849
+15646278,Kruševac,False,1499,Peugeot,206,Dizel,Siva metalik,178000,66,2004,63868
+15366256,Beograd,False,20000,BMW,520,Dizel,Braon metalik,171000,135,2013,92331
+15699758,Bela Crkva,False,700,Fiat,Marea,Benzin + Gas (TNG),Teget,28340,49,1999,58133
+15529589,Beograd,False,3400,BMW,318,Benzin,Siva,222500,105,2002,92331
+15527458,Novi Pazar,False,3100,Volkswagen,Touran,Dizel,Siva metalik,237000,74,2003,56254
+15752032,Pančevo,False,6700,BMW,318,Dizel,Crna metalik,180000,90,2007,74123
+15670107,Lazarevac,False,3400,Mazda,6,Dizel,Siva metalik,200000,105,2007,98955
+15421913,Beograd,False,650,Renault,Laguna,Benzin + Gas (TNG),Plava,396000,102,2000,92331
+15291156,Smederevska Palanka,False,2350,Renault,Scenic,Benzin + Gas (TNG),Crvena metalik,273600,98,2005,63034
+15567595,Vrnjačka Banja,False,7500,Audi,A1,Benzin,Srebrna metalik,91150,63,2011,57345
+14788474,Bor,False,14999,Hummer,H3,Benzin + Gas (TNG),Crvena metalik,148000,180,2006,84395
+15282266,Vršac,False,4500,Opel,Astra J,Dizel,Teget metalik,247697,81,2011,75128
+13085233,Ivanjica,False,11500,Audi,A5,Dizel,Siva metalik,230000,105,2010,54714
+15544435,Varvarin,False,4990,Volkswagen,Passat B6,Dizel,Siva metalik,249000,80,2008,53190
+15363601,Novi Sad,False,6500,Mercedes Benz,E 280,Dizel,Crna metalik,250000,147,2007,82036
+11170747,Subotica,False,2350,Renault,Megane,Dizel,Crna metalik,215000,63,2006,69444
+15689518,Pančevo,False,3400,Citroen,C4 Picasso,Dizel,Plava metalik,205000,81,2007,74123
+15695212,Beograd,False,2890,BMW,318,Dizel,Crna metalik,274000,85,2004,92331
+14841566,Mladenovac,False,2400,Lancia,Musa,Dizel,Žuta metalik,170478,74,2006,62813
+15212801,Beograd,False,3999,Volkswagen,Jetta,Dizel,Plava metalik,190000,77,2008,92331
+15287371,Sremski Karlovci,False,1600,Ford,Focus,Dizel,Siva metalik,232017,66,2001,69395
+13818690,Subotica,False,2800,BMW,320,Dizel,Siva metalik,430000,110,2002,69444
+15382948,Šabac,False,3600,Opel,Astra H,Dizel,Crna metalik,133476,81,2009,67046
+15522246,Pančevo,False,4199,Toyota,RAV 4,Dizel,Siva metalik,182000,86,2002,74123
+15712039,Zvezdara,False,3400,Peugeot,407,Dizel,Bela,208000,100,2006,94658
+15759440,Obrenovac,False,1700,Mazda,323,Dizel,Siva metalik,230590,74,2002,77248
+13332086,Beograd,False,2390,Citroen,Xsara Picasso,Dizel,Tirkiz metalik,195000,66,2005,92331
+15203260,Gornji Milanovac,False,6999,BMW,730,Dizel,Crna metalik,500000,160,2004,69106
+15238841,Bela Palanka,False,2600,Alfa Romeo,147,Dizel,Crna,234370,88,2007,56896
+15576844,Čukarica,False,7220,Dodge,Nitro,Dizel,Crna metalik,199000,130,2007,88959
+15225702,Beograd,False,12250,Citroen,C6,Dizel,Siva metalik,275000,177,2012,92331
+15507181,Valjevo,False,7500,BMW,120,Dizel,Crna metalik,224000,130,2008,66504
+15748211,Vranje,False,850,Opel,Corsa B,Benzin + Gas (TNG),Ljubičasta,155555,44,1998,62876
+14370290,Čačak,False,10500,BMW,X1,Dizel,Bela,177431,105,2012,63970
+15758570,Valjevo,False,2650,Mercedes Benz,C 220,Dizel,Siva metalik,3152459,110,2001,66504
+15548470,Mladenovac,False,1650,Opel,Astra G,Dizel,Plava,255000,55,2002,62813
+15741980,Šabac,False,1300,Audi,A6,Dizel,Siva metalik,350000,103,1996,67046
+13043945,Beograd,False,4690,Mercedes Benz,ML 270,Dizel,Zelena metalik,260000,120,2002,92331
+15668371,Šabac,False,8299,BMW,X3,Dizel,Bela metalik,226000,130,2008,67046
+15550693,Merošina,False,4500,Škoda,Octavia,Dizel,Siva metalik,204000,77,2007,55048
+15429458,Čačak,False,2700,Ford,Focus,Dizel,Crna metalik,173856,80,2005,63970
+15355012,Bajina Bašta,False,1000,Opel,Calibra,Benzin + Gas (TNG),Narandžasta,165821,86,1994,58563
+15413247,Vranje,False,4630,Volkswagen,Passat B6,Dizel,Siva metalik,187605,103,2006,62876
+15442637,Kruševac,False,3800,Audi,A3,Benzin,Siva metalik,192000,85,2005,63868
+15623937,Lebane,False,1600,Opel,Astra G,Dizel,Crna,290000,84,2002,54653
+15579607,Novi Beograd,False,3900,Mercedes Benz,E 270,Dizel,Srebrna,250000,125,2001,116359
+15542240,Novi Beograd,False,750,Nissan,Micra,Benzin,Srebrna metalik,279000,60,2001,116359
+15723093,Beograd,False,6000,Ford,Fiesta,Benzin,Crvena metalik,80000,44,2016,92331
+15526996,Šabac,False,900,Peugeot,406,Dizel,Plava,320000,66,2001,67046
+15427511,Bačka Topola,False,5999,Suzuki,SX4,Benzin + Gas (TNG),Crna metalik,130000,82,2011,65133
+15536004,Voždovac,False,11000,Citroen,DS5,Dizel,Crna metalik,210000,120,2012,94743
+15109204,Zemun,False,7399,Peugeot,208,Benzin,Teget,20928,60,2016,84398
+14281730,Niš,False,4000,Toyota,Avensis,Dizel,Srebrna metalik,144000,85,2006,69779
+14448648,Beograd,True,11820,Citroen,C-ELYSEE,Benzin,Bela,0,61,2019,92331
+15709583,Leskovac,False,3799,Seat,Altea,Dizel,Siva metalik,280000,103,2006,59247
+15438464,Voždovac,False,2599,Ford,Focus,Dizel,Siva metalik,206000,85,2006,94743
+15374026,Kraljevo,False,2699,Fiat,Punto,Benzin + Gas (TNG),Siva metalik,130000,44,2011,63495
+15530368,Ćuprija,False,1999,Peugeot,307,Benzin,Crvena metalik,175228,80,2003,60420
+15546916,Niš,False,2800,Audi,A6,Dizel,Siva,180000,85,1998,69779
+14906347,Novi Pazar,False,999999999,Audi,A4,Dizel,Bela metalik,170000,85,2007,56254
+15535985,Srbobran,False,2500,Volkswagen,Passat B5.5,Dizel,Crna,235000,74,2002,57441
+15532459,Niš,False,999999999,Daewoo,Leganza,Benzin + Gas (TNG),Zelena metalik,230000,85,1998,69779
+14037821,Beograd,False,2000,Mercedes Benz,CLK 200,Benzin,Plava metalik,155000,120,2001,92331
+15331280,Beograd,False,6350,Volkswagen,Golf 6,Benzin + Gas (TNG),Plava metalik,157657,90,2009,92331
+15240336,Leskovac,False,1000,Citroen,Xsara Picasso,Dizel,Siva metalik,350000,66,2001,59247
+15391422,Šabac,False,9160,Subaru,Forester,Dizel,Plava metalik,220000,108,2009,67046
+15739981,Leskovac,False,999999999,Renault,Megane,Dizel,Kameleon metalik,267430,88,2004,59247
+14905383,Novi Sad,False,1890,Peugeot,307,Dizel,Siva metalik,214000,66,2004,82036
+15397672,Vrbas,False,2000,Mazda,6,Dizel,Siva metalik,236530,100,2003,64198
+15541092,Vrbas,False,11950,Toyota,Corolla,Benzin,Crvena metalik,79850,97,2014,64198
+15727845,Zemun,False,7300,BMW,320,Dizel,Siva metalik,267000,135,2011,84398
+15699974,Kragujevac,False,420,Zastava,Koral,Benzin,Crvena,47000,40,2005,72552
+15635716,Svilajnac,False,2000,Seat,Alhambra,Dizel,Crna,250000,85,2002,59343
+15405006,Aleksinac,False,5000,Audi,A4,Dizel,Crna metalik,250000,102,2006,59671
+15308640,Krupanj,False,3500,BMW,320,Dizel,Plava metalik,288900,110,2002,54566
+15759061,Gornji Milanovac,False,4499,Mercedes Benz,B 180,Dizel,Siva metalik,185271,80,2006,69106
+7943880,Subotica,False,2500,Lada,Niva,Benzin + Gas (TNG),Zelena,127700,59,2004,69444
+15442085,Zemun,False,3850,Citroen,C1,Benzin,Siva,160000,50,2008,84398

@@ -23,12 +23,17 @@ def download_ads(ads={}):
     print("Downloading ads...")
     #i = 0
     #while True:
+
     for i in range(NUMBER_OF_PAGES):
         counter = 0;
         while counter < NUMBER_OF_ATTEMPTS: # pokusaj nekoliko puta
-            r = requests.get(url=BASE_URL + "?SortingType=1&category=26&pageID="+ str(i), headers=HEADERS)
-            if r.status_code == 200:
-                break;
+            try:
+                response = requests.get(url=BASE_URL + "?SortingType=1&category=26&pageID="+ str(i), headers=HEADERS)
+                if response.status_code == 200:
+                    break;
+            except Exception as e:
+                print(e)
+
             counter += 1
         if counter == NUMBER_OF_ATTEMPTS:
             message = "failed " + str(NUMBER_OF_ATTEMPTS) + " times (pageID = " + str(i) + ")\n"
@@ -37,11 +42,11 @@ def download_ads(ads={}):
             print(message)
             continue;
 
-        r_json = r.json()
-        print(r_json)
+        response_json = response.json()
+        print(response_json)
 
         #classifieds = r_json["payloadData"]["classifieds"]
-        classifieds = r_json["classifieds"]
+        classifieds = response_json["classifieds"]
         index = 1
 
         print("=============\n")
