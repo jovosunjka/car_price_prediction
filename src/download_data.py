@@ -25,12 +25,12 @@ def download_ads(ads={}):
     #while True:
 
     for i in range(NUMBER_OF_PAGES):
-        counter = 0;
+        counter = 0
         while counter < NUMBER_OF_ATTEMPTS: # pokusaj nekoliko puta
             try:
                 response = requests.get(url=BASE_URL + "?SortingType=1&category=26&pageID="+ str(i), headers=HEADERS)
                 if response.status_code == 200:
-                    break;
+                    break
             except Exception as e:
                 print(e)
 
@@ -40,7 +40,7 @@ def download_ads(ads={}):
             with open("..\\data\\errors.txt", "a") as errors_file:
                 errors_file.write(message)
             print(message)
-            continue;
+            continue
 
         response_json = response.json()
         print(response_json)

@@ -5,9 +5,6 @@ columns = ["AdID", "city", "new", "price", "brandName", "modelName", "fuelType",
 
 
 def get_unique_values_per_columns(file_path_to_ads):
-    """
-    Ova metoda ce ucitati stare oglase iz csv fajla, dodace samo nove i sve to ce upisati u novi fajl
-    """
 
     rows = []
 
@@ -24,6 +21,7 @@ def get_unique_values_per_columns(file_path_to_ads):
 
     for i in column_indexes:
             tmp_list = list(filter(lambda x: x != "", list(set(column_values[i]))))
+            tmp_list.sort()
             unique_values_per_columns[i] = tmp_list
             print(unique_values_per_columns[i])
 

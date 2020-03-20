@@ -1,12 +1,15 @@
+from src.algorithms.algorithm_factory import AlgorithmFactory
 from src.data_preprocessing import get_unique_values_per_columns, merge_ads_and_average_earnings_per_cities
 from src.download_data import download_ads, download_new_ads
-from src.xgboost_algorithm import XGBoostAlgorithm
+from src.algorithms.xgboost_algorithm import XGBoostAlgorithm
 
 DOWNLOAD = False
 DOWNLAOD_NEW = False
 PREPROCESS = False
 MERGE = False
 FIT = True
+
+ALGORITHM_NAME = "GRADEINT_BOOSTING_REGRESSOR"
 
 
 # https://cloud.google.com/ml-engine/docs/training-overview
@@ -19,20 +22,22 @@ def main():
         download_ads()
 
     if DOWNLAOD_NEW:
-        file_path_to_old_ads = "..\\data\\ads_18-01-2020_18-00-34.csv"
+        file_path_to_old_ads = "..\\data\\ads_12-03-2020_14-04-00.csv"
         download_new_ads(file_path_to_old_ads)
 
     if PREPROCESS:
-        data_path = "..\\data\\ads_18-01-2020_18-00-34_with_average_earnings.csv"
+        data_path = "..\\data\\ads_12-03-2020_14-04-00_with_average_earnings.csv"
         get_unique_values_per_columns(data_path)
 
     if MERGE:
-        file_path_to_ads = "..\\data\\ads_18-01-2020_18-00-34.csv"
+        file_path_to_ads = "..\\data\\ads_12-03-2020_14-04-00.csv"
         file_path_to_average_earnings_per_cities =  "..\\data\\prosecne-zarade-po-opstinama.csv"
         merge_ads_and_average_earnings_per_cities(file_path_to_ads, file_path_to_average_earnings_per_cities)
 
     if FIT:
-        data_path = "..\\data\\sample.csv" #"..\\data\\ads_18-01-2020_18-00-34_with_average_earnings.csv"
+        """
+        data_path = "..\\data\\sample.csv"
+        # data_path = "..\\data\\ads_12-03-2020_14-04-00_with_average_earnings.csv"
         unique_values_per_columns = get_unique_values_per_columns(data_path)
         use_existing_parameters = False
 
@@ -48,6 +53,13 @@ def main():
         xgbAlgorithm = XGBoostAlgorithm(data_path, unique_values_per_columns, parameters)
         xgbAlgorithm.fit()
         #xgbAlgorithm.f1_score()
+        """
+        #data_path = "..\\data\\sample.csv"
+        data_path = "..\\data\\ads_12-03-2020_14-04-00_with_average_earnings.csv"
+        model = AlgorithmFactory.create(ALGORITHM_NAME, data_path)
+        model.fit()
+        #model.rmse()
+        model.r2()
 
 
 if __name__ == '__main__':
