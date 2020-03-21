@@ -1,6 +1,6 @@
 from src.algorithms.gradient_boosting_regressor_algorithm import GradientBoostingRegressorAlgorithm
 from src.data_preprocessing import get_unique_values_per_columns
-
+from src.algorithms.linear_regression_algorithm import LinearRegressionAlgorithm
 
 class AlgorithmFactory:
 
@@ -25,7 +25,12 @@ class AlgorithmFactory:
         #parameters = None
         return GradientBoostingRegressorAlgorithm(data_path, unique_values_per_columns, parameters)
 
+    @staticmethod
+    def create_linear_regression(data_path, unique_values_per_columns):
+        return LinearRegressionAlgorithm(data_path, unique_values_per_columns)
+
     # bez ovog __func__ sam dobijao TypeError: 'staticmethod' object is not callable
     switcher = {
-        "GRADEINT_BOOSTING_REGRESSOR": create_gradient_boosting_regressor.__func__
+        "GRADEINT_BOOSTING_REGRESSOR": create_gradient_boosting_regressor.__func__,
+        "LINEAR_REGRESSION": create_linear_regression.__func__
     }
