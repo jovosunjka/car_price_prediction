@@ -70,3 +70,38 @@ Best params: {
 }
 R2 (test): 0.9536095266149719
 -----------------------------------------------------------
+~150k rows --> using filters --> ~135k rows
+Fitting 3 folds for each of 2160 candidates, totalling 6480 fits (6480 tasks),
+Elapsed: 390.4 min
+Best score: 0.9505176411165873
+Best params: {
+                'gbr__n_estimators': 300,
+                'gbr__max_features': 4,
+                'gbr__max_depth': 7,
+                'gbr__min_samples_leaf': 2,
+                'gbr__min_samples_split': 2,
+                'gbr__subsample': 1.0
+}
+R2 (test): 0.9506419252911976
+-------------------------------------------------------------
+New car ? (yes,no):  no
+Enter brand name:  Volkswagen
+Enter model name:  Passat B5.5
+
+Choose fuel type:
+	 1. Benzin
+	 2. Dizel
+	 3. Benzin + Gas (TNG)
+	 4. Metan CNG
+	 5. Električni pogon
+	 6. Hibridni pogon
+Enter fuel type:  2
+
+Enter mileage (<= 500000):  350000
+Enter power (kW) (>= 30 and  <= 625):  65
+Enter year (> 1995):  2000
+Enter color:  Bela
+Enter city:  Novi Sad
+
+Price: 1541.7405241697816 EUR
+-------------------------------------------------------------

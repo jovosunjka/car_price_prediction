@@ -1,25 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ea7d3f75-322f-4e4b-b1dc-f19a38c751be" name="Default Changelist" comment="GradientBoostingRegressorAlgorithm and AlgorithmFactory added">
-      <change afterPath="$PROJECT_DIR$/.idea/car_price_prediction.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/ads_01-03-2020_07-35-40.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/ads_01-03-2020_07-35-40_with_average_earnings.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/ads_12-03-2020_14-04-00.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/ads_12-03-2020_14-04-00_with_average_earnings.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/results.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithms/algorithm_factory.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithms/gradient_boosting_regressor_algorithm.py" afterDir="false" />
+    <list default="true" id="ea7d3f75-322f-4e4b-b1dc-f19a38c751be" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/results.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/results.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/algorithm_factory.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/algorithm_factory.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/gradient_boosting_regressor_algorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/gradient_boosting_regressor_algorithm.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/data_preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_preprocessing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/download_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/download_data.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/xgboost_algorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/xgboost_algorithm.py" afterDir="false" />
     </list>
     <manually-removed-from-ignored>
       <directory path=".idea/" />
@@ -49,8 +37,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1054">
-              <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+            <state relative-caret-position="253">
+              <caret line="118" column="31" selection-start-line="118" selection-start-column="31" selection-end-line="118" selection-end-column="31" />
               <folding>
                 <element signature="e#0#61#0" expanded="true" />
               </folding>
@@ -61,8 +49,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/algorithms/algorithm_factory.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="30" lean-forward="true" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+            <state relative-caret-position="320">
+              <caret line="27" column="48" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="48" />
               <folding>
                 <element signature="e#0#99#0" expanded="true" />
               </folding>
@@ -70,30 +58,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/algorithms/gradient_boosting_regressor_algorithm.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="40" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="40" />
+            <state relative-caret-position="422">
+              <caret line="255" column="8" selection-start-line="255" selection-start-column="8" selection-end-line="255" selection-end-column="8" />
               <folding>
                 <element signature="e#1#28#0" expanded="true" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/results.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="71" column="59" selection-start-line="71" selection-start-column="59" selection-end-line="71" selection-end-column="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/data/errors.txt">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -107,19 +81,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Novi K</find>
-      <find>NoviS</find>
-      <find>92331</find>
-      <find>columns_of_categorical_data</find>
-      <find>get_arguments</find>
-      <find>2199</find>
-      <find>Mladenovac</find>
-      <find>columns</find>
-      <find>,,</find>
-      <find>999999</find>
-      <find>plt</find>
-      <find>22990</find>
-      <find>load_data</find>
       <find>\d\d\d\d\d\d\d\d\d</find>
       <find>train_test_split</find>
       <find>get_unique_values_per_columns</find>
@@ -127,7 +88,6 @@
       <find>;</find>
       <find>self.x</find>
       <find>regressor</find>
-      <find>unique_values_per_columns</find>
       <find>True</find>
       <find>sns</find>
       <find>column_index</find>
@@ -137,9 +97,24 @@
       <find>,\d\d\d\d\d,</find>
       <find>,1600,\d*,\d*</find>
       <find>Volkswagen,Passat B5</find>
+      <find>voting_clf</find>
+      <find>gas</find>
+      <find>unique_values_per_columns</find>
+      <find>cities_and_average_earnings</find>
+      <find>datetime.now()</find>
+      <find>Vol</find>
+      <find>.index</find>
+      <find>g</find>
+      <find>columns_of_categorical_data</find>
+      <find>'</find>
+      <find>Passat B5</find>
+      <find>1541.7405241697816</find>
+      <find>Passat B5.5</find>
+      <find>Audi</find>
     </findStrings>
     <replaceStrings>
       <replace>\d\d</replace>
+      <replace>&quot;</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -155,15 +130,15 @@
         <option value="E:/STUDIRANJE/CETVRTA GODINA/MASINSKO UCENJE/VEZBE/Vezbe2/v2_vis_reg/main.py" />
         <option value="$PROJECT_DIR$/src/xgboost_algorithm.py" />
         <option value="$PROJECT_DIR$/src/download_data.py" />
-        <option value="$PROJECT_DIR$/src/algorithms/xgboost_algorithm.py" />
         <option value="$PROJECT_DIR$/app.yaml" />
-        <option value="$PROJECT_DIR$/data/sample.csv" />
-        <option value="$PROJECT_DIR$/src/data_preprocessing.py" />
-        <option value="$PROJECT_DIR$/src/algorithms/algorithm_factory.py" />
-        <option value="$PROJECT_DIR$/src/algorithms/gradient_boosting_regressor_algorithm.py" />
-        <option value="$PROJECT_DIR$/src/main.py" />
-        <option value="$PROJECT_DIR$/data/results.txt" />
         <option value="$PROJECT_DIR$/data/errors.txt" />
+        <option value="$PROJECT_DIR$/data/sample.csv" />
+        <option value="$PROJECT_DIR$/src/algorithms/xgboost_algorithm.py" />
+        <option value="$PROJECT_DIR$/src/data_preprocessing.py" />
+        <option value="$PROJECT_DIR$/src/main.py" />
+        <option value="$PROJECT_DIR$/src/algorithms/gradient_boosting_regressor_algorithm.py" />
+        <option value="$PROJECT_DIR$/src/algorithms/algorithm_factory.py" />
+        <option value="$PROJECT_DIR$/data/results.txt" />
       </list>
     </option>
   </component>
@@ -195,6 +170,12 @@
               <item name="car_price_prediction" type="b2602c69:ProjectViewProjectNode" />
               <item name="car_price_prediction" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="car_price_prediction" type="b2602c69:ProjectViewProjectNode" />
+              <item name="car_price_prediction" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="car_price_prediction" type="b2602c69:ProjectViewProjectNode" />
@@ -301,7 +282,10 @@
       <workItem from="1584450666696" duration="1257000" />
       <workItem from="1584530221395" duration="18749000" />
       <workItem from="1584659198955" duration="284000" />
-      <workItem from="1584660299293" duration="4473000" />
+      <workItem from="1584660299293" duration="5126000" />
+      <workItem from="1584706882239" duration="735000" />
+      <workItem from="1584716376071" duration="4723000" />
+      <workItem from="1584725390683" duration="26175000" />
     </task>
     <task id="LOCAL-00001" summary="download ads">
       <created>1575460894689</created>
@@ -317,23 +301,30 @@
       <option name="project" value="LOCAL" />
       <updated>1579461344260</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="GradientBoostingRegressorAlgorithm and AlgorithmFactory added">
+      <created>1584665387749</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1584665387749</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="160904000" />
+    <option name="totallyTimeSpent" value="193190000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27836612" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1429652" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.30932897" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.42389524" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30932897" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.42553192" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -382,7 +373,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="download ads" />
     <MESSAGE value="download data, preprocessing, merging two data sets, fitting" />
-    <option name="LAST_COMMIT_MESSAGE" value="download data, preprocessing, merging two data sets, fitting" />
+    <MESSAGE value="GradientBoostingRegressorAlgorithm and AlgorithmFactory added" />
+    <option name="LAST_COMMIT_MESSAGE" value="GradientBoostingRegressorAlgorithm and AlgorithmFactory added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -404,7 +396,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/data_preprocessing.py</url>
-          <line>65</line>
+          <line>68</line>
           <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -424,28 +416,28 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/main.py</url>
-          <line>59</line>
+          <line>182</line>
           <option name="timeStamp" value="54" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/algorithms/gradient_boosting_regressor_algorithm.py</url>
-          <line>37</line>
-          <option name="timeStamp" value="55" />
+          <url>file://$PROJECT_DIR$/src/main.py</url>
+          <line>124</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/main.py</url>
+          <line>118</line>
+          <option name="timeStamp" value="64" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/algorithms/gradient_boosting_regressor_algorithm.py</url>
-          <line>45</line>
-          <option name="timeStamp" value="56" />
+          <line>200</line>
+          <option name="timeStamp" value="65" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/algorithms/gradient_boosting_regressor_algorithm.py</url>
-          <line>43</line>
-          <option name="timeStamp" value="59" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/algorithms/gradient_boosting_regressor_algorithm.py</url>
-          <line>40</line>
-          <option name="timeStamp" value="61" />
+          <line>302</line>
+          <option name="timeStamp" value="70" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -458,7 +450,7 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/car_price_prediction$main.coverage" NAME="main Coverage Results" MODIFIED="1584664211225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/car_price_prediction$main.coverage" NAME="main Coverage Results" MODIFIED="1584778740510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/data/ads_03-12-2019_21-46-49.csv" />
@@ -628,13 +620,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/prosecne-zarade-po-opstinama.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -665,16 +650,6 @@
           <caret line="112" selection-start-line="112" selection-end-line="112" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/xgboost_algorithm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1700">
-          <caret line="115" column="54" selection-start-line="115" selection-start-column="54" selection-end-line="115" selection-end-column="54" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -710,13 +685,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/-1048637496/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1010">
-          <caret line="3627" column="8" selection-start-line="3627" selection-start-column="8" selection-end-line="3627" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../virtual_environment/Lib/site-packages/seaborn/categorical.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="91">
@@ -731,54 +699,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/sample.csv">
+    <entry file="file://$PROJECT_DIR$/data/ads_01-03-2020_07-35-40_with_average_earnings.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/errors.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/-1048637496/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="66" selection-start-column="66" selection-end-column="66" />
+        <state relative-caret-position="194">
+          <caret line="5014" column="8" selection-start-line="5014" selection-start-column="8" selection-end-line="5014" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/xgboost_algorithm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="162" column="8" selection-start-line="162" selection-start-column="8" selection-end-line="162" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/data_preprocessing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="113" selection-start-line="3" selection-start-column="113" selection-end-line="3" selection-end-column="113" />
+        <state relative-caret-position="221">
+          <caret line="37" column="42" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/ads_01-03-2020_07-35-40_with_average_earnings.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/ads_12-03-2020_14-04-00_with_average_earnings.csv">
+    <entry file="file://$PROJECT_DIR$/data/prosecne-zarade-po-opstinama.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="123445" column="77" lean-forward="true" selection-start-line="123445" selection-start-column="77" selection-end-line="123445" selection-end-column="77" />
+        <state relative-caret-position="136">
+          <caret line="35" column="12" lean-forward="true" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/sample.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="83" column="29" lean-forward="true" selection-start-line="83" selection-start-column="29" selection-end-line="83" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1054">
-          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+        <state relative-caret-position="253">
+          <caret line="118" column="31" selection-start-line="118" selection-start-column="31" selection-end-line="118" selection-end-column="31" />
           <folding>
             <element signature="e#0#61#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/gradient_boosting_regressor_algorithm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="40" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="40" />
-          <folding>
-            <element signature="e#1#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/algorithm_factory.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="30" lean-forward="true" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+        <state relative-caret-position="320">
+          <caret line="27" column="48" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="48" />
           <folding>
             <element signature="e#0#99#0" expanded="true" />
           </folding>
@@ -787,13 +765,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/data/results.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="71" column="59" selection-start-line="71" selection-start-column="59" selection-end-line="71" selection-end-column="59" />
+        <state relative-caret-position="190">
+          <caret line="96" column="22" lean-forward="true" selection-start-line="96" selection-start-column="22" selection-end-line="96" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/errors.txt">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/data/ads_12-03-2020_14-04-00_with_average_earnings.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="1016" column="72" lean-forward="true" selection-start-line="1016" selection-start-column="72" selection-end-line="1016" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/gradient_boosting_regressor_algorithm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="255" column="8" selection-start-line="255" selection-start-column="8" selection-end-line="255" selection-end-column="8" />
+          <folding>
+            <element signature="e#1#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

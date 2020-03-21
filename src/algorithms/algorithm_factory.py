@@ -13,17 +13,16 @@ class AlgorithmFactory:
 
     @staticmethod
     def create_gradient_boosting_regressor(data_path, unique_values_per_columns):
-        """
         parameters = {
-                "gbr__max_features": 5,
-                "gbr__min_samples_leaf": 3,
+                "gbr__n_estimators": 300,
+                "gbr__max_features": 4,
                 "gbr__max_depth": 7,
+                "gbr__min_samples_leaf": 2,
                 "gbr__min_samples_split": 2,
-                "gbr__subsample": 1.0,
-                "gbr__n_estimators": 300
+                "gbr__subsample": 1.0
         }
-        """
-        parameters = None
+
+        #parameters = None
         return GradientBoostingRegressorAlgorithm(data_path, unique_values_per_columns, parameters)
 
     # bez ovog __func__ sam dobijao TypeError: 'staticmethod' object is not callable

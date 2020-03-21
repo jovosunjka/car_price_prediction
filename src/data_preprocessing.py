@@ -27,8 +27,7 @@ def get_unique_values_per_columns(file_path_to_ads):
 
     return unique_values_per_columns
 
-
-def merge_ads_and_average_earnings_per_cities(file_path_to_ads, file_path_to_average_earnings_per_cities):
+def get_cities_and_average_earnings(file_path_to_average_earnings_per_cities):
     cities_and_average_earnings = []
 
     with open(file_path_to_average_earnings_per_cities, "r", newline="", encoding='iso-8859-2') as csvfile:
@@ -36,6 +35,10 @@ def merge_ads_and_average_earnings_per_cities(file_path_to_ads, file_path_to_ave
         next(reader)  # preskoci header
         for row_index, row in enumerate(reader):
             cities_and_average_earnings.append(row)
+        return cities_and_average_earnings
+
+def merge_ads_and_average_earnings_per_cities(file_path_to_ads, file_path_to_average_earnings_per_cities):
+    cities_and_average_earnings = get_cities_and_average_earnings(file_path_to_average_earnings_per_cities)
 
     cities = list(map(lambda x: x[0], cities_and_average_earnings))
 

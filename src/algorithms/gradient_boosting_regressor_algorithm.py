@@ -9,6 +9,10 @@ import seaborn as sns
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler
 
+from datetime import datetime
+
+from src import data_preprocessing
+
 
 random_state = 42
 
@@ -21,7 +25,11 @@ class GradientBoostingRegressorAlgorithm:
         self.unique_values_per_columns = unique_values_per_columns
         self.existing_parameters = existing_parameters
 
-        self.columns_of_categorical_data = (1, 2, 4, 5, 6, 7)
+        self.cities_and_average_earnings = None
+        self.cities = None
+
+        #self.columns_of_categorical_data = (1, 2, 4, 5, 6, 7)
+        self.columns_of_categorical_data = (2, 4, 5, 6, 7)
 
         self.x_train = None
         self.y_train = None
@@ -36,8 +44,6 @@ class GradientBoostingRegressorAlgorithm:
 
     def initialize(self, data_path):
         data = self.load_data(data_path)
-        a = data[:,0]
-        a.sort()
         data = self.remove_rows_with_big_values(data)
 
         #for i in range(len(columns)):
@@ -63,7 +69,7 @@ class GradientBoostingRegressorAlgorithm:
                 ('gbr', self.model)
             ])
 
-            """
+
             parameters = {
                 'gbr__n_estimators': [100, 200, 300],
                 #'gbr__max_depth': [1, 2, 3, 4, 5, 6, 7, 8, 9],
@@ -77,8 +83,8 @@ class GradientBoostingRegressorAlgorithm:
                 #'gbr__subsample': [0.0001, 0.001, 0.01, 0.1, 0.5, 1.0]
                 'gbr__subsample': [0.001, 0.01, 0.1, 1.0]
             }
-            """
 
+            """
             parameters = {
                 "gbr__n_estimators": [400],
                 "gbr__max_depth": [8],
@@ -87,6 +93,7 @@ class GradientBoostingRegressorAlgorithm:
                 "gbr__min_samples_split": [2],
                 "gbr__subsample": [1.0]
             }
+            """
 
             self.grid_search = GridSearchCV(pipeline,
                                             param_grid=parameters,
@@ -133,7 +140,7 @@ class GradientBoostingRegressorAlgorithm:
             if row[7] < 30 or row[7] > 625:
                 inexes_for_removing.add(index)
 
-            if row[8] <= 1995:
+            if row[8] <= 1995 or row[8] > datetime.now().year:
                 inexes_for_removing.add(index)
             """
             if row[9] >= 115000:
@@ -190,12 +197,74 @@ class GradientBoostingRegressorAlgorithm:
             self.x_test = self.scaler.transform(self.x_test)
             self.model.fit(self.x_train, self.y_train)
 
+    def get_cities_and_average_earnings(self):
+        file_path_to_average_earnings_per_cities = "..\\data\\prosecne-zarade-po-opstinama.csv"
+        self.cities_and_average_earnings = data_preprocessing.get_cities_and_average_earnings(file_path_to_average_earnings_per_cities)
+        self.cities = list(map(lambda x: x[0], self.cities_and_average_earnings))
+
+    def mapCarDataToNumericValues(self, data):
+        x = []
+
+        try:
+            new_car = self.unique_values_per_columns[2].index(data["new_car"])
+            x.append(new_car)
+        except:
+            raise Exception("For column 'new', not existing value:  " + data["new_car"])
+
+        try:
+            brand_name = self.unique_values_per_columns[4].index(data["brand_name"])
+            x.append(brand_name)
+        except:
+            raise Exception("For column 'brandName', not existing value:  " + data["brand_name"])
+
+        try:
+            model_name = self.unique_values_per_columns[5].index(data["model_name"])
+            x.append(model_name)
+        except:
+            raise Exception("For column 'modelName', not existing value:  " + data["model_name"])
+
+        try:
+            fuel_type = self.unique_values_per_columns[6].index(data["fuel_type"])
+            x.append(fuel_type)
+        except:
+            raise Exception("For column 'fuelType', not existing value:  " + data["fuel_type"])
+
+        try:
+            color = self.unique_values_per_columns[7].index(data["color"])
+            x.append(color)
+        except:
+            raise Exception("For column 'color', not existing value:  " + data["color"])
+
+        x.append(data["mileage"])
+        x.append(data["power"])
+        x.append(data["year"])
+
+        if self.cities_and_average_earnings == None:
+            self.get_cities_and_average_earnings()
+
+        try:
+            city_index = self.cities.index(data["city"])
+            average_earning = self.cities_and_average_earnings[city_index][1]
+            x.append(average_earning)
+        except:
+            raise Exception("For column 'city', not existing value:  " + data["city"])
+
+        return np.array([x])
+
+    def predict(self, data):
+        x = self.mapCarDataToNumericValues(data)
+        x = self.scaler.transform(x)
+        if self.existing_parameters == None:
+            y_predict = self.grid_search.predict(x)
+        else:
+            y_predict = self.model.predict(x)
+        return y_predict
+
     def rmse(self):
         if self.existing_parameters == None:
             score = self.grid_search.score(self.x_test, self.y_test)
         else:
-            #y_predict = self.model.predict(self.x_test)
-            y_predict = self.voting_clf.predict(self.x_test)
+            y_predict = self.model.predict(self.x_test)
             score = metrics.mean_squared_error(self.y_test, y_predict, squared=False)
             #If squared == True returns MSE value, if squared == False returns RMSE value.
         print("RMSE (test):", score)
@@ -204,8 +273,7 @@ class GradientBoostingRegressorAlgorithm:
         if self.existing_parameters == None:
             score = self.grid_search.score(self.x_test, self.y_test)
         else:
-            #y_predict = self.model.predict(self.x_test)
-            y_predict = self.voting_clf.predict(self.x_test)
+            y_predict = self.model.predict(self.x_test)
             score = metrics.r2_score(self.y_test, y_predict)
         print("R2 (test):", score)
 
@@ -218,6 +286,7 @@ class GradientBoostingRegressorAlgorithm:
         converters = {}
         for c in self.columns_of_categorical_data:
             converters[c] = self.createLambdaMapping(self.unique_values_per_columns[c])
+        converters[11] = lambda s: float(s) / 118.0 # pretvaramo u evre
 
         data = np.genfromtxt(
             fname=data_path,
