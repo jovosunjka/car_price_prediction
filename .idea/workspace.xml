@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea7d3f75-322f-4e4b-b1dc-f19a38c751be" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/car_price_prediction.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/car_price_prediction.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/algorithm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/xgboost_regressor_algorithm.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ads_18-01-2020_18-00-34.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/ads_18-01-2020_18-00-34.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/algorithms/algorithm_factory.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/algorithm_factory.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/gradient_boosting_regressor_algorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/gradient_boosting_regressor_algorithm.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/algorithms/linear_regression_algorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/linear_regression_algorithm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/xgboost_algorithm.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +40,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1ZS9wzUCUQQcalzz8DMq6RbkzeJ" />
+  <component name="ProjectId" id="1ZTxwPkGTX0y9ZuMh5npx4Km4kg" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -50,7 +51,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="E:/STUDIRANJE/TRECA_GODINA/SOFTVERSKI OBRASCI I KOMPONENTE/VEZBE/02/Vezbe2Resenje" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -101,18 +102,6 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -145,6 +134,9 @@
       <workItem from="1584706882239" duration="735000" />
       <workItem from="1584716376071" duration="4723000" />
       <workItem from="1584725390683" duration="26175000" />
+      <workItem from="1584797611385" duration="258000" />
+      <workItem from="1584875506974" duration="1096000" />
+      <workItem from="1584877129172" duration="13788000" />
     </task>
     <task id="LOCAL-00001" summary="download ads">
       <created>1575460894689</created>
@@ -167,25 +159,8 @@
       <option name="project" value="LOCAL" />
       <updated>1584665387749</updated>
     </task>
-    <task id="LOCAL-00004" summary="Linear regression algorithm">
-      <created>1584827248667</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1584827248667</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Linear regression file">
-      <created>1584827751967</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1584827751967</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
+    <option name="localTasksCounter" value="4" />
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="193190000" />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -197,55 +172,57 @@
     <MESSAGE value="download ads" />
     <MESSAGE value="download data, preprocessing, merging two data sets, fitting" />
     <MESSAGE value="GradientBoostingRegressorAlgorithm and AlgorithmFactory added" />
-    <MESSAGE value="Linear regression algorithm" />
-    <MESSAGE value="Linear regression file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Linear regression file" />
+    <option name="LAST_COMMIT_MESSAGE" value="GradientBoostingRegressorAlgorithm and AlgorithmFactory added" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="230" y="12" key="CommitChangelistDialog2" timestamp="1584915535637">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="756" height="466" key="DebuggerActiveHint" timestamp="1584885269201">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="230" y="12" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1584915535637" />
-    <state width="1515" height="280" key="GridCell.Tab.0.bottom" timestamp="1584838259155">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="756" height="466" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1584885269201" />
+    <state x="463" y="121" key="FileChooserDialogImpl" timestamp="1584878409957">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1515" height="280" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584838259155" />
-    <state width="1515" height="280" key="GridCell.Tab.0.center" timestamp="1584838259155">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="463" y="121" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1584878409957" />
+    <state width="1323" height="233" key="GridCell.Tab.0.bottom" timestamp="1584890755429">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1515" height="280" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584838259155" />
-    <state width="1515" height="280" key="GridCell.Tab.0.left" timestamp="1584838259155">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1323" height="233" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584890755429" />
+    <state width="1323" height="233" key="GridCell.Tab.0.center" timestamp="1584890755429">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1515" height="280" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584838259155" />
-    <state width="1515" height="280" key="GridCell.Tab.0.right" timestamp="1584838259155">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1323" height="233" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1584890755429" />
+    <state width="1323" height="233" key="GridCell.Tab.0.left" timestamp="1584890755429">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1515" height="280" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584838259155" />
-    <state width="1515" height="280" key="GridCell.Tab.1.bottom" timestamp="1584838259155">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1323" height="233" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1584890755429" />
+    <state width="1323" height="233" key="GridCell.Tab.0.right" timestamp="1584890755429">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1515" height="280" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584838259155" />
-    <state width="1515" height="280" key="GridCell.Tab.1.center" timestamp="1584838259155">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1323" height="233" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1584890755429" />
+    <state width="1323" height="233" key="GridCell.Tab.1.bottom" timestamp="1584890742401">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1515" height="280" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1584838259155" />
-    <state width="1515" height="280" key="GridCell.Tab.1.left" timestamp="1584838259155">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1323" height="233" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584890742401" />
+    <state width="1323" height="233" key="GridCell.Tab.1.center" timestamp="1584890742401">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1515" height="280" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1584838259155" />
-    <state width="1515" height="280" key="GridCell.Tab.1.right" timestamp="1584838259155">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1323" height="233" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1584890742401" />
+    <state width="1323" height="233" key="GridCell.Tab.1.left" timestamp="1584890742401">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1515" height="280" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1584838259155" />
-    <state x="361" y="144" key="Vcs.Push.Dialog.v2" timestamp="1584827755258">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1323" height="233" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1584890742401" />
+    <state width="1323" height="233" key="GridCell.Tab.1.right" timestamp="1584890742401">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="361" y="144" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1584827755258" />
-    <state x="360" y="145" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1584827715283">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1323" height="233" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1584890742401" />
+    <state x="391" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1584877129414">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="360" y="145" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1536.824@0.0.1536.824" timestamp="1584827715283" />
+    <state x="391" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1584877129414" />
+    <state x="381" y="167" key="git4idea.merge.GitPullDialog" timestamp="1584877641726">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="381" y="167" key="git4idea.merge.GitPullDialog/0.0.1366.728@0.0.1366.728" timestamp="1584877641726" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -261,13 +238,13 @@
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/algorithms/xgboost_algorithm.py</url>
+          <url>file://$PROJECT_DIR$/src/algorithms/xgboost_regressor_algorithm.py</url>
           <line>83</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/data_preprocessing.py</url>
-          <line>71</line>
+          <line>68</line>
           <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -276,24 +253,29 @@
           <option name="timeStamp" value="35" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/algorithms/xgboost_algorithm.py</url>
+          <url>file://$PROJECT_DIR$/src/algorithms/xgboost_regressor_algorithm.py</url>
           <line>66</line>
           <option name="timeStamp" value="45" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/algorithms/xgboost_algorithm.py</url>
+          <url>file://$PROJECT_DIR$/src/algorithms/xgboost_regressor_algorithm.py</url>
           <line>52</line>
           <option name="timeStamp" value="46" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/algorithms/gradient_boosting_regressor_algorithm.py</url>
-          <line>269</line>
-          <option name="timeStamp" value="65" />
+          <url>file://$PROJECT_DIR$/src/main.py</url>
+          <line>184</line>
+          <option name="timeStamp" value="54" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/algorithms/gradient_boosting_regressor_algorithm.py</url>
-          <line>302</line>
-          <option name="timeStamp" value="70" />
+          <url>file://$PROJECT_DIR$/src/main.py</url>
+          <line>122</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/main.py</url>
+          <line>189</line>
+          <option name="timeStamp" value="71" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -304,5 +286,8 @@
         </breakpoint>
       </default-breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/car_price_prediction$main.coverage" NAME="main Coverage Results" MODIFIED="1584890726854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
   </component>
 </project>
