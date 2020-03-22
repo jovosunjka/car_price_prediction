@@ -14,7 +14,7 @@ FIT = True
 
 ALGORITHM_NAME = "GRADEINT_BOOSTING_REGRESSOR"
 ALGORITHM_NAME_LINEAR_REGRESION = "LINEAR_REGRESSION"
-
+ALGORITHM_NAME_POLYNOMIAL_REGRESION = "POLYNOMIAL_REGRESSION"
 
 # https://cloud.google.com/ml-engine/docs/training-overview
 # training on google cloud AI Platform
@@ -189,11 +189,16 @@ def main():
         #start_cmd_app(algorithm)
 
         data_path = "..\\data\\ads_12-03-2020_14-04-00_with_average_earnings.csv"
-        algorithm = AlgorithmFactory.create(ALGORITHM_NAME_LINEAR_REGRESION, data_path)
+        #algorithm = AlgorithmFactory.create(ALGORITHM_NAME_LINEAR_REGRESION, data_path)
+        algorithm = AlgorithmFactory.create(ALGORITHM_NAME_POLYNOMIAL_REGRESION, data_path)
         algorithm.fit()
 
         algorithm.rmse()
         algorithm.r2()
+
+        start_cmd_app(algorithm)
+
+
 
 if __name__ == '__main__':
     main()
