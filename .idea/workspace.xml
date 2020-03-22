@@ -2,17 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea7d3f75-322f-4e4b-b1dc-f19a38c751be" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/algorithms/algorithm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/xgboost_regressor_algorithm.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/results.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/results.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/algorithms/algorithm_factory.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/algorithm_factory.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/algorithms/gradient_boosting_regressor_algorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/gradient_boosting_regressor_algorithm.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_preprocessing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/linear_regression_algorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/linear_regression_algorithm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/xgboost_algorithm.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
     </list>
-    <manually-removed-from-ignored>
-      <directory path=".idea/" />
-    </manually-removed-from-ignored>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,46 +30,6 @@
     <expand />
     <select />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="118" column="31" selection-start-line="118" selection-start-column="31" selection-end-line="118" selection-end-column="31" />
-              <folding>
-                <element signature="e#0#61#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/algorithms/algorithm_factory.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="27" column="48" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="48" />
-              <folding>
-                <element signature="e#0#99#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/algorithms/gradient_boosting_regressor_algorithm.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="422">
-              <caret line="255" column="8" selection-start-line="255" selection-start-column="8" selection-end-line="255" selection-end-column="8" />
-              <folding>
-                <element signature="e#1#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -79,119 +37,21 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>\d\d\d\d\d\d\d\d\d</find>
-      <find>train_test_split</find>
-      <find>get_unique_values_per_columns</find>
-      <find>9999</find>
-      <find>;</find>
-      <find>self.x</find>
-      <find>regressor</find>
-      <find>True</find>
-      <find>sns</find>
-      <find>column_index</find>
-      <find>dat</find>
-      <find>8\d\d\d\d\d</find>
-      <find>,5\d\d\d\d,</find>
-      <find>,\d\d\d\d\d,</find>
-      <find>,1600,\d*,\d*</find>
-      <find>Volkswagen,Passat B5</find>
-      <find>voting_clf</find>
-      <find>gas</find>
-      <find>unique_values_per_columns</find>
-      <find>cities_and_average_earnings</find>
-      <find>datetime.now()</find>
-      <find>Vol</find>
-      <find>.index</find>
-      <find>g</find>
-      <find>columns_of_categorical_data</find>
-      <find>'</find>
-      <find>Passat B5</find>
-      <find>1541.7405241697816</find>
-      <find>Passat B5.5</find>
-      <find>Audi</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>\d\d</replace>
-      <replace>&quot;</replace>
-    </replaceStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/main.py" />
-        <option value="$PROJECT_DIR$/requirements.txt" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/data/prosecne-zarade-po-opstinama.csv" />
-        <option value="E:/STUDIRANJE/CETVRTA GODINA/MASINSKO UCENJE/VEZBE/Vezbe2/v2_vis_reg/main.py" />
-        <option value="$PROJECT_DIR$/src/xgboost_algorithm.py" />
-        <option value="$PROJECT_DIR$/src/download_data.py" />
-        <option value="$PROJECT_DIR$/app.yaml" />
-        <option value="$PROJECT_DIR$/data/errors.txt" />
-        <option value="$PROJECT_DIR$/data/sample.csv" />
-        <option value="$PROJECT_DIR$/src/algorithms/xgboost_algorithm.py" />
-        <option value="$PROJECT_DIR$/src/data_preprocessing.py" />
-        <option value="$PROJECT_DIR$/src/main.py" />
-        <option value="$PROJECT_DIR$/src/algorithms/gradient_boosting_regressor_algorithm.py" />
-        <option value="$PROJECT_DIR$/src/algorithms/algorithm_factory.py" />
-        <option value="$PROJECT_DIR$/data/results.txt" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="676" />
-    <option name="width" value="697" />
-    <option name="height" value="735" />
-  </component>
+  <component name="ProjectId" id="1ZTxwPkGTX0y9ZuMh5npx4Km4kg" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="car_price_prediction" type="b2602c69:ProjectViewProjectNode" />
-              <item name="car_price_prediction" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="car_price_prediction" type="b2602c69:ProjectViewProjectNode" />
-              <item name="car_price_prediction" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="car_price_prediction" type="b2602c69:ProjectViewProjectNode" />
-              <item name="car_price_prediction" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="car_price_prediction" type="b2602c69:ProjectViewProjectNode" />
-              <item name="car_price_prediction" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="car_price_prediction" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="E:/STUDIRANJE/CETVRTA GODINA/MASINSKO UCENJE/VEZBE/Vezbe2/v2_vis_reg/main.py" />
+    <property name="last_opened_file_path" value="E:/STUDIRANJE/TRECA_GODINA/SOFTVERSKI OBRASCI I KOMPONENTE/VEZBE/02/Vezbe2Resenje" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -212,18 +72,6 @@
       <recent name="C:\car_price_prediction_workspace\car_price_prediction\data" />
       <recent name="C:\car_price_prediction_workspace\car_price_prediction\src" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -286,6 +134,9 @@
       <workItem from="1584706882239" duration="735000" />
       <workItem from="1584716376071" duration="4723000" />
       <workItem from="1584725390683" duration="26175000" />
+      <workItem from="1584797611385" duration="258000" />
+      <workItem from="1584875506974" duration="1096000" />
+      <workItem from="1584877129172" duration="13788000" />
     </task>
     <task id="LOCAL-00001" summary="download ads">
       <created>1575460894689</created>
@@ -311,59 +162,6 @@
     <option name="localTasksCounter" value="4" />
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="193190000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1429652" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30932897" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.42553192" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Python Console" order="11" />
-      <window_info anchor="bottom" id="Version Control" order="12" weight="0.3289689" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" weight="0.33055976" />
-      <window_info anchor="right" id="Database" order="4" weight="0.32980332" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26096824" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33060557" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39770868" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info anchor="bottom" id="Python Console" order="12" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-    </layout-to-restore>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
@@ -375,6 +173,56 @@
     <MESSAGE value="download data, preprocessing, merging two data sets, fitting" />
     <MESSAGE value="GradientBoostingRegressorAlgorithm and AlgorithmFactory added" />
     <option name="LAST_COMMIT_MESSAGE" value="GradientBoostingRegressorAlgorithm and AlgorithmFactory added" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="756" height="466" key="DebuggerActiveHint" timestamp="1584885269201">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="756" height="466" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1584885269201" />
+    <state x="463" y="121" key="FileChooserDialogImpl" timestamp="1584878409957">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="121" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1584878409957" />
+    <state width="1323" height="233" key="GridCell.Tab.0.bottom" timestamp="1584890755429">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="233" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584890755429" />
+    <state width="1323" height="233" key="GridCell.Tab.0.center" timestamp="1584890755429">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="233" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1584890755429" />
+    <state width="1323" height="233" key="GridCell.Tab.0.left" timestamp="1584890755429">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="233" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1584890755429" />
+    <state width="1323" height="233" key="GridCell.Tab.0.right" timestamp="1584890755429">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="233" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1584890755429" />
+    <state width="1323" height="233" key="GridCell.Tab.1.bottom" timestamp="1584890742401">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="233" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584890742401" />
+    <state width="1323" height="233" key="GridCell.Tab.1.center" timestamp="1584890742401">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="233" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1584890742401" />
+    <state width="1323" height="233" key="GridCell.Tab.1.left" timestamp="1584890742401">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="233" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1584890742401" />
+    <state width="1323" height="233" key="GridCell.Tab.1.right" timestamp="1584890742401">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="233" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1584890742401" />
+    <state x="391" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1584877129414">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="391" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1584877129414" />
+    <state x="381" y="167" key="git4idea.merge.GitPullDialog" timestamp="1584877641726">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="381" y="167" key="git4idea.merge.GitPullDialog/0.0.1366.728@0.0.1366.728" timestamp="1584877641726" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -390,7 +238,7 @@
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/algorithms/xgboost_algorithm.py</url>
+          <url>file://$PROJECT_DIR$/src/algorithms/xgboost_regressor_algorithm.py</url>
           <line>83</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
@@ -405,39 +253,29 @@
           <option name="timeStamp" value="35" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/algorithms/xgboost_algorithm.py</url>
+          <url>file://$PROJECT_DIR$/src/algorithms/xgboost_regressor_algorithm.py</url>
           <line>66</line>
           <option name="timeStamp" value="45" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/algorithms/xgboost_algorithm.py</url>
+          <url>file://$PROJECT_DIR$/src/algorithms/xgboost_regressor_algorithm.py</url>
           <line>52</line>
           <option name="timeStamp" value="46" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/main.py</url>
-          <line>182</line>
+          <line>184</line>
           <option name="timeStamp" value="54" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/main.py</url>
-          <line>124</line>
+          <line>122</line>
           <option name="timeStamp" value="62" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/main.py</url>
-          <line>118</line>
-          <option name="timeStamp" value="64" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/algorithms/gradient_boosting_regressor_algorithm.py</url>
-          <line>200</line>
-          <option name="timeStamp" value="65" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/algorithms/gradient_boosting_regressor_algorithm.py</url>
-          <line>302</line>
-          <option name="timeStamp" value="70" />
+          <line>189</line>
+          <option name="timeStamp" value="71" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -450,342 +288,6 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/car_price_prediction$main.coverage" NAME="main Coverage Results" MODIFIED="1584778740510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/data/ads_03-12-2019_21-46-49.csv" />
-    <entry file="file://$PROJECT_DIR$/../virtual_environment/Lib/site-packages/requests/adapters.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="497" selection-start-line="497" selection-end-line="497" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/ads_04-12-2019_00-55-51.csv" />
-    <entry file="file://$PROJECT_DIR$/data/ads_04-12-2019_11-27-25.csv" />
-    <entry file="file://$PROJECT_DIR$/data/ads_04-12-2019_11-29-31.csv" />
-    <entry file="file://$PROJECT_DIR$/data/ads_02-01-2020_12-19-35.csv" />
-    <entry file="file://$PROJECT_DIR$/data/ads_02-01-2020_17-30-04.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="9881" selection-start-line="9881" selection-end-line="9881" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/ads_09-01-2020_19-28-52.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1920374" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../virtual_environment/Lib/site-packages/sklearn/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="338" column="6" selection-start-line="338" selection-start-column="6" selection-end-line="338" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../virtual_environment/Lib/site-packages/sklearn/ensemble/_forest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="457" column="29" lean-forward="true" selection-start-line="457" selection-start-column="29" selection-end-line="457" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../virtual_environment/Lib/site-packages/sklearn/model_selection/_search.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1726">
-          <caret line="602" column="11" selection-start-line="602" selection-start-column="4" selection-end-line="602" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../virtual_environment/Lib/site-packages/xgboost/sklearn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="916" column="6" selection-start-line="916" selection-start-column="6" selection-end-line="916" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/ads_04-12-2019_12-06-10.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="71131" selection-start-line="71131" selection-end-line="71131" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files/Python35/Lib/concurrent/futures/_base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="356" selection-start-line="356" selection-end-line="356" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../virtual_environment/Lib/site-packages/pandas/core/reshape/reshape.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="751" column="4" selection-start-line="751" selection-start-column="4" selection-end-line="751" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../virtual_environment/Lib/site-packages/pandas/core/generic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3195">
-          <caret line="5603" column="8" selection-start-line="5603" selection-start-column="8" selection-end-line="5603" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/zr10_tab-4_prosecne-zarade-po-opstinama.csv" />
-    <entry file="file://E:/STUDIRANJE/CETVRTA GODINA/MASINSKO UCENJE/VEZBE/Vezbe4/zanimljivi radovi/Igor Tica, Filip Basara/tim9_19_(micro_f1_score=0.334532374100719).py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1190">
-          <caret line="79" column="27" selection-start-line="79" selection-start-column="27" selection-end-line="79" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/ads_18-01-2020_18-00-34.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-947427">
-          <caret line="70546" column="80" selection-start-line="70546" selection-start-column="80" selection-end-line="70546" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../virtual_environment/Lib/site-packages/numpy/lib/npyio.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="1793" selection-start-line="1793" selection-end-line="1793" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../virtual_environment/Lib/encodings/cp1252.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../virtual_environment/Lib/site-packages/numpy/core/_methods.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydevd_bundle/pydevd_vars.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="277" selection-start-line="277" selection-end-line="277" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd_plugins/extensions/types/pydevd_plugin_numpy_types.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="90" selection-start-line="90" selection-end-line="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/STUDIRANJE/CETVRTA GODINA/MASINSKO UCENJE/VEZBE/Vezbe4/v4_ensemble/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="59" column="37" selection-start-line="59" selection-start-column="22" selection-end-line="59" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/STUDIRANJE/CETVRTA GODINA/MASINSKO UCENJE/VEZBE/Vezbe2/v2_vis_reg/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" selection-start-column="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../virtual_environment/Lib/site-packages/sklearn/model_selection/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-324">
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/ads_01-03-2020_07-35-40.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2866197" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/ads_12-03-2020_14-04-00.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/download_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1853">
-          <caret line="112" selection-start-line="112" selection-end-line="112" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="23" lean-forward="true" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/-1048637496/pandas/_libs/hashtable.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-45">
-          <caret line="248" column="8" selection-start-line="248" selection-start-column="8" selection-end-line="248" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../virtual_environment/Lib/site-packages/pandas/core/algorithms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="404" column="23" lean-forward="true" selection-start-line="404" selection-start-column="23" selection-end-line="404" selection-end-column="23" />
-          <folding>
-            <element signature="e#115#142#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/ads_18-01-2020_18-00-34_with_average_earnings.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="73" selection-start-line="21" selection-start-column="73" selection-end-line="21" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../virtual_environment/Lib/site-packages/seaborn/categorical.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="141" column="13" lean-forward="true" selection-start-line="141" selection-start-column="13" selection-end-line="141" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../virtual_environment/Lib/site-packages/numpy/lib/function_base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4218" column="4" selection-start-line="4218" selection-start-column="4" selection-end-line="4218" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/ads_01-03-2020_07-35-40_with_average_earnings.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/errors.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/-1048637496/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="5014" column="8" selection-start-line="5014" selection-start-column="8" selection-end-line="5014" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/xgboost_algorithm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="162" column="8" selection-start-line="162" selection-start-column="8" selection-end-line="162" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data_preprocessing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="37" column="42" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/prosecne-zarade-po-opstinama.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="35" column="12" lean-forward="true" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/sample.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="83" column="29" lean-forward="true" selection-start-line="83" selection-start-column="29" selection-end-line="83" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="118" column="31" selection-start-line="118" selection-start-column="31" selection-end-line="118" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#61#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/algorithm_factory.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="27" column="48" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="48" />
-          <folding>
-            <element signature="e#0#99#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/results.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="96" column="22" lean-forward="true" selection-start-line="96" selection-start-column="22" selection-end-line="96" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/ads_12-03-2020_14-04-00_with_average_earnings.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="1016" column="72" lean-forward="true" selection-start-line="1016" selection-start-column="72" selection-end-line="1016" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/gradient_boosting_regressor_algorithm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="255" column="8" selection-start-line="255" selection-start-column="8" selection-end-line="255" selection-end-column="8" />
-          <folding>
-            <element signature="e#1#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <SUITE FILE_PATH="coverage/car_price_prediction$main.coverage" NAME="main Coverage Results" MODIFIED="1584890726854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
   </component>
 </project>
