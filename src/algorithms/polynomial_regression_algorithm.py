@@ -8,9 +8,21 @@ from src import data_preprocessing
 
 from datetime import datetime
 
+from src.algorithms.algorithm import BaseAlgorithm
+
 random_state = 42
 
-class PolynomialRegressionAlgorithm:
+class PolynomialRegressionAlgorithm(BaseAlgorithm):
+    def __init__(self, data_path, unique_values_per_columns):
+        super().__init__(data_path, unique_values_per_columns)
+
+    """ Implementation of abstract method """
+
+    def initialize_model_and_scaler(self):
+        self.scaler = StandardScaler()
+        self.model = PolynomialFeatures(degree=3, include_bias=False)
+
+    """
     def __init__(self, data_path, unique_values_per_columns):
         self.unique_values_per_columns = unique_values_per_columns
 
@@ -70,9 +82,11 @@ class PolynomialRegressionAlgorithm:
             if row[8] <= 1995 or row[8] > datetime.now().year:
                 inexes_for_removing.add(index)
             """
+    """
             if row[9] >= 115000:
                 inexes_for_removing.add(index)
             """
+    """
 
         inexes_for_removing = list(inexes_for_removing)
         return inexes_for_removing
@@ -104,14 +118,18 @@ class PolynomialRegressionAlgorithm:
 
         # nedostajuce vrednosti (koje su predstavljene sa -1.0) se zamenjuju sa srednjom vrednosti za odredjenu kolonu
         """
-        for c in range(len(data[0])):
-            without_minus_one = list(filter(lambda x: x != -1.0, data[:, c]))
-            m = np.mean(without_minus_one)
-            m = np.round(m)
-            for i in range(len(data)):
-                if data[i][c] == -1.0:
-                    data[i][c] = m
-        """
+
+
+"""
+    for c in range(len(data[0])):
+        without_minus_one = list(filter(lambda x: x != -1.0, data[:, c]))
+        m = np.mean(without_minus_one)
+        m = np.round(m)
+        for i in range(len(data)):
+            if data[i][c] == -1.0:
+                data[i][c] = m
+    """
+"""
         return data
 
     def createLambdaMapping(self, unique_values_per_column):
@@ -196,3 +214,4 @@ class PolynomialRegressionAlgorithm:
         y_predict = self.model.predict(self.x_test)
         score = metrics.r2_score(self.y_test, y_predict)
         print("R2 linear regression(test):", score)
+    """
