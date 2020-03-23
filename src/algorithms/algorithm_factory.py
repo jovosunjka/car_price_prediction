@@ -4,6 +4,7 @@ from src.algorithms.voting_regressor_algorithm import VotingRegressorAlgorithm
 from src.algorithms.xgboost_regressor_algorithm import XGBoostRegressorAlgorithm
 from src.data_preprocessing import get_unique_values_per_columns
 from src.algorithms.linear_regression_algorithm import LinearRegressionAlgorithm
+from src.algorithms.polynomial_regression_algorithm import PolynomialRegressionAlgorithm
 
 class AlgorithmFactory:
 
@@ -68,6 +69,10 @@ class AlgorithmFactory:
         return LinearRegressionAlgorithm(data_path_or_data, unique_values_per_columns)
 
     @staticmethod
+    def create_polynomial_regression(data_path_or_data, unique_values_per_columns):
+        return PolynomialRegressionAlgorithm(data_path_or_data, unique_values_per_columns)
+
+    @staticmethod
     def get_algorithm_names():
         algorithm_names = list(AlgorithmFactory.switcher.keys())
         algorithm_names.sort()
@@ -77,7 +82,8 @@ class AlgorithmFactory:
     switcher = {
         "GRADEINT_BOOSTING_REGRESSOR": create_gradient_boosting_regressor.__func__,
         "XGBOOST_REGRESSOR": create_xgboost_regressor.__func__,
+        "LINEAR_REGRESSION": create_linear_regression.__func__,
+        "POLYNOMIAL_REGRESSION": create_polynomial_regression.__func__,
         "RANDOM_FOREST_REGRESSOR": create_random_forest_regressor.__func__,
         "VOTING_REGRESSOR": create_voting_regressor.__func__,
-        "LINEAR_REGRESSION": create_linear_regression.__func__
     }
