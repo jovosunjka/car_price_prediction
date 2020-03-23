@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ea7d3f75-322f-4e4b-b1dc-f19a38c751be" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/algorithms/algorithm_with_grid_search_cv.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithms/random_forest_regressor_algorithm.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithms/voting_regressor_algorithm.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/results.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/results.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/algorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/algorithm.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/algorithm_factory.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/algorithm_factory.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/gradient_boosting_regressor_algorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/gradient_boosting_regressor_algorithm.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/linear_regression_algorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/linear_regression_algorithm.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/xgboost_regressor_algorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/xgboost_regressor_algorithm.py" afterDir="false" />
-    </list>
+    <list default="true" id="ea7d3f75-322f-4e4b-b1dc-f19a38c751be" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -140,7 +129,7 @@
       <workItem from="1584797611385" duration="258000" />
       <workItem from="1584875506974" duration="1096000" />
       <workItem from="1584877129172" duration="30691000" />
-      <workItem from="1584965355008" duration="13310000" />
+      <workItem from="1584965355008" duration="13648000" />
     </task>
     <task id="LOCAL-00001" summary="download ads">
       <created>1575460894689</created>
@@ -170,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584891000281</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="RandomForestAlgorithm added">
+      <created>1584995985126</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1584995985126</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,13 +180,14 @@
     <MESSAGE value="download data, preprocessing, merging two data sets, fitting" />
     <MESSAGE value="GradientBoostingRegressorAlgorithm and AlgorithmFactory added" />
     <MESSAGE value="BaseAlgorithm added (code refactoring)" />
-    <option name="LAST_COMMIT_MESSAGE" value="BaseAlgorithm added (code refactoring)" />
+    <MESSAGE value="RandomForestAlgorithm added" />
+    <option name="LAST_COMMIT_MESSAGE" value="RandomForestAlgorithm added" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="285" y="0" key="CommitChangelistDialog2" timestamp="1584890998798">
+    <state x="285" y="0" key="CommitChangelistDialog2" timestamp="1584996086263">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="285" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1584890998798" />
+    <state x="285" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1584996086263" />
     <state width="756" height="466" key="DebuggerActiveHint" timestamp="1584885269201">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -251,10 +248,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="390" y="120" width="586" height="488" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1584918870032" />
-    <state x="381" y="167" key="git4idea.merge.GitPullDialog" timestamp="1584995701060">
+    <state x="381" y="167" key="git4idea.merge.GitPullDialog" timestamp="1584995992074">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="381" y="167" key="git4idea.merge.GitPullDialog/0.0.1366.728@0.0.1366.728" timestamp="1584995701060" />
+    <state x="381" y="167" key="git4idea.merge.GitPullDialog/0.0.1366.728@0.0.1366.728" timestamp="1584995992074" />
     <state x="339" y="17" width="670" height="676" key="search.everywhere.popup" timestamp="1584985733263">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
