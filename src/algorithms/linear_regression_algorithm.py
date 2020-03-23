@@ -6,8 +6,8 @@ from src.algorithms.algorithm import BaseAlgorithm
 
 
 class LinearRegressionAlgorithm(BaseAlgorithm):
-    def __init__(self, data_path, unique_values_per_columns):
-        super().__init__(data_path, unique_values_per_columns)
+    def __init__(self, data_path_or_data, unique_values_per_columns):
+        super().__init__(data_path_or_data, unique_values_per_columns)
 
     """ Implementation of abstract method """
     def initialize_model_and_scaler(self):
