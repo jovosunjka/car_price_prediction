@@ -117,6 +117,7 @@ def prediction(algorithm):
         price = algorithm.predict(data)
         print("\nPrice:", price[0], "EUR")
     except Exception as e:
+        print()
         print(e)
 
 def start_cmd_app(algorithm):

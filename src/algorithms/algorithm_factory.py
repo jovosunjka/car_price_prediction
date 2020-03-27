@@ -59,7 +59,7 @@ class AlgorithmFactory:
     @staticmethod
     def create_voting_regressor(data_path_or_data, unique_values_per_columns):
         parameters = {
-            'vr__weights': [0, 3, 2]
+            'vr__weights': [0, 2, 1, 0]
         }
         #parameters = None
         return VotingRegressorAlgorithm(data_path_or_data, unique_values_per_columns, parameters)

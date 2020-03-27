@@ -29,11 +29,12 @@ class VotingRegressorAlgorithm(AlgorithmWithGridSearchCV):
         }
 
         from src.algorithms.algorithm_factory import AlgorithmFactory
-        lr = AlgorithmFactory.create("LINEAR_REGRESSION", data, self.unique_values_per_columns)
+        pr = AlgorithmFactory.create("POLYNOMIAL_REGRESSION", data, self.unique_values_per_columns)
         gbr = AlgorithmFactory.create("GRADEINT_BOOSTING_REGRESSOR", data, self.unique_values_per_columns)
         xgb = AlgorithmFactory.create("XGBOOST_REGRESSOR", data, self.unique_values_per_columns)
+        rf = AlgorithmFactory.create("RANDOM_FOREST_REGRESSOR", data, self.unique_values_per_columns)
 
-        estimators = [('lr', lr.model), ('gbr', gbr.model), ('xgb', xgb.model)]
+        estimators = [('pr', pr.model), ('gbr', gbr.model), ('xgb', xgb.model), ('rf', rf.model)]
 
         if self.existing_parameters == None:
             self.model = VotingRegressor(estimators=estimators)
@@ -46,13 +47,13 @@ class VotingRegressorAlgorithm(AlgorithmWithGridSearchCV):
 
             parameters = {
                 'vr__weights': [
-                    [1, 3, 2],
-                    [0, 3, 2],
-                    [0, 3, 3],
-                    [0, 6, 2],
-                    [1, 10, 1],
-                    [1, 8, 4],
-                    [2, 11, 3]
+                    [0, 3, 0, 0],
+                    [0, 2, 1, 0],
+                    [1, 10, 8, 1],
+                    [0, 5, 3, 1],
+                    [1, 8, 6, 2],
+                    [1, 4, 3, 2]
+
                 ]
             }
 
