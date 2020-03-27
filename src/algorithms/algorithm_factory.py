@@ -3,6 +3,7 @@ from src.algorithms.xgboost_regressor_algorithm import XGBoostRegressorAlgorithm
 from src.data_preprocessing import get_unique_values_per_columns
 from src.algorithms.linear_regression_algorithm import LinearRegressionAlgorithm
 from src.algorithms.polynomial_regression_algorithm import PolynomialRegressionAlgorithm
+from src.algorithms.knn_algorithm import KnnAlgorithm
 
 class AlgorithmFactory:
 
@@ -49,6 +50,15 @@ class AlgorithmFactory:
         return PolynomialRegressionAlgorithm(data_path, unique_values_per_columns)
 
     @staticmethod
+    def create_knn(data_path, unique_values_per_columns):
+        parameters = {
+            'n_neighbors': 5,
+            'weights' : 'distance',
+            'p' : 1
+        }
+        return KnnAlgorithm(data_path, unique_values_per_columns, parameters)
+
+    @staticmethod
     def get_algorithm_names():
         return list(AlgorithmFactory.switcher.keys())
 
@@ -57,5 +67,6 @@ class AlgorithmFactory:
         "GRADEINT_BOOSTING_REGRESSOR": create_gradient_boosting_regressor.__func__,
         "XGBOOST_REGRESSOR": create_xgboost_regressor.__func__,
         "LINEAR_REGRESSION": create_linear_regression.__func__,
-        "POLYNOMIAL_REGRESSION": create_polynomial_regression.__func__
+        "POLYNOMIAL_REGRESSION": create_polynomial_regression.__func__,
+        "KNN": create_knn.__func__
     }
