@@ -1,11 +1,11 @@
-import numpy as np
-from sklearn.model_selection import train_test_split
-from sklearn.linear_model import LinearRegression
+
+from sklearn.linear_model import LinearRegression, Ridge, Lasso, ElasticNet
+
 from sklearn.preprocessing import StandardScaler
 from sklearn import metrics
 from sklearn.preprocessing import PolynomialFeatures
 from src import data_preprocessing
-from sklearn.linear_model import  Lasso
+
 from datetime import datetime
 
 from src.algorithms.algorithm import BaseAlgorithm
@@ -18,14 +18,15 @@ class PolynomialRegressionAlgorithm(BaseAlgorithm):
         super().__init__(data_path, unique_values_per_columns)
 
     """ Implementation of abstract method """
-
     def initialize_model_and_scaler(self):
         self.scaler = StandardScaler()
-        self.polynomial_features = PolynomialFeatures(degree=4, include_bias=True)
+        self.polynomial_features =  PolynomialFeatures(degree=4, include_bias=True)
         #self.model = LinearRegression()
+        #self.model = Ridge()
         self.model = Lasso(max_iter=1000, tol=0.0001, alpha=0.001)
+        #self.model = ElasticNet()
 
-    " " " Override " " "
+    """ Override """
     def fit(self):
         self.x_train = self.scaler.fit_transform(self.x_train)
         self.x_test = self.scaler.transform(self.x_test)

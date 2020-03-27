@@ -21,7 +21,7 @@ columns = ("new","price","brandName","modelName","fuelType","color","mileage","p
 """ Abstract class """
 class BaseAlgorithm(ABC):
 
-    def __init__(self, data_path, unique_values_per_columns):
+    def __init__(self, data_path_or_data, unique_values_per_columns):
         self.unique_values_per_columns = unique_values_per_columns
 
         self.cities_and_average_earnings = None
@@ -38,23 +38,34 @@ class BaseAlgorithm(ABC):
         self.scaler = None
         self.model = None
 
-        self.prepare_data(data_path)
+        self.prepare_data(data_path_or_data)
         self.initialize_model_and_scaler()
 
-    def prepare_data(self, data_path):
-        data = self.load_data(data_path)
-        data = self.remove_rows_with_big_values(data)
+    """
+        data - dictionary or string (file path)
+    """
+    def prepare_data(self, data_path_or_data):
+        if type(data_path_or_data) is dict:
+            self.x_train = data_path_or_data["x_train"]
+            self.x_train = data_path_or_data["x_test"]
+            self.y_train = data_path_or_data["y_train"]
+            self.y_test = data_path_or_data["y_test"]
+        elif type(data_path_or_data) is str:
+            data = self.load_data(data_path_or_data)
+            data = self.remove_rows_with_big_values(data)
 
-        #for i in range(len(columns)):
-        #    self.plot_values_by_column(data, i)
+            #for i in range(len(columns)):
+            #    self.plot_values_by_column(data, i)
 
-        y = data[:, 1]  # price column
-        x = np.delete(data, 1, axis=1)  # without price column
+            y = data[:, 1]  # price column
+            x = np.delete(data, 1, axis=1)  # without price column
 
-        #self.plot_values_by_column(x, y)
+            #self.plot_values_by_column(x, y)
 
-        self.x_train, self.x_test, self.y_train, self.y_test = train_test_split(x, y, test_size=0.2,
-                                                                                random_state=random_state)
+            self.x_train, self.x_test, self.y_train, self.y_test = train_test_split(x, y, test_size=0.2,
+                                                                                    random_state=random_state)
+        else:
+            raise Exception("Invalid type of 'data_path_or_data'")
 
 
     @abstractmethod
@@ -171,14 +182,18 @@ class BaseAlgorithm(ABC):
         y_predict = self.model.predict(x)
         return y_predict
 
-    def rmse(self):
-        y_predict = self.model.predict(self.x_test)
+    def rmse(self, model=None):
+        if model == None:
+            model = self.model
+        y_predict = model.predict(self.x_test)
         score = metrics.mean_squared_error(self.y_test, y_predict, squared=False)
         #If squared == True returns MSE value, if squared == False returns RMSE value.
         print("RMSE (test):", score)
 
-    def r2(self):
-        y_predict = self.model.predict(self.x_test)
+    def r2(self, model=None):
+        if model == None:
+            model = self.model
+        y_predict = model.predict(self.x_test)
         score = metrics.r2_score(self.y_test, y_predict)
         print("R2 (test):", score)
 

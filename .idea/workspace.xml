@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ea7d3f75-322f-4e4b-b1dc-f19a38c751be" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/algorithms/algorithm.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithms/xgboost_regressor_algorithm.py" afterDir="false" />
+    <list default="true" id="ea7d3f75-322f-4e4b-b1dc-f19a38c751be" name="Default Changelist" comment="commit">
+      <change afterPath="$PROJECT_DIR$/src/algorithms/polynomial_regression_algorithm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/car_price_prediction.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/car_price_prediction.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ads_18-01-2020_18-00-34.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/ads_18-01-2020_18-00-34.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/algorithms/algorithm_factory.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/algorithm_factory.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/gradient_boosting_regressor_algorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/gradient_boosting_regressor_algorithm.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/linear_regression_algorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/linear_regression_algorithm.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/xgboost_algorithm.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +49,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="E:/STUDIRANJE/TRECA_GODINA/SOFTVERSKI OBRASCI I KOMPONENTE/VEZBE/02/Vezbe2Resenje" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/algorithms" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -64,12 +62,13 @@
     <property name="settings.editor.splitter.proportion" value="0.21493441" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\car_price_prediction_workspace\car_price_prediction\src\algorithms" />
+      <recent name="C:\car_price_prediction_workspace\car_price_prediction\data" />
       <recent name="C:\car_price_prediction_workspace\car_price_prediction\src" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\car_price_prediction_workspace\car_price_prediction\data" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\car_price_prediction_workspace\car_price_prediction\src\algorithms" />
       <recent name="C:\car_price_prediction_workspace\car_price_prediction\src" />
     </key>
   </component>
@@ -136,7 +135,8 @@
       <workItem from="1584725390683" duration="26175000" />
       <workItem from="1584797611385" duration="258000" />
       <workItem from="1584875506974" duration="1096000" />
-      <workItem from="1584877129172" duration="13788000" />
+      <workItem from="1584877129172" duration="30691000" />
+      <workItem from="1584965355008" duration="16649000" />
     </task>
     <task id="LOCAL-00001" summary="download ads">
       <created>1575460894689</created>
@@ -159,7 +159,28 @@
       <option name="project" value="LOCAL" />
       <updated>1584665387749</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="BaseAlgorithm added (code refactoring)">
+      <created>1584891000281</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1584891000281</updated>
+    </task>
+    <task id="LOCAL-00005" summary="RandomForestAlgorithm added">
+      <created>1584995985126</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1584995985126</updated>
+    </task>
+    <task id="LOCAL-00006" summary="commit">
+      <created>1584996109575</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1584996109575</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,57 +193,96 @@
     <MESSAGE value="download ads" />
     <MESSAGE value="download data, preprocessing, merging two data sets, fitting" />
     <MESSAGE value="GradientBoostingRegressorAlgorithm and AlgorithmFactory added" />
-    <option name="LAST_COMMIT_MESSAGE" value="GradientBoostingRegressorAlgorithm and AlgorithmFactory added" />
+    <MESSAGE value="BaseAlgorithm added (code refactoring)" />
+    <MESSAGE value="RandomForestAlgorithm added" />
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="285" y="0" key="CommitChangelistDialog2" timestamp="1585003109706">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="285" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1585003109706" />
     <state width="756" height="466" key="DebuggerActiveHint" timestamp="1584885269201">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="756" height="466" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1584885269201" />
-    <state x="463" y="121" key="FileChooserDialogImpl" timestamp="1584878409957">
+    <state x="129" y="54" key="DiffContextDialog" timestamp="1584995738445">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="121" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1584878409957" />
-    <state width="1323" height="233" key="GridCell.Tab.0.bottom" timestamp="1584890755429">
+    <state x="129" y="54" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1584995738445" />
+    <state x="463" y="121" key="FileChooserDialogImpl" timestamp="1584996518888">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="233" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584890755429" />
-    <state width="1323" height="233" key="GridCell.Tab.0.center" timestamp="1584890755429">
+    <state x="463" y="121" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1584996518888" />
+    <state width="1323" height="166" key="GridCell.Tab.0.bottom" timestamp="1585003117092">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="233" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1584890755429" />
-    <state width="1323" height="233" key="GridCell.Tab.0.left" timestamp="1584890755429">
+    <state width="1323" height="166" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585003117092" />
+    <state width="1323" height="166" key="GridCell.Tab.0.center" timestamp="1585003117092">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="233" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1584890755429" />
-    <state width="1323" height="233" key="GridCell.Tab.0.right" timestamp="1584890755429">
+    <state width="1323" height="166" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585003117092" />
+    <state width="1323" height="166" key="GridCell.Tab.0.left" timestamp="1585003117092">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="233" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1584890755429" />
-    <state width="1323" height="233" key="GridCell.Tab.1.bottom" timestamp="1584890742401">
+    <state width="1323" height="166" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585003117092" />
+    <state width="1323" height="166" key="GridCell.Tab.0.right" timestamp="1585003117092">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="233" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584890742401" />
-    <state width="1323" height="233" key="GridCell.Tab.1.center" timestamp="1584890742401">
+    <state width="1323" height="166" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585003117092" />
+    <state width="1323" height="233" key="GridCell.Tab.1.bottom" timestamp="1584926184421">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="233" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1584890742401" />
-    <state width="1323" height="233" key="GridCell.Tab.1.left" timestamp="1584890742401">
+    <state width="1323" height="233" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584926184421" />
+    <state width="1323" height="233" key="GridCell.Tab.1.center" timestamp="1584926184421">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="233" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1584890742401" />
-    <state width="1323" height="233" key="GridCell.Tab.1.right" timestamp="1584890742401">
+    <state width="1323" height="233" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1584926184421" />
+    <state width="1323" height="233" key="GridCell.Tab.1.left" timestamp="1584926184421">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="233" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1584890742401" />
-    <state x="391" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1584877129414">
+    <state width="1323" height="233" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1584926184421" />
+    <state width="1323" height="233" key="GridCell.Tab.1.right" timestamp="1584926184421">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="391" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1584877129414" />
-    <state x="381" y="167" key="git4idea.merge.GitPullDialog" timestamp="1584877641726">
+    <state width="1323" height="233" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1584926184421" />
+    <state x="129" y="55" key="MergeDialog" timestamp="1584996406652">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="381" y="167" key="git4idea.merge.GitPullDialog/0.0.1366.728@0.0.1366.728" timestamp="1584877641726" />
+    <state x="129" y="55" key="MergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1584996406652" />
+    <state x="395" y="81" key="MultipleFileMergeDialog" timestamp="1584996406668">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="395" y="81" key="MultipleFileMergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1584996406668" />
+    <state x="186" y="9" key="SettingsEditor" timestamp="1584996533122">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="186" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1584996533122" />
+    <state x="275" y="99" key="Vcs.Push.Dialog.v2" timestamp="1584996130011">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="99" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1584996130011" />
+    <state x="391" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1584965354946">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="391" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1584965354946" />
+    <state x="337" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1584891888936">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="337" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.728@0.0.1366.728" timestamp="1584891888936" />
+    <state x="390" y="120" width="586" height="488" key="find.popup" timestamp="1584918870032">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="390" y="120" width="586" height="488" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1584918870032" />
+    <state x="381" y="167" key="git4idea.merge.GitPullDialog" timestamp="1585003134990">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="381" y="167" key="git4idea.merge.GitPullDialog/0.0.1366.728@0.0.1366.728" timestamp="1585003134990" />
+    <state x="339" y="17" width="670" height="676" key="search.everywhere.popup" timestamp="1584985733263">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="17" width="670" height="676" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1584985733263" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -238,11 +298,6 @@
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/algorithms/xgboost_regressor_algorithm.py</url>
-          <line>83</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/data_preprocessing.py</url>
           <line>68</line>
           <option name="timeStamp" value="26" />
@@ -251,16 +306,6 @@
           <url>file://$PROJECT_DIR$/../virtual_environment/Lib/encodings/cp1252.py</url>
           <line>22</line>
           <option name="timeStamp" value="35" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/algorithms/xgboost_regressor_algorithm.py</url>
-          <line>66</line>
-          <option name="timeStamp" value="45" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/algorithms/xgboost_regressor_algorithm.py</url>
-          <line>52</line>
-          <option name="timeStamp" value="46" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/main.py</url>
@@ -288,6 +333,6 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/car_price_prediction$main.coverage" NAME="main Coverage Results" MODIFIED="1584890726854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/car_price_prediction$main.coverage" NAME="main Coverage Results" MODIFIED="1584996773135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
   </component>
 </project>
