@@ -94,4 +94,5 @@ class AlgorithmFactory:
         "POLYNOMIAL_REGRESSION": create_polynomial_regression.__func__,
         "RANDOM_FOREST_REGRESSOR": create_random_forest_regressor.__func__,
         "VOTING_REGRESSOR": create_voting_regressor.__func__,
+        "KNN": create_knn.__func__
     }

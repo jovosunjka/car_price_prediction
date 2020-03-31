@@ -1,6 +1,6 @@
 from src.algorithms.algorithm_factory import AlgorithmFactory
 from src.data_preprocessing import get_unique_values_per_columns, merge_ads_and_average_earnings_per_cities
-from src.download_data import download_ads, download_new_ads
+from src.download_data import download_ads, download_new_ads, download_more_features
 
 import sys
 from datetime import datetime
@@ -8,6 +8,7 @@ from datetime import datetime
 
 DOWNLOAD = False
 DOWNLAOD_NEW = False
+DOWNLOAD_FEATURES = False
 PREPROCESS = False
 MERGE = False
 FIT = True
@@ -168,6 +169,10 @@ def main():
     if DOWNLAOD_NEW:
         file_path_to_old_ads = "..\\data\\ads_12-03-2020_14-04-00.csv"
         download_new_ads(file_path_to_old_ads)
+
+    if DOWNLOAD_FEATURES:
+        data_path = "..\\data\\ads_12-03-2020_14-04-00_with_average_earnings.csv"
+        download_more_features(data_path)
 
     if PREPROCESS:
         data_path = "..\\data\\ads_12-03-2020_14-04-00_with_average_earnings.csv"
