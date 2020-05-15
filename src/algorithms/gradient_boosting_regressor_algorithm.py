@@ -72,3 +72,7 @@ class GradientBoostingRegressorAlgorithm(AlgorithmWithGridSearchCV):
                                             min_samples_leaf=self.existing_parameters['gbr__min_samples_leaf'],
                                             subsample=self.existing_parameters['gbr__subsample']
             )
+
+    def fit(self):
+        self.x_train = self.pca.fit_transform(self.x_train)
+        self.x_test = self.pca.transform(self.x_test)

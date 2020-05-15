@@ -1,6 +1,6 @@
 from src.algorithms.algorithm_factory import AlgorithmFactory
 from src.data_preprocessing import get_unique_values_per_columns, merge_ads_and_average_earnings_per_cities
-from src.download_data import download_ads, download_new_ads
+from src.download_data import download_ads, download_new_ads, download_ads_with_details
 
 import sys
 from datetime import datetime
@@ -163,7 +163,8 @@ def choose_algorithm_name():
 def main():
 
     if DOWNLOAD:
-        download_ads()
+        # download_ads()
+        download_ads_with_details()
 
     if DOWNLAOD_NEW:
         file_path_to_old_ads = "..\\data\\ads_12-03-2020_14-04-00.csv"

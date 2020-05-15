@@ -42,7 +42,7 @@ class BaseAlgorithm(ABC):
         self.initialize_model_and_scaler()
 
     """
-        data - dictionary or string (file path)
+        data_path_or_data - dictionary or string (file path)
     """
     def prepare_data(self, data_path_or_data):
         if type(data_path_or_data) is dict:

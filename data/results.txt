@@ -148,3 +148,118 @@ Best score: 0.9514042599896516
 Best params: {'vr__weights': [0, 2, 1, 0]}
 R2 (test): 0.9519297182505286
 -----------------------------------------------------------------
+***GRADEINT_BOOSTING_REGRESSOR***
+New car ? (yes,no):  no
+Enter brand name:  Mitsubishi
+Enter model name:  Space Star
+
+Choose fuel type:
+	 1. Benzin
+	 2. Dizel
+	 3. Benzin + Gas (TNG)
+	 4. Metan CNG
+	 5. Električni pogon
+	 6. Hibridni pogon
+Enter fuel type:  2
+
+Enter mileage (<= 500000):  300000
+Enter power (kW) (>= 30 and  <= 625):  75
+Enter year (> 1995):  2005
+Enter color:  Srebrna metalik
+Enter city:  Novi Sad
+
+Price: 6277.723947264523 EUR
+-----------------------------------------------------------------
+***LINEAR_REGRESSION***
+New car ? (yes,no):  no
+Enter brand name:  Mitsubishi
+Enter model name:  Space Star
+
+Choose fuel type:
+	 1. Benzin
+	 2. Dizel
+	 3. Benzin + Gas (TNG)
+	 4. Metan CNG
+	 5. Električni pogon
+	 6. Hibridni pogon
+Enter fuel type:  2
+
+Enter mileage (<= 500000):  300000
+Enter power (kW) (>= 30 and  <= 625):  75
+Enter year (> 1995):  2005
+Enter color:  Srebrna metalik
+Enter city:  Novi Sad
+
+Price: 6277.723947264523 EUR
+------------------------------------------------------------------
+***RANDOM_FOREST_REGRESSOR***
+New car ? (yes,no):  no
+Enter brand name:  Mitsubishi
+Enter model name:  Space Star
+
+Choose fuel type:
+	 1. Benzin
+	 2. Dizel
+	 3. Benzin + Gas (TNG)
+	 4. Metan CNG
+	 5. Električni pogon
+	 6. Hibridni pogon
+Enter fuel type:  2
+
+Enter mileage (<= 500000):  300000
+Enter power (kW) (>= 30 and  <= 625):  75
+Enter year (> 1995):  2005
+Enter color:  Srebrna metalik
+Enter city:  Novi Sad
+
+Price: 2249.8760613139893 EUR
+----------------------------------------------------
+***XGBOOST_REGRESSOR***
+New car ? (yes,no):  no
+Enter brand name:  Mitsubishi
+Enter model name:  Space Star
+
+Choose fuel type:
+	 1. Benzin
+	 2. Dizel
+	 3. Benzin + Gas (TNG)
+	 4. Metan CNG
+	 5. Električni pogon
+	 6. Hibridni pogon
+Enter fuel type:  2
+
+Enter mileage (<= 500000):  300000
+Enter power (kW) (>= 30 and  <= 625):  75
+Enter year (> 1995):  2005
+Enter color:  Srebrna metalik
+Enter city:  Novi Sad
+
+Price: 2713.6997 EUR
+----------------------------------------------------
+***VOTING_REGRESSOR (POLYNOMIAL_REGRESSION, GRADEINT_BOOSTING_REGRESSOR, XGBOOST_REGRESSOR, RANDOM_FOREST_REGRESSOR)***
+New car ? (yes,no):  no
+Enter brand name:  Mitsubishi
+Enter model name:  Space Star
+
+Choose fuel type:
+	 1. Benzin
+	 2. Dizel
+	 3. Benzin + Gas (TNG)
+	 4. Metan CNG
+	 5. Električni pogon
+	 6. Hibridni pogon
+Enter fuel type:  2
+
+Enter mileage (<= 500000):  300000
+Enter power (kW) (>= 30 and  <= 625):  75
+Enter year (> 1995):  2005
+Enter color:  Srebrna metalik
+Enter city:  Novi Sad
+
+Price: 2666.4075992998555 EUR
+----------------------------------------------------------------------
+GRADIENT_BOOSTING_REGRESSOR_WITH_PCA
+Best score: 0.9023862069158839
+Best params: {'gbr__min_samples_split': 2, 'gbr__max_depth': 8, 'gbr__min_samples_leaf': 3, 'gbr__max_features': 5, 'gbr__subsample': 1.0, 'gbr__n_estimators': 400, 'pca__n_components': 8, 'pca__svd_solver': 'auto', 'pca__whiten': False}
+R2 (test): 0.9088844416957591
+--------------------------------------------------------------------------------------------------------------------
