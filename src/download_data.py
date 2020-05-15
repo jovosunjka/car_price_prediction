@@ -2,15 +2,20 @@ import requests
 import csv
 from datetime import datetime
 import time
-
+import numpy as np
 
 
 GET_ADS_BASE_URL = "https://www.polovniautomobili.com/json/v3/getAds"
 # koristimo v3 zato sto nudi sve potrebne kolone i zato sto nudi izlistavanje svih page-ova
 GET_AD_DETAILS_BASE_URL = "https://www.polovniautomobili.com/json/v3/getAdDetails/"
 
+BASE_URL_ADS_DETAILS = "https://www.polovniautomobili.com/json/v3/getAdDetails/"
+
 HEADERS = { "accept": "application/json; charset=utf-8" }
 
+columns = ["AdID", "city", "new", "price", "brandName", "modelName", "fuelType", "color", "mileage", "power", "year"]
+columnsWithNewFeatures = ["wheelSide", "engineVolume", "gearBox", "doornum", "chassis", "layout", "airCondition",
+                          "seatnum", "emissionClass", "interiorMaterial", "damaged"]
 columns = ["AdID", "city", "new", "price", "brandName", "modelName", "fuelType", "color", "mileage", "power", "year", "engineVolume", "gearBox", "emissionClass"]
 
 NUMBER_OF_PAGES = 3000
@@ -216,3 +221,74 @@ def get_ad_ids(file_path_to_old_ads):
             ad_id = row[0]
             ad_ids.append(ad_id)
     return ad_ids
+def download_more_features(file_path_to_old_ads):
+    """
+    Ova metoda ce ucitati stare oglase iz csv fajla, trazice dodatna obelezja za svaki oglas i sacuvati ih u novi fajl
+    """
+    counter = 0
+    rows = []
+    newRows = []
+    responseData = {}
+    newAdd = None
+    len_columns = len(columnsWithNewFeatures)
+
+    with open(file_path_to_old_ads, "r", newline="", encoding='utf-8') as csvfile:
+        reader = csv.reader(csvfile, delimiter=",", quotechar="|", quoting=csv.QUOTE_MINIMAL)
+        next(reader)  # preskoci header
+        for row in enumerate(reader):
+            rows.append(row)
+
+    start_time = time.time()
+
+    print("Downloading ads details...")
+
+    numberOfAdds = len(rows)
+
+    for j in rows:
+        if(counter <= 1500):
+            counter += 1
+            print("next, counter: {}".format(counter))
+            continue
+        if(counter > 2000):
+            break
+        else:
+            temp = j
+
+            #while counter < NUMBER_OF_ATTEMPTS: # pokusaj nekoliko puta
+            try:
+                a = j[1]
+                b = a[0]
+                response = requests.get(url=BASE_URL_ADS_DETAILS + b, headers=HEADERS)
+                if response.status_code != 200:
+                    print(response.status_code)
+                if response.status_code == 200:
+                    response_json = response.json()
+                    if(response_json['sid'] != None):
+                        for col in columnsWithNewFeatures:
+                            if col in response_json:
+                                responseData = response_json[col]
+                                temp[1].append(responseData)
+                        newAdd = temp;
+                        print(newAdd)
+                        newRows.append(newAdd)
+                        counter += 1
+                        #response_json = response.json()
+                    #break
+            except Exception as e:
+                print(e)
+                counter += 1
+
+    #now = datetime.now()
+    file_name = "ads_28-03-2020_21-51-09" + ".csv"
+    file_path = "..\\data\\" + file_name
+    with open(file_path, "a", newline="", encoding='utf-8') as csv_file:
+        writer = csv.writer(csv_file, delimiter=",", quotechar="|", quoting=csv.QUOTE_MINIMAL)
+        #writer.writerow(columns + columnsWithNewFeatures)
+        for ad in newRows:
+            writer.writerow(ad[1])
+    print("Downloading ads details done...")
+
+
+
+
+

@@ -2,9 +2,15 @@
 from sklearn.linear_model import LinearRegression, Ridge, Lasso, ElasticNet
 
 from sklearn.preprocessing import StandardScaler
+from sklearn import metrics
 from sklearn.preprocessing import PolynomialFeatures
+from src import data_preprocessing
+
+from datetime import datetime
 
 from src.algorithms.algorithm import BaseAlgorithm
+
+random_state = 42
 
 class PolynomialRegressionAlgorithm(BaseAlgorithm):
     def __init__(self, data_path, unique_values_per_columns):
