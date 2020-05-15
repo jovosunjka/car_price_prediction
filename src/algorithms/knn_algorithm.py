@@ -1,11 +1,7 @@
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.preprocessing import StandardScaler
 from src.algorithms.algorithm import BaseAlgorithm
-from sklearn.pipeline import make_pipeline
-from sklearn.decomposition import PCA
-from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
-from sklearn.neighbors import NeighborhoodComponentsAnalysis
-from sklearn import metrics
+
 
 n_neighbors = 3
 random_state = 0

@@ -1,11 +1,5 @@
 from abc import abstractmethod
 
-from sklearn import metrics
-from sklearn.ensemble import GradientBoostingRegressor
-from sklearn.model_selection import GridSearchCV, StratifiedKFold
-
-from sklearn.pipeline import Pipeline
-from sklearn.preprocessing import StandardScaler
 
 from src.algorithms.algorithm import BaseAlgorithm
 

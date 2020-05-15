@@ -1,2 +1,4 @@
 
-.idea
+/.idea
+/src/__pycache__
+/src/algorithms/__pycache__
