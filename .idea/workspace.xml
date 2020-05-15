@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ea7d3f75-322f-4e4b-b1dc-f19a38c751be" name="Default Changelist" comment="commit">
-      <change beforePath="$PROJECT_DIR$/app.yaml" beforeDir="false" />
+    <list default="true" id="ea7d3f75-322f-4e4b-b1dc-f19a38c751be" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/algorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/algorithm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/download_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/download_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +135,7 @@
       <workItem from="1584875506974" duration="1096000" />
       <workItem from="1584877129172" duration="30691000" />
       <workItem from="1584965355008" duration="16649000" />
-      <workItem from="1589541230000" duration="208000" />
+      <workItem from="1589541230000" duration="974000" />
     </task>
     <task id="LOCAL-00001" summary="download ads">
       <created>1575460894689</created>
@@ -176,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584996109575</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="commit">
+      <created>1589541562477</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1589541562477</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,10 +205,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="285" y="0" key="CommitChangelistDialog2" timestamp="1585003109706">
+    <state x="285" y="0" key="CommitChangelistDialog2" timestamp="1589541560935">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="285" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1585003109706" />
+    <state x="285" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1589541560935" />
     <state width="756" height="466" key="DebuggerActiveHint" timestamp="1584885269201">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -211,22 +221,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="121" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1584996518888" />
-    <state width="1323" height="241" key="GridCell.Tab.0.bottom" timestamp="1589541419465">
+    <state width="1323" height="241" key="GridCell.Tab.0.bottom" timestamp="1589542217763">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="241" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589541419465" />
-    <state width="1323" height="241" key="GridCell.Tab.0.center" timestamp="1589541419465">
+    <state width="1323" height="241" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589542217763" />
+    <state width="1323" height="241" key="GridCell.Tab.0.center" timestamp="1589542217762">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="241" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1589541419465" />
-    <state width="1323" height="241" key="GridCell.Tab.0.left" timestamp="1589541419465">
+    <state width="1323" height="241" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1589542217762" />
+    <state width="1323" height="241" key="GridCell.Tab.0.left" timestamp="1589542217762">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="241" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1589541419465" />
-    <state width="1323" height="241" key="GridCell.Tab.0.right" timestamp="1589541419465">
+    <state width="1323" height="241" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1589542217762" />
+    <state width="1323" height="241" key="GridCell.Tab.0.right" timestamp="1589542217763">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="241" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1589541419465" />
+    <state width="1323" height="241" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1589542217763" />
     <state width="1323" height="233" key="GridCell.Tab.1.bottom" timestamp="1584926184421">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -243,14 +253,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="233" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1584926184421" />
-    <state x="129" y="55" key="MergeDialog" timestamp="1584996406652">
+    <state x="129" y="55" key="MergeDialog" timestamp="1589541767925">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="129" y="55" key="MergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1584996406652" />
-    <state x="395" y="81" key="MultipleFileMergeDialog" timestamp="1584996406668">
+    <state x="129" y="55" key="MergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1589541767925" />
+    <state x="395" y="81" key="MultipleFileMergeDialog" timestamp="1589541767934">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="395" y="81" key="MultipleFileMergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1584996406668" />
+    <state x="395" y="81" key="MultipleFileMergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1589541767934" />
     <state x="186" y="9" key="SettingsEditor" timestamp="1584996533122">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -271,10 +281,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="390" y="120" width="586" height="488" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1584918870032" />
-    <state x="381" y="167" key="git4idea.merge.GitPullDialog" timestamp="1589541511442">
+    <state x="381" y="167" key="git4idea.merge.GitPullDialog" timestamp="1589541568274">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="381" y="167" key="git4idea.merge.GitPullDialog/0.0.1366.728@0.0.1366.728" timestamp="1589541511442" />
+    <state x="381" y="167" key="git4idea.merge.GitPullDialog/0.0.1366.728@0.0.1366.728" timestamp="1589541568274" />
     <state x="339" y="17" width="670" height="676" key="search.everywhere.popup" timestamp="1584985733263">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -285,12 +295,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/download_data.py</url>
-          <line>112</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/download_data.py</url>
-          <line>34</line>
+          <line>21</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -305,17 +310,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/main.py</url>
-          <line>184</line>
+          <line>189</line>
           <option name="timeStamp" value="54" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/main.py</url>
-          <line>122</line>
+          <line>123</line>
           <option name="timeStamp" value="62" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/main.py</url>
-          <line>189</line>
+          <line>194</line>
           <option name="timeStamp" value="71" />
         </line-breakpoint>
       </breakpoints>
@@ -329,6 +334,6 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/car_price_prediction$main.coverage" NAME="main Coverage Results" MODIFIED="1589541258034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/car_price_prediction$main.coverage" NAME="main Coverage Results" MODIFIED="1589542217751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
   </component>
 </project>

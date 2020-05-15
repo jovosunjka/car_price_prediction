@@ -54,13 +54,11 @@ class BaseAlgorithm(ABC):
             data = self.load_data(data_path_or_data)
             data = self.remove_rows_with_big_values(data)
 
-            for i in range(len(columns)):
-                self.plot_values_by_column(data, i)
+            #for i in range(len(columns)):
+            #    self.plot_values_by_column(data, i)
 
             y = data[:, 1]  # price column
             x = np.delete(data, 1, axis=1)  # without price column
-
-            self.plot_values_by_column(x, y)
 
             self.x_train, self.x_test, self.y_train, self.y_test = train_test_split(x, y, test_size=0.2,
                                                                                     random_state=random_state)

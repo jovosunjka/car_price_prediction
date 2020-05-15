@@ -2,21 +2,19 @@ import requests
 import csv
 from datetime import datetime
 import time
-import numpy as np
 
 
 GET_ADS_BASE_URL = "https://www.polovniautomobili.com/json/v3/getAds"
 # koristimo v3 zato sto nudi sve potrebne kolone i zato sto nudi izlistavanje svih page-ova
 GET_AD_DETAILS_BASE_URL = "https://www.polovniautomobili.com/json/v3/getAdDetails/"
 
-BASE_URL_ADS_DETAILS = "https://www.polovniautomobili.com/json/v3/getAdDetails/"
 
 HEADERS = { "accept": "application/json; charset=utf-8" }
 
 columns = ["AdID", "city", "new", "price", "brandName", "modelName", "fuelType", "color", "mileage", "power", "year"]
 columnsWithNewFeatures = ["wheelSide", "engineVolume", "gearBox", "doornum", "chassis", "layout", "airCondition",
                           "seatnum", "emissionClass", "interiorMaterial", "damaged"]
-columns = ["AdID", "city", "new", "price", "brandName", "modelName", "fuelType", "color", "mileage", "power", "year", "engineVolume", "gearBox", "emissionClass"]
+# columns = ["AdID", "city", "new", "price", "brandName", "modelName", "fuelType", "color", "mileage", "power", "year", "engineVolume", "gearBox", "emissionClass"]
 
 NUMBER_OF_PAGES = 3000
 
@@ -258,7 +256,7 @@ def download_more_features(file_path_to_old_ads):
             try:
                 a = j[1]
                 b = a[0]
-                response = requests.get(url=BASE_URL_ADS_DETAILS + b, headers=HEADERS)
+                response = requests.get(url=GET_AD_DETAILS_BASE_URL + b, headers=HEADERS)
                 if response.status_code != 200:
                     print(response.status_code)
                 if response.status_code == 200:

@@ -1,7 +1,6 @@
 from src.algorithms.algorithm_factory import AlgorithmFactory
 from src.data_preprocessing import get_unique_values_per_columns, merge_ads_and_average_earnings_per_cities
-from src.download_data import download_ads, download_new_ads, download_ads_with_details
-from src.download_data import download_ads, download_new_ads, download_more_features
+from src.download_data import download_ads, download_new_ads, download_ads_with_details, download_more_features
 
 import sys
 from datetime import datetime
